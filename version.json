@@ -1,1 +1,1 @@
-{"apkUrl":"https://muse.ai/files/414670825063331/1442041904096844/hy5e3cw57yanaqjk5ho3r8sp/kubbtv-2-3-6-noads-v2.2.apk","md5":"f8974131af74ad9f4d3390ac9f9accc4","notes":"演习测试：验证自更新链路，这不是真更新，装完还是 2.2 本身","versionCode":5,"versionName":"2.3"}
+{"apkUrl":"https://github.com/Jas0nla/tv-dist/releases/download/v2.2.1/kubbtv-2-3-6-noads-v2.2.1.apk","md5":"722eda647608fd999a98bfb3f94be18f","notes":"2.2.1：修复检查更新（手动入口接通），开屏显示改版号","versionCode":5,"versionName":"2.2.1"}
