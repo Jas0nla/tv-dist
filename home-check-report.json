@@ -1,38 +1,15 @@
 {
- "total": 2258,
- "passed": 564,
- "failed": 1694,
- "fail_reasons": {
-  "http404": 234,
-  "http403": 265,
-  "not-m3u8": 173,
-  "URLError": 603,
-  "RemoteDisconnected": 15,
-  "TimeoutError": 285,
-  "http523": 5,
-  "http409": 1,
-  "http502": 17,
-  "http406": 3,
-  "http400": 5,
-  "http660": 20,
-  "http429": 36,
-  "http500": 4,
-  "variant-200": 1,
-  "http401": 1,
-  "http301": 3,
-  "http458": 1,
-  "http304": 1,
-  "http504": 1,
-  "http302": 14,
-  "http418": 6
- },
+ "total": 2412,
+ "passed": 676,
+ "failed": 1736,
+ "fail_reasons": {},
  "verdicts": {
-  "play-error:HTTPError": 254,
-  "ok": 8,
-  "buffering": 36,
-  "smooth": 199,
-  "play-error:TimeoutError": 5,
-  "play-error:URLError": 22
+  "smooth": 273,
+  "play-error:HTTPError": 298,
+  "ok": 12,
+  "buffering": 21,
+  "play-error:URLError": 30,
+  "play-error:TimeoutError": 2
  },
  "streams": [
   {
@@ -40,48 +17,48 @@
    "url": "https://live-auth.51kandianshi.com/szgd/csztv1.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "speed_kbps": 7225,
+   "verdict": "smooth"
   },
   {
    "name": "CCTV4K",
    "url": "http://101.35.240.114:88/live.php?id=CCTV4K",
    "status": "fail",
-   "reason": "http404",
+   "reason": "URLError:<urlopen error timed out>",
    "speed_kbps": null,
    "verdict": null
   },
   {
    "name": "深圳卫视4K",
    "url": "http://101.35.240.114:88/live.php?id=深圳卫视4K",
-   "status": "fail",
-   "reason": "http404",
+   "status": "pass",
+   "reason": "not-m3u8",
    "speed_kbps": null,
-   "verdict": null
+   "verdict": "play-error:HTTPError"
   },
   {
    "name": "江苏卫视4K",
    "url": "http://101.35.240.114:88/live.php?id=江苏卫视4K",
    "status": "fail",
-   "reason": "http404",
+   "reason": "http403",
    "speed_kbps": null,
    "verdict": null
   },
   {
    "name": "浙江卫视4K",
    "url": "http://101.35.240.114:88/live.php?id=浙江卫视4K",
-   "status": "fail",
-   "reason": "http404",
+   "status": "pass",
+   "reason": "not-m3u8",
    "speed_kbps": null,
-   "verdict": null
+   "verdict": "play-error:HTTPError"
   },
   {
    "name": "湖南卫视4K",
    "url": "http://101.35.240.114:88/live.php?id=湖南卫视4K",
-   "status": "fail",
-   "reason": "http404",
+   "status": "pass",
+   "reason": "not-m3u8",
    "speed_kbps": null,
-   "verdict": null
+   "verdict": "play-error:HTTPError"
   },
   {
    "name": "山东卫视4K",
@@ -95,7 +72,7 @@
    "name": "东方卫视4K",
    "url": "http://101.35.240.114:88/live.php?id=东方卫视4K",
    "status": "fail",
-   "reason": "http404",
+   "reason": "http403",
    "speed_kbps": null,
    "verdict": null
   },
@@ -120,15 +97,15 @@
    "url": "https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2554,
-   "verdict": "ok"
+   "speed_kbps": 3795,
+   "verdict": "smooth"
   },
   {
    "name": "河北4K",
    "url": "https://event.pull.hebtv.com:443/live/live101.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 9033,
+   "speed_kbps": 9640,
    "verdict": "ok"
   },
   {
@@ -144,7 +121,7 @@
    "url": "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 3903,
+   "speed_kbps": 99,
    "verdict": "buffering"
   },
   {
@@ -160,7 +137,7 @@
    "url": "http://8.138.7.223/tv/jsws4k.php",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 377,
+   "speed_kbps": 1017,
    "verdict": "buffering"
   },
   {
@@ -176,16 +153,16 @@
    "url": "https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "speed_kbps": 3427,
+   "verdict": "smooth"
   },
   {
    "name": "南国都市4K",
    "url": "https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "speed_kbps": 908,
+   "verdict": "smooth"
   },
   {
    "name": "CCTV4K真4K",
@@ -408,7 +385,7 @@
    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=viutv",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 54385,
+   "speed_kbps": 134170,
    "verdict": "smooth"
   },
   {
@@ -440,7 +417,7 @@
    "url": "http://r.jdshipin.com/qClQf",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 50739,
+   "speed_kbps": 59727,
    "verdict": "smooth"
   },
   {
@@ -448,7 +425,7 @@
    "url": "http://r.jdshipin.com/qrfbg",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 52678,
+   "speed_kbps": 32152,
    "verdict": "smooth"
   },
   {
@@ -488,7 +465,7 @@
    "url": "http://r.jdshipin.com/0Rp07",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 41226,
+   "speed_kbps": 34874,
    "verdict": "smooth"
   },
   {
@@ -496,7 +473,7 @@
    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fhzx",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 39537,
+   "speed_kbps": 31566,
    "verdict": "smooth"
   },
   {
@@ -504,7 +481,7 @@
    "url": "http://r.jdshipin.com/yDoTN",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 46024,
+   "speed_kbps": 32867,
    "verdict": "smooth"
   },
   {
@@ -512,7 +489,7 @@
    "url": "http://r.jdshipin.com/NfC0f",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 40909,
+   "speed_kbps": 54707,
    "verdict": "smooth"
   },
   {
@@ -520,7 +497,7 @@
    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 38814,
+   "speed_kbps": 35141,
    "verdict": "smooth"
   },
   {
@@ -528,7 +505,7 @@
    "url": "https://h5cdn3.kylintv.tv/live/tvbnews_iphone.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 15149,
+   "speed_kbps": 19628,
    "verdict": "smooth"
   },
   {
@@ -536,7 +513,7 @@
    "url": "http://r.jdshipin.com/CkuBd",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 40758,
+   "speed_kbps": 44268,
    "verdict": "smooth"
   },
   {
@@ -552,7 +529,7 @@
    "url": "http://r.jdshipin.com/sXuuD",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 17064,
+   "speed_kbps": 21394,
    "verdict": "smooth"
   },
   {
@@ -560,7 +537,7 @@
    "url": "http://r.jdshipin.com/Voac4",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 40071,
+   "speed_kbps": 38822,
    "verdict": "smooth"
   },
   {
@@ -575,7 +552,7 @@
    "name": "凤凰中文",
    "url": "http://101.35.240.114:88/phenix.php?id=fhzw",
    "status": "fail",
-   "reason": "http404",
+   "reason": "not-m3u8",
    "speed_kbps": null,
    "verdict": null
   },
@@ -584,7 +561,7 @@
    "url": "http://r.jdshipin.com/cCCzW",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 39781,
+   "speed_kbps": 28531,
    "verdict": "smooth"
   },
   {
@@ -608,7 +585,7 @@
    "url": "http://r.jdshipin.com/Nr5jq",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 36149,
+   "speed_kbps": 40795,
    "verdict": "smooth"
   },
   {
@@ -624,7 +601,7 @@
    "url": "http://r.jdshipin.com/thuYX",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 30857,
+   "speed_kbps": 36560,
    "verdict": "smooth"
   },
   {
@@ -632,7 +609,7 @@
    "url": "http://r.jdshipin.com/sFw4S",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 23859,
+   "speed_kbps": 39237,
    "verdict": "smooth"
   },
   {
@@ -712,7 +689,7 @@
    "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 38706,
+   "speed_kbps": 78223,
    "verdict": "smooth"
   },
   {
@@ -776,7 +753,7 @@
    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fhzw",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 43460,
+   "speed_kbps": 25391,
    "verdict": "smooth"
   },
   {
@@ -784,7 +761,7 @@
    "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=j1",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 41105,
+   "speed_kbps": 33453,
    "verdict": "smooth"
   },
   {
@@ -792,7 +769,7 @@
    "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 56117,
+   "speed_kbps": 59533,
    "verdict": "smooth"
   },
   {
@@ -800,7 +777,7 @@
    "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 56385,
+   "speed_kbps": 70716,
    "verdict": "smooth"
   },
   {
@@ -808,7 +785,7 @@
    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=hoytv",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 21824,
+   "speed_kbps": 18657,
    "verdict": "smooth"
   },
   {
@@ -816,7 +793,7 @@
    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=huali2",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 47492,
+   "speed_kbps": 29330,
    "verdict": "smooth"
   },
   {
@@ -832,7 +809,7 @@
    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 71082,
+   "speed_kbps": 55972,
    "verdict": "smooth"
   },
   {
@@ -848,7 +825,7 @@
    "url": "https://live.ottiptv.cc/huya/29982636",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 12329,
+   "speed_kbps": 28375,
    "verdict": "smooth"
   },
   {
@@ -944,7 +921,7 @@
    "url": "https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 3559,
+   "speed_kbps": 3640,
    "verdict": "buffering"
   },
   {
@@ -952,7 +929,7 @@
    "url": "https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 3591,
+   "speed_kbps": 3632,
    "verdict": "buffering"
   },
   {
@@ -1168,7 +1145,7 @@
    "url": "http://61.221.215.25:8800/hls/41/index.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1667,
+   "speed_kbps": 1535,
    "verdict": "ok"
   },
   {
@@ -1320,8 +1297,8 @@
    "url": "http://61.221.215.25:8800/hls/48/index.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2297,
-   "verdict": "ok"
+   "speed_kbps": 1674,
+   "verdict": "buffering"
   },
   {
    "name": "大爱2台",
@@ -1336,8 +1313,8 @@
    "url": "http://61.221.215.25:8800/hls/9/index.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1661,
-   "verdict": "buffering"
+   "speed_kbps": 1838,
+   "verdict": "smooth"
   },
   {
    "name": "TVBS欢乐台",
@@ -1496,8 +1473,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000246.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 8581,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "CCTV-6",
@@ -2376,7 +2353,7 @@
    "url": "https://0472.org/hls/cgtnx.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 24343,
+   "speed_kbps": 21834,
    "verdict": "smooth"
   },
   {
@@ -2392,7 +2369,7 @@
    "url": "https://0472.org/hls/cgtna.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 22255,
+   "speed_kbps": 11166,
    "verdict": "smooth"
   },
   {
@@ -2624,8 +2601,8 @@
    "url": "https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "speed_kbps": 28773,
+   "verdict": "smooth"
   },
   {
    "name": "CGTN俄语",
@@ -2640,7 +2617,7 @@
    "url": "http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 19805,
+   "speed_kbps": 25865,
    "verdict": "smooth"
   },
   {
@@ -3272,7 +3249,7 @@
    "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 53748,
+   "speed_kbps": 19143,
    "verdict": "smooth"
   },
   {
@@ -3280,7 +3257,7 @@
    "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 11939,
+   "speed_kbps": 16581,
    "verdict": "smooth"
   },
   {
@@ -3336,8 +3313,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000102.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5478,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "黑龙江卫视",
@@ -3456,8 +3433,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000483.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 3128,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "甘肃卫视",
@@ -3480,8 +3457,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000119.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5930,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "广西卫视",
@@ -3504,8 +3481,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000116.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5433,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "贵州卫视",
@@ -3536,8 +3513,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000473.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 385,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "海南卫视",
@@ -3568,8 +3545,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000108.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 325,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "河北卫视",
@@ -3768,8 +3745,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000111.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4731,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "山东卫视",
@@ -4104,7 +4081,7 @@
    "url": "https://srs.iyb983.cn/video/CYS/index.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 18258,
+   "speed_kbps": 25761,
    "verdict": "smooth"
   },
   {
@@ -4112,7 +4089,7 @@
    "url": "https://srs.iyb983.cn:443/video/CYS/index.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 19280,
+   "speed_kbps": 24318,
    "verdict": "smooth"
   },
   {
@@ -4182,26 +4159,26 @@
   {
    "name": "重温经典",
    "url": "http://101.35.240.114:88/live.php?id=重温经典",
-   "status": "fail",
-   "reason": "http404",
+   "status": "pass",
+   "reason": "not-m3u8",
    "speed_kbps": null,
-   "verdict": null
+   "verdict": "play-error:HTTPError"
   },
   {
    "name": "五星体育",
    "url": "http://101.35.240.114:88/live.php?id=五星体育",
-   "status": "fail",
-   "reason": "http404",
+   "status": "pass",
+   "reason": "not-m3u8",
    "speed_kbps": null,
-   "verdict": null
+   "verdict": "play-error:HTTPError"
   },
   {
    "name": "农林卫视",
    "url": "http://120.76.248.139/live/bfgd/4200000122.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1423,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "兵团卫视",
@@ -4248,7 +4225,7 @@
    "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=as",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 158489,
+   "speed_kbps": 103045,
    "verdict": "smooth"
   },
   {
@@ -4272,8 +4249,8 @@
    "url": "http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "speed_kbps": 1930,
+   "verdict": "buffering"
   },
   {
    "name": "蒙语卫视",
@@ -4351,7 +4328,7 @@
    "name": "CCTV2",
    "url": "http://101.35.240.114:88/live.php?id=CCTV2",
    "status": "fail",
-   "reason": "http404",
+   "reason": "http403",
    "speed_kbps": null,
    "verdict": null
   },
@@ -4407,7 +4384,7 @@
    "name": "CCTV16",
    "url": "http://101.35.240.114:88/live.php?id=CCTV16",
    "status": "fail",
-   "reason": "http404",
+   "reason": "URLError:<urlopen error timed out>",
    "speed_kbps": null,
    "verdict": null
   },
@@ -4616,7 +4593,7 @@
    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=aod",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 125815,
+   "speed_kbps": 89505,
    "verdict": "smooth"
   },
   {
@@ -4648,7 +4625,7 @@
    "url": "https://cdn.qd.je/163189/ch5",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 100181,
+   "speed_kbps": 98136,
    "verdict": "smooth"
   },
   {
@@ -4656,7 +4633,7 @@
    "url": "https://cdn.qd.je/163189/ch8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 77132,
+   "speed_kbps": 112844,
    "verdict": "smooth"
   },
   {
@@ -4664,7 +4641,7 @@
    "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 75755,
+   "speed_kbps": 79550,
    "verdict": "smooth"
   },
   {
@@ -4680,7 +4657,7 @@
    "url": "https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 105562,
+   "speed_kbps": 127487,
    "verdict": "smooth"
   },
   {
@@ -4688,7 +4665,7 @@
    "url": "https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 33650,
+   "speed_kbps": 163390,
    "verdict": "smooth"
   },
   {
@@ -4697,14 +4674,14 @@
    "status": "pass",
    "reason": "not-m3u8",
    "speed_kbps": null,
-   "verdict": "play-error:TimeoutError"
+   "verdict": "play-error:HTTPError"
   },
   {
    "name": "TV2 (Malaysia) (1080p)",
    "url": "https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8?id=2",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 65343,
+   "speed_kbps": 45522,
    "verdict": "smooth"
   },
   {
@@ -4992,7 +4969,7 @@
    "url": "https://iptv.catvod.com/live.php?id=NewTV%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 55,
+   "speed_kbps": 60,
    "verdict": "smooth"
   },
   {
@@ -5032,7 +5009,7 @@
    "url": "https://goodiptv.club/douyu/6091425",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 25757,
+   "speed_kbps": 44884,
    "verdict": "smooth"
   },
   {
@@ -5216,7 +5193,7 @@
    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=595",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 12626,
+   "speed_kbps": 46859,
    "verdict": "smooth"
   },
   {
@@ -5224,7 +5201,7 @@
    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=743",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 61089,
+   "speed_kbps": 46016,
    "verdict": "smooth"
   },
   {
@@ -5448,7 +5425,7 @@
    "url": "http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4373,
+   "speed_kbps": 3892,
    "verdict": "smooth"
   },
   {
@@ -5456,8 +5433,8 @@
    "url": "http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:TimeoutError"
+   "speed_kbps": 5308,
+   "verdict": "smooth"
   },
   {
    "name": "人在囧途",
@@ -5528,7 +5505,7 @@
    "url": "http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4535,
+   "speed_kbps": 4429,
    "verdict": "smooth"
   },
   {
@@ -5744,7 +5721,7 @@
    "url": "https://epg.pw/stream/866a097a0907c9832440f8df38272dd555abf05200dfbafcc137e214c9b30ca7.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 3747,
+   "speed_kbps": 3790,
    "verdict": "buffering"
   },
   {
@@ -5752,7 +5729,7 @@
    "url": "https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 3815,
+   "speed_kbps": 3751,
    "verdict": "buffering"
   },
   {
@@ -5832,7 +5809,7 @@
    "url": "https://epg.pw/stream/c7df950876e6a1ceb8be74ee86f9f702cebbbae29f1d15124ef8f86fd43161cf.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 3758,
+   "speed_kbps": 3747,
    "verdict": "buffering"
   },
   {
@@ -6912,7 +6889,7 @@
    "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 21058,
+   "speed_kbps": 20026,
    "verdict": "smooth"
   },
   {
@@ -6920,7 +6897,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5778,
+   "speed_kbps": 5572,
    "verdict": "smooth"
   },
   {
@@ -6928,7 +6905,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5312,
+   "speed_kbps": 5802,
    "verdict": "smooth"
   },
   {
@@ -7000,7 +6977,7 @@
    "url": "http://live.zohi.tv/video/s10001-fztv-4/index.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1178,
+   "speed_kbps": 2418,
    "verdict": "smooth"
   },
   {
@@ -7088,8 +7065,8 @@
    "url": "https://ls.qingting.fm/live/4972/64k.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 625,
+   "verdict": "smooth"
   },
   {
    "name": "黑龙江少儿",
@@ -7318,10 +7295,10 @@
   {
    "name": "漫画解说",
    "url": "https://www.goodiptv.club/douyu/5907076",
-   "status": "pass",
+   "status": "fail",
    "reason": "not-m3u8",
    "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "verdict": null
   },
   {
    "name": "漫画解说",
@@ -7440,8 +7417,8 @@
    "url": "http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "speed_kbps": 2478,
+   "verdict": "smooth"
   },
   {
    "name": "灌篮高手",
@@ -7472,7 +7449,7 @@
    "url": "https://live.ottiptv.cc/huya/23749096",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 41771,
+   "speed_kbps": 48570,
    "verdict": "smooth"
   },
   {
@@ -7512,7 +7489,7 @@
    "url": "http://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 7324,
+   "speed_kbps": 7019,
    "verdict": "smooth"
   },
   {
@@ -7568,7 +7545,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8?",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5469,
+   "speed_kbps": 5581,
    "verdict": "smooth"
   },
   {
@@ -7576,7 +7553,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel007/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4276,
+   "speed_kbps": 5162,
    "verdict": "smooth"
   },
   {
@@ -7584,7 +7561,7 @@
    "url": "http://live.zohi.tv/video/s10001-fztv-1/index.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1278,
+   "speed_kbps": 2368,
    "verdict": "smooth"
   },
   {
@@ -7592,7 +7569,7 @@
    "url": "http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1050,
+   "speed_kbps": 1286,
    "verdict": "smooth"
   },
   {
@@ -7600,7 +7577,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 12211,
+   "speed_kbps": 10008,
    "verdict": "smooth"
   },
   {
@@ -7608,7 +7585,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 7205,
+   "speed_kbps": 6228,
    "verdict": "smooth"
   },
   {
@@ -7616,7 +7593,7 @@
    "url": "https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 11127,
+   "speed_kbps": 12648,
    "verdict": "smooth"
   },
   {
@@ -7624,15 +7601,15 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 8106,
+   "verdict": "smooth"
   },
   {
    "name": "龙游新闻综合",
    "url": "http://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8?zzhed",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5257,
+   "speed_kbps": 6524,
    "verdict": "smooth"
   },
   {
@@ -7640,8 +7617,8 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 8369,
+   "verdict": "smooth"
   },
   {
    "name": "衢江新闻综合",
@@ -7720,8 +7697,8 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 7188,
+   "verdict": "smooth"
   },
   {
    "name": "绍兴新闻综合",
@@ -7752,7 +7729,7 @@
    "url": "https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1797,
+   "speed_kbps": 2245,
    "verdict": "smooth"
   },
   {
@@ -7792,8 +7769,8 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 5856,
+   "verdict": "smooth"
   },
   {
    "name": "武义新闻综合",
@@ -7832,8 +7809,8 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 5437,
+   "verdict": "smooth"
   },
   {
    "name": "开化新闻综合",
@@ -7856,16 +7833,16 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXkaihua1/720p.m3u8?zzhed",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 7220,
+   "verdict": "smooth"
   },
   {
    "name": "庆元新闻综合",
    "url": "http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?fbl=",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 5826,
+   "verdict": "smooth"
   },
   {
    "name": "平湖新闻综合",
@@ -7896,8 +7873,8 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 8602,
+   "verdict": "smooth"
   },
   {
    "name": "兰溪新闻综合",
@@ -7928,8 +7905,8 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 5827,
+   "verdict": "smooth"
   },
   {
    "name": "余姚新闻综合",
@@ -7944,8 +7921,8 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8?zzhed",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 7055,
+   "verdict": "smooth"
   },
   {
    "name": "云和新闻综合",
@@ -7960,7 +7937,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1976,
+   "speed_kbps": 1912,
    "verdict": "smooth"
   },
   {
@@ -7968,15 +7945,15 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 14076,
+   "verdict": "smooth"
   },
   {
    "name": "北京新闻",
    "url": "https://satellitepull.cnr.cn/live/wxbjxwgb/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 404,
+   "speed_kbps": 341,
    "verdict": "smooth"
   },
   {
@@ -8032,7 +8009,7 @@
    "url": "https://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 348,
+   "speed_kbps": 4115,
    "verdict": "smooth"
   },
   {
@@ -8048,15 +8025,15 @@
    "url": "https://m3u8channel.yunxya.com/nmip-media/channellive/channel100028/playlist.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 188,
-   "verdict": "buffering"
+   "speed_kbps": 7238,
+   "verdict": "smooth"
   },
   {
    "name": "第一财经",
    "url": "http://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 383,
+   "speed_kbps": 424,
    "verdict": "smooth"
   },
   {
@@ -8176,7 +8153,7 @@
    "url": "http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd\"",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 266,
+   "speed_kbps": 294,
    "verdict": "smooth"
   },
   {
@@ -8328,7 +8305,7 @@
    "url": "https://live-auth.51kandianshi.com/szgd/csztv5.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4728,
+   "speed_kbps": 6668,
    "verdict": "smooth"
   },
   {
@@ -8352,7 +8329,7 @@
    "url": "http://ls.qingting.fm/live/23797.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 429,
+   "speed_kbps": 477,
    "verdict": "smooth"
   },
   {
@@ -8376,15 +8353,15 @@
    "url": "http://120.76.248.139/live/bfgd/4200000282.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 7612,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "长沙新闻综合",
    "url": "http://ls.qingting.fm/live/4877.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 484,
+   "speed_kbps": 387,
    "verdict": "smooth"
   },
   {
@@ -8392,7 +8369,7 @@
    "url": "https://ls.qingting.fm/live/20198/64k.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 702,
+   "speed_kbps": 684,
    "verdict": "smooth"
   },
   {
@@ -8440,7 +8417,7 @@
    "url": "http://stream.jmtv.com.cn/xwzh/sd/live.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2199,
+   "speed_kbps": 1972,
    "verdict": "smooth"
   },
   {
@@ -8488,7 +8465,7 @@
    "url": "https://ls.qingting.fm/live/5043/64k.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 660,
+   "speed_kbps": 707,
    "verdict": "smooth"
   },
   {
@@ -8590,18 +8567,18 @@
   {
    "name": "旺苍新闻综合",
    "url": "http://live.spccmc.com:90/live/spxwzh.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]",
-   "status": "pass",
-   "reason": "not-m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error [Errno 65] No route to host>",
    "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "verdict": null
   },
   {
    "name": "松潘新闻综合",
    "url": "http://live.spccmc.com:90/live/spxwzh.m3u8?zsicd",
-   "status": "pass",
-   "reason": "not-m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error [Errno 65] No route to host>",
    "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "verdict": null
   },
   {
    "name": "松潘新闻综合",
@@ -8616,7 +8593,7 @@
    "url": "http://live.iwcmt.cn:90/live/zhxw.m3u8?zsicd",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1532,
+   "speed_kbps": 1534,
    "verdict": "smooth"
   },
   {
@@ -8632,7 +8609,7 @@
    "url": "http://live.iwcmt.cn:90/live/zhxw.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1469,
+   "speed_kbps": 1606,
    "verdict": "smooth"
   },
   {
@@ -8640,7 +8617,7 @@
    "url": "http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 8803,
+   "speed_kbps": 9612,
    "verdict": "smooth"
   },
   {
@@ -8648,7 +8625,7 @@
    "url": "http://lxfile.lxxcb.cn:80/nmip-media/channellive/channel103799/playlist.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 8730,
+   "speed_kbps": 9288,
    "verdict": "smooth"
   },
   {
@@ -8656,7 +8633,7 @@
    "url": "http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8?zsicd",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 9927,
+   "speed_kbps": 9611,
    "verdict": "smooth"
   },
   {
@@ -8672,7 +8649,7 @@
    "url": "http://139.203.180.9:90/live/zhxw.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 7113,
+   "speed_kbps": 6656,
    "verdict": "smooth"
   },
   {
@@ -8680,7 +8657,7 @@
    "url": "http://live.jinchuanrmt.com:90/live/zhxw.m3u8?zsicd",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 6859,
+   "speed_kbps": 7187,
    "verdict": "smooth"
   },
   {
@@ -8688,8 +8665,8 @@
    "url": "https://play.yunxya.com/channellive/xinwen.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "speed_kbps": 7730,
+   "verdict": "smooth"
   },
   {
    "name": "陕西新闻资讯",
@@ -8720,7 +8697,7 @@
    "url": "http://ls.qingting.fm/live/4885.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 621,
+   "speed_kbps": 290,
    "verdict": "smooth"
   },
   {
@@ -8728,8 +8705,8 @@
    "url": "https://ls.qingting.fm/live/5022100/64k.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 660,
-   "verdict": "smooth"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "漳州新闻综合",
@@ -8760,7 +8737,7 @@
    "url": "http://satellitepull.cnr.cn/live/wx32fjxwgb/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 365,
+   "speed_kbps": 384,
    "verdict": "smooth"
   },
   {
@@ -8776,7 +8753,7 @@
    "url": "http://ls.qingting.fm/live/1861.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 512,
+   "speed_kbps": 534,
    "verdict": "smooth"
   },
   {
@@ -9064,7 +9041,7 @@
    "url": "https://jwcdnqx.hebyun.com.cn/live/hdxwzh/1500k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 3078,
+   "speed_kbps": 3439,
    "verdict": "smooth"
   },
   {
@@ -9104,7 +9081,7 @@
    "url": "http://jwplay.hebyun.com.cn/live/LPTV001/1500k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2516,
+   "speed_kbps": 3229,
    "verdict": "smooth"
   },
   {
@@ -9184,7 +9161,7 @@
    "url": "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 3984,
+   "speed_kbps": 4015,
    "verdict": "smooth"
   },
   {
@@ -9280,7 +9257,7 @@
    "url": "http://ls.qingting.fm/live/267.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 545,
+   "speed_kbps": 549,
    "verdict": "smooth"
   },
   {
@@ -9352,8 +9329,8 @@
    "url": "https://ls.qingting.fm/live/4974/64k.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 611,
+   "verdict": "smooth"
   },
   {
    "name": "黑龙江新闻",
@@ -9416,7 +9393,7 @@
    "url": "http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2761,
+   "speed_kbps": 2484,
    "verdict": "smooth"
   },
   {
@@ -9528,7 +9505,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5460,
+   "speed_kbps": 5915,
    "verdict": "smooth"
   },
   {
@@ -9576,7 +9553,7 @@
    "url": "http://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=d2c2db0b598c02ec1b5623728434d367&txTime=18d57929bd3",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1753,
+   "speed_kbps": 1676,
    "verdict": "smooth"
   },
   {
@@ -9584,7 +9561,7 @@
    "url": "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 3514,
+   "speed_kbps": 3512,
    "verdict": "smooth"
   },
   {
@@ -9696,8 +9673,8 @@
    "url": "http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1043,
-   "verdict": "smooth"
+   "speed_kbps": 541,
+   "verdict": "buffering"
   },
   {
    "name": "内蒙新闻",
@@ -9776,7 +9753,7 @@
    "url": "https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 120453,
+   "speed_kbps": 150515,
    "verdict": "smooth"
   },
   {
@@ -9784,7 +9761,7 @@
    "url": "https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991626",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 121088,
+   "speed_kbps": 137524,
    "verdict": "smooth"
   },
   {
@@ -9792,7 +9769,7 @@
    "url": "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 100887,
+   "speed_kbps": 122727,
    "verdict": "smooth"
   },
   {
@@ -9824,7 +9801,7 @@
    "url": "http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 148469,
+   "speed_kbps": 179472,
    "verdict": "smooth"
   },
   {
@@ -9856,7 +9833,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 6787,
+   "speed_kbps": 6582,
    "verdict": "smooth"
   },
   {
@@ -9864,7 +9841,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 6312,
+   "speed_kbps": 7131,
    "verdict": "smooth"
   },
   {
@@ -9872,8 +9849,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000113.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4190,
-   "verdict": "ok"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "上海纪实",
@@ -10071,7 +10048,7 @@
    "name": "北京纪实科教8K",
    "url": "http://101.35.240.114:88/brtv8k.php",
    "status": "fail",
-   "reason": "http404",
+   "reason": "http302",
    "speed_kbps": null,
    "verdict": null
   },
@@ -10088,7 +10065,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4986,
+   "speed_kbps": 5541,
    "verdict": "smooth"
   },
   {
@@ -10112,7 +10089,7 @@
    "url": "https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 8873,
+   "speed_kbps": 8354,
    "verdict": "smooth"
   },
   {
@@ -10120,7 +10097,7 @@
    "url": "http://ls.qingting.fm/live/1099.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 585,
+   "speed_kbps": 580,
    "verdict": "smooth"
   },
   {
@@ -10128,7 +10105,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5400,
+   "speed_kbps": 6195,
    "verdict": "smooth"
   },
   {
@@ -10136,7 +10113,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 9733,
+   "speed_kbps": 8797,
    "verdict": "smooth"
   },
   {
@@ -10168,24 +10145,24 @@
    "url": "http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1446,
-   "verdict": "smooth"
+   "speed_kbps": 127,
+   "verdict": "buffering"
   },
   {
    "name": "龙游生活娱乐",
    "url": "http://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8?zzhed",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1803,
-   "verdict": "ok"
+   "speed_kbps": 3031,
+   "verdict": "smooth"
   },
   {
    "name": "萧山生活",
    "url": "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 3281,
+   "verdict": "ok"
   },
   {
    "name": "萧山生活",
@@ -10208,16 +10185,16 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:TimeoutError"
+   "speed_kbps": 2431,
+   "verdict": "smooth"
   },
   {
    "name": "东阳影视生活",
    "url": "http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 3439,
+   "verdict": "smooth"
   },
   {
    "name": "北京生活",
@@ -10280,7 +10257,7 @@
    "url": "http://live.xysrmt.cn/shpd/sd/live.m3u8?zjiangsd",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 322,
+   "speed_kbps": 283,
    "verdict": "smooth"
   },
   {
@@ -10344,7 +10321,7 @@
    "url": "https://live-auth.51kandianshi.com/szgd/csztv3.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 7343,
+   "speed_kbps": 7066,
    "verdict": "smooth"
   },
   {
@@ -10352,8 +10329,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000073.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4733,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "湖南娱乐",
@@ -10432,7 +10409,7 @@
    "url": "http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1101,
+   "speed_kbps": 2288,
    "verdict": "smooth"
   },
   {
@@ -10536,7 +10513,7 @@
    "url": "https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1682,
+   "speed_kbps": 1559,
    "verdict": "smooth"
   },
   {
@@ -10584,7 +10561,7 @@
    "url": "https://live.gdtv.ah.cn/live/newsTV.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1124,
+   "speed_kbps": 1179,
    "verdict": "smooth"
   },
   {
@@ -10656,8 +10633,8 @@
    "url": "https://satellitepull.cnr.cn/live/wx32nmgyygb/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 360,
-   "verdict": "smooth"
+   "speed_kbps": 317,
+   "verdict": "ok"
   },
   {
    "name": "音乐广播",
@@ -10760,8 +10737,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000147.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 7050,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "湖南娱乐",
@@ -10824,7 +10801,7 @@
    "url": "https://jwcdnqx.hebyun.com.cn/live/xtcsshpd/1500k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2924,
+   "speed_kbps": 2767,
    "verdict": "smooth"
   },
   {
@@ -10856,7 +10833,7 @@
    "url": "http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1301,
+   "speed_kbps": 1190,
    "verdict": "smooth"
   },
   {
@@ -10864,7 +10841,7 @@
    "url": "http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 243,
+   "speed_kbps": 251,
    "verdict": "smooth"
   },
   {
@@ -10920,7 +10897,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5883,
+   "speed_kbps": 6262,
    "verdict": "smooth"
   },
   {
@@ -10928,7 +10905,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel06/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 6877,
+   "speed_kbps": 7159,
    "verdict": "smooth"
   },
   {
@@ -10960,23 +10937,23 @@
    "url": "http://hzcm-live.media.hugd.com/1e6b554b9ab74513958c0e1ffe664d22/9acaa7634309494cb29a85eb12136607.m3u8?auth_key=2272900830-9a2389b8bf4e49d580d4ad807423d326-0-ea78a5c7a678c436263582d368f5009e",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1167,
-   "verdict": "smooth"
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
   },
   {
    "name": "平湖民生休闲",
    "url": "http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8",
-   "status": "fail",
-   "reason": "URLError:<urlopen error timed out>",
-   "speed_kbps": null,
-   "verdict": null
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 1185,
+   "verdict": "smooth"
   },
   {
    "name": "平湖民生休闲",
    "url": "http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 373,
+   "speed_kbps": 913,
    "verdict": "smooth"
   },
   {
@@ -11016,8 +10993,8 @@
    "url": "https://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 389,
-   "verdict": "smooth"
+   "speed_kbps": 319,
+   "verdict": "ok"
   },
   {
    "name": "都市剧场",
@@ -11048,8 +11025,8 @@
    "url": "https://ls.qingting.fm/live/1099/64k.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:URLError"
+   "speed_kbps": 681,
+   "verdict": "smooth"
   },
   {
    "name": "湖南都市",
@@ -11168,8 +11145,8 @@
    "url": "https://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 375,
-   "verdict": "smooth"
+   "speed_kbps": 318,
+   "verdict": "ok"
   },
   {
    "name": "甘肃都市",
@@ -11248,7 +11225,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5667,
+   "speed_kbps": 5834,
    "verdict": "smooth"
   },
   {
@@ -11264,8 +11241,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000068.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4688,
-   "verdict": "smooth"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "广东民生",
@@ -11320,7 +11297,7 @@
    "url": "http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 251,
+   "speed_kbps": 232,
    "verdict": "smooth"
   },
   {
@@ -11440,7 +11417,7 @@
    "url": "https://petclub-samsungaus.amagi.tv/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 101644,
+   "speed_kbps": 97603,
    "verdict": "smooth"
   },
   {
@@ -11456,7 +11433,7 @@
    "url": "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 1071,
+   "speed_kbps": 1195,
    "verdict": "buffering"
   },
   {
@@ -11464,7 +11441,7 @@
    "url": "https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 22836,
+   "speed_kbps": 17646,
    "verdict": "smooth"
   },
   {
@@ -11512,24 +11489,24 @@
    "url": "https://live.streamingfast.net/osmflivech2.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 6007,
-   "verdict": "smooth"
+   "speed_kbps": 5637,
+   "verdict": "ok"
   },
   {
    "name": "Good TV (Taiwan) (720p) [Not 24/7]",
    "url": "https://live.streamingfast.net/osmflivech1.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 7817,
-   "verdict": "smooth"
+   "speed_kbps": 4648,
+   "verdict": "ok"
   },
   {
    "name": "Hakka TV",
    "url": "https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "speed_kbps": 23627,
+   "verdict": "smooth"
   },
   {
    "name": "Indigenous TV (720p)",
@@ -11552,7 +11529,7 @@
    "url": "https://live.ntdtv.com/aplive200/playlist.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 22254,
+   "speed_kbps": 17015,
    "verdict": "smooth"
   },
   {
@@ -11576,7 +11553,7 @@
    "url": "https://lbs-us1.suprememastertv.com/720p.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 74206,
+   "speed_kbps": 66182,
    "verdict": "smooth"
   },
   {
@@ -11584,7 +11561,7 @@
    "url": "https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 110527,
+   "speed_kbps": 69665,
    "verdict": "smooth"
   },
   {
@@ -11600,8 +11577,8 @@
    "url": "https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "speed_kbps": 1796,
+   "verdict": "smooth"
   },
   {
    "name": "2026-08-27 14:06:22",
@@ -11624,7 +11601,7 @@
    "url": "http://r.jdshipin.com/vSJvl",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 97894,
+   "speed_kbps": 136074,
    "verdict": "smooth"
   },
   {
@@ -11632,7 +11609,7 @@
    "url": "http://r.jdshipin.com/TcKr2",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 114673,
+   "speed_kbps": 124723,
    "verdict": "smooth"
   },
   {
@@ -11640,7 +11617,7 @@
    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=viutv2",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 71187,
+   "speed_kbps": 119030,
    "verdict": "smooth"
   },
   {
@@ -11736,7 +11713,7 @@
    "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 69076,
+   "speed_kbps": 105326,
    "verdict": "smooth"
   },
   {
@@ -11768,7 +11745,7 @@
    "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 22695,
+   "speed_kbps": 34758,
    "verdict": "smooth"
   },
   {
@@ -11784,7 +11761,7 @@
    "url": "https://epg.pw/stream/d2edf469b9079064a283f4b0811cbf6f2597ebbb3d08dcf77036a4b5a791b7cf.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 3125,
+   "speed_kbps": 1954,
    "verdict": "buffering"
   },
   {
@@ -11896,7 +11873,7 @@
    "url": "https://wildearth-plex.amagi.tv/masterR1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 35860,
+   "speed_kbps": 39151,
    "verdict": "smooth"
   },
   {
@@ -11952,7 +11929,7 @@
    "url": "https://cdn.qd.je/163189/chu",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 67207,
+   "speed_kbps": 72416,
    "verdict": "smooth"
   },
   {
@@ -11960,7 +11937,7 @@
    "url": "https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 67677,
+   "speed_kbps": 110519,
    "verdict": "smooth"
   },
   {
@@ -11984,7 +11961,7 @@
    "url": "https://cdn.liveplustv.com/v1/live/btl-tv/master.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 91822,
+   "speed_kbps": 44987,
    "verdict": "smooth"
   },
   {
@@ -12016,7 +11993,7 @@
    "url": "https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=439b0fd2cf766b363c93a59cbcbe1370&txTime=18d00acf488",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2138,
+   "speed_kbps": 1863,
    "verdict": "smooth"
   },
   {
@@ -12024,7 +12001,7 @@
    "url": "http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1619,
+   "speed_kbps": 2147,
    "verdict": "smooth"
   },
   {
@@ -12032,7 +12009,7 @@
    "url": "https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=f0147ae6453a80f5989f382368b72aad&txTime=18d00acf487",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2234,
+   "speed_kbps": 2005,
    "verdict": "smooth"
   },
   {
@@ -12184,7 +12161,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8?",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 6087,
+   "speed_kbps": 4719,
    "verdict": "smooth"
   },
   {
@@ -12192,7 +12169,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel04/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 3331,
+   "speed_kbps": 3601,
    "verdict": "smooth"
   },
   {
@@ -12240,7 +12217,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5733,
+   "speed_kbps": 5168,
    "verdict": "smooth"
   },
   {
@@ -12248,7 +12225,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5408,
+   "speed_kbps": 5303,
    "verdict": "smooth"
   },
   {
@@ -12256,7 +12233,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 6263,
+   "speed_kbps": 6222,
    "verdict": "smooth"
   },
   {
@@ -12264,7 +12241,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8?",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 6403,
+   "speed_kbps": 5754,
    "verdict": "smooth"
   },
   {
@@ -12272,7 +12249,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel03/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4565,
+   "speed_kbps": 4905,
    "verdict": "smooth"
   },
   {
@@ -12280,7 +12257,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5049,
+   "speed_kbps": 5415,
    "verdict": "smooth"
   },
   {
@@ -12288,7 +12265,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5552,
+   "speed_kbps": 5178,
    "verdict": "smooth"
   },
   {
@@ -12320,7 +12297,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel003/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 6354,
+   "speed_kbps": 5682,
    "verdict": "smooth"
   },
   {
@@ -12328,7 +12305,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 8360,
+   "speed_kbps": 7039,
    "verdict": "smooth"
   },
   {
@@ -12336,7 +12313,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8?zzhed",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 8446,
+   "speed_kbps": 7977,
    "verdict": "smooth"
   },
   {
@@ -12344,7 +12321,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5185,
+   "speed_kbps": 4819,
    "verdict": "smooth"
   },
   {
@@ -12352,7 +12329,7 @@
    "url": "http://ali-m-l.cztv.com/channels/lantian/channel006/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5954,
+   "speed_kbps": 5782,
    "verdict": "smooth"
   },
   {
@@ -12518,26 +12495,26 @@
   {
    "name": "开化国家公园",
    "url": "http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8zzhed",
-   "status": "fail",
-   "reason": "URLError:<urlopen error timed out>",
-   "speed_kbps": null,
-   "verdict": null
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 7700,
+   "verdict": "smooth"
   },
   {
    "name": "开化国家公园",
    "url": "http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8?zzhed",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 8091,
+   "speed_kbps": 7747,
    "verdict": "smooth"
   },
   {
    "name": "开化国家公园",
    "url": "http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8",
-   "status": "fail",
-   "reason": "URLError:<urlopen error timed out>",
-   "speed_kbps": null,
-   "verdict": null
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 7631,
+   "verdict": "smooth"
   },
   {
    "name": "庆元综合",
@@ -12576,7 +12553,7 @@
    "url": "http://l.cztvcloud.com/channels/lantian/SXshengsi1/720p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 7391,
+   "speed_kbps": 7879,
    "verdict": "smooth"
   },
   {
@@ -13008,7 +12985,7 @@
    "url": "https://live-auth.51kandianshi.com/szgd/csztv2.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 22978,
+   "speed_kbps": 14184,
    "verdict": "smooth"
   },
   {
@@ -13032,24 +13009,24 @@
    "url": "http://120.76.248.139/live/bfgd/4200000070.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2051,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "辽宁教育青少",
    "url": "http://120.76.248.139/live/bfgd/4200000075.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4742,
-   "verdict": "ok"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "辽宁经济",
    "url": "http://120.76.248.139/live/bfgd/4200000480.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5853,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "湖南经视",
@@ -13432,8 +13409,8 @@
    "url": "https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 187,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
   },
   {
    "name": "广元公共",
@@ -13504,7 +13481,7 @@
    "url": "http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2676,
+   "speed_kbps": 3532,
    "verdict": "ok"
   },
   {
@@ -13528,8 +13505,8 @@
    "url": "http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2245,
-   "verdict": "buffering"
+   "speed_kbps": 3644,
+   "verdict": "smooth"
   },
   {
    "name": "青川综合",
@@ -13544,7 +13521,7 @@
    "url": "http://ls.qingting.fm/live/1222.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 540,
+   "speed_kbps": 468,
    "verdict": "smooth"
   },
   {
@@ -13552,7 +13529,7 @@
    "url": "http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 959,
+   "speed_kbps": 1067,
    "verdict": "smooth"
   },
   {
@@ -13560,7 +13537,7 @@
    "url": "https://live.zzyxxw.com:2443/live/xwzh.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1098,
+   "speed_kbps": 1110,
    "verdict": "smooth"
   },
   {
@@ -13568,7 +13545,7 @@
    "url": "http://live.zzyxxw.com:85/live/xwzh.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 953,
+   "speed_kbps": 1071,
    "verdict": "smooth"
   },
   {
@@ -13584,7 +13561,7 @@
    "url": "http://satellitepull.cnr.cn/live/wx32fjdnjjgb/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 431,
+   "speed_kbps": 365,
    "verdict": "smooth"
   },
   {
@@ -13720,8 +13697,8 @@
    "url": "https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=41543190cdf375f1c73207222bb96542&wsTime=1769313549",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "speed_kbps": 5803,
+   "verdict": "smooth"
   },
   {
    "name": "临颍综合",
@@ -14304,7 +14281,7 @@
    "url": "https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 3173,
+   "speed_kbps": 2695,
    "verdict": "smooth"
   },
   {
@@ -14312,7 +14289,7 @@
    "url": "https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 3400,
+   "speed_kbps": 3331,
    "verdict": "smooth"
   },
   {
@@ -14328,7 +14305,7 @@
    "url": "http://jwplay.hebyun.com.cn/live/xtsrmtzs/1500k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 2511,
+   "speed_kbps": 2212,
    "verdict": "smooth"
   },
   {
@@ -14352,7 +14329,7 @@
    "url": "http://ls.qingting.fm/live/2810.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 578,
+   "speed_kbps": 349,
    "verdict": "smooth"
   },
   {
@@ -14368,7 +14345,7 @@
    "url": "http://ls.qingting.fm/live/1650.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 586,
+   "speed_kbps": 466,
    "verdict": "smooth"
   },
   {
@@ -14376,7 +14353,7 @@
    "url": "https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8?zhebd",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1783,
+   "speed_kbps": 1733,
    "verdict": "smooth"
   },
   {
@@ -14384,7 +14361,7 @@
    "url": "https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1834,
+   "speed_kbps": 1742,
    "verdict": "smooth"
   },
   {
@@ -14416,7 +14393,7 @@
    "url": "https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1723,
+   "speed_kbps": 1683,
    "verdict": "smooth"
   },
   {
@@ -14432,7 +14409,7 @@
    "url": "https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1929,
+   "speed_kbps": 1889,
    "verdict": "smooth"
   },
   {
@@ -14456,7 +14433,7 @@
    "url": "https://jwcdnqx.hebyun.com.cn/live/pqzh/1500k/tzwj_video.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5024,
+   "speed_kbps": 4807,
    "verdict": "smooth"
   },
   {
@@ -14464,7 +14441,7 @@
    "url": "https://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 372,
+   "speed_kbps": 335,
    "verdict": "smooth"
   },
   {
@@ -14710,10 +14687,10 @@
   {
    "name": "祁门综合",
    "url": "http://zbbf2.ahbztv.com/live/416.m3u8?zanhd",
-   "status": "pass",
-   "reason": "variant-200",
-   "speed_kbps": 1838,
-   "verdict": "buffering"
+   "status": "fail",
+   "reason": "URLError:<urlopen error [Errno 65] No route to host>",
+   "speed_kbps": null,
+   "verdict": null
   },
   {
    "name": "滁州市广播电视台 公共",
@@ -14744,7 +14721,7 @@
    "url": "http://ls.qingting.fm/live/1794199.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 521,
+   "speed_kbps": 418,
    "verdict": "smooth"
   },
   {
@@ -14776,7 +14753,7 @@
    "url": "https://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 490,
+   "speed_kbps": 358,
    "verdict": "smooth"
   },
   {
@@ -14984,7 +14961,7 @@
    "url": "https://live.ottiptv.cc/yy/28265277",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 24142,
+   "speed_kbps": 34860,
    "verdict": "smooth"
   },
   {
@@ -15056,7 +15033,7 @@
    "url": "http://live.ottiptv.cc/huya/26355860",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 50827,
+   "speed_kbps": 35100,
    "verdict": "smooth"
   },
   {
@@ -15872,7 +15849,7 @@
    "url": "https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 18994,
+   "speed_kbps": 21189,
    "verdict": "smooth"
   },
   {
@@ -15880,7 +15857,7 @@
    "url": "https://res.cctvnews.cctv.com/video/3005/record/cctv/merge1/133396667284143308839013005/8fbd6180bdef4da19f6155cf6b4652e1-4.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 37231,
+   "speed_kbps": 54801,
    "verdict": "smooth"
   },
   {
@@ -15968,8 +15945,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000249.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4441,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "哒啵电竞",
@@ -16040,7 +16017,7 @@
    "url": "http://r.jdshipin.com/n2YZI",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 87654,
+   "speed_kbps": 67236,
    "verdict": "smooth"
   },
   {
@@ -16048,7 +16025,7 @@
    "url": "http://r.jdshipin.com/QFhCq",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 92864,
+   "speed_kbps": 101104,
    "verdict": "smooth"
   },
   {
@@ -16064,7 +16041,7 @@
    "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=asam",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 70226,
+   "speed_kbps": 76329,
    "verdict": "smooth"
   },
   {
@@ -16096,7 +16073,7 @@
    "url": "http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1182,
+   "speed_kbps": 524,
    "verdict": "buffering"
   },
   {
@@ -16168,7 +16145,7 @@
    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=yzwx",
    "status": "pass",
    "reason": "variant-200",
-   "speed_kbps": 79467,
+   "speed_kbps": 86750,
    "verdict": "smooth"
   },
   {
@@ -16464,7 +16441,7 @@
    "url": "http://www.goodiptv.club/douyu/74374",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 21076,
+   "speed_kbps": 29162,
    "verdict": "smooth"
   },
   {
@@ -16472,7 +16449,7 @@
    "url": "http://www.goodiptv.club/douyu/3928",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 20700,
+   "speed_kbps": 36975,
    "verdict": "smooth"
   },
   {
@@ -16480,7 +16457,7 @@
    "url": "http://www.goodiptv.club/douyu/5061550",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 20317,
+   "speed_kbps": 28430,
    "verdict": "smooth"
   },
   {
@@ -16496,7 +16473,7 @@
    "url": "http://www.goodiptv.club/douyu/6863367",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 28138,
+   "speed_kbps": 28497,
    "verdict": "smooth"
   },
   {
@@ -16624,7 +16601,7 @@
    "url": "https://live.ottiptv.cc/huya/30080238",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 36807,
+   "speed_kbps": 27247,
    "verdict": "smooth"
   },
   {
@@ -16734,10 +16711,10 @@
   {
    "name": "西游记后传",
    "url": "https://live.ottiptv.cc/yy/1353392400",
-   "status": "pass",
+   "status": "fail",
    "reason": "not-m3u8",
    "speed_kbps": null,
-   "verdict": "play-error:HTTPError"
+   "verdict": null
   },
   {
    "name": "隋唐英雄传",
@@ -16760,7 +16737,7 @@
    "url": "https://live.ottiptv.cc/yy/37999586",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 29085,
+   "speed_kbps": 28500,
    "verdict": "smooth"
   },
   {
@@ -16768,7 +16745,7 @@
    "url": "https://live.ottiptv.cc/yy/1355142167",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 29353,
+   "speed_kbps": 35220,
    "verdict": "smooth"
   },
   {
@@ -16848,7 +16825,7 @@
    "url": "https://live.ottiptv.cc/yy/21881901",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 28978,
+   "speed_kbps": 31635,
    "verdict": "smooth"
   },
   {
@@ -17000,7 +16977,7 @@
    "url": "https://live.metshop.top/huya/23734256",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 33450,
+   "speed_kbps": 34307,
    "verdict": "smooth"
   },
   {
@@ -17120,8 +17097,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000158.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 3995,
-   "verdict": "smooth"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "生态环境",
@@ -17136,8 +17113,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000229.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 5039,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "车迷频道",
@@ -17176,7 +17153,7 @@
    "url": "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 6067,
+   "speed_kbps": 5322,
    "verdict": "smooth"
   },
   {
@@ -17448,16 +17425,16 @@
    "url": "http://120.76.248.139/live/bfgd/4200000077.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 4719,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "辽宁公共",
    "url": "http://120.76.248.139/live/bfgd/4200000481.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 7310,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "辽宁北方",
@@ -17472,8 +17449,8 @@
    "url": "http://120.76.248.139/live/bfgd/4200000076.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1981,
-   "verdict": "buffering"
+   "speed_kbps": null,
+   "verdict": "play-error:URLError"
   },
   {
    "name": "广东大湾区",
@@ -17880,7 +17857,7 @@
    "url": "http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 1269,
+   "speed_kbps": 1167,
    "verdict": "smooth"
   },
   {
@@ -17952,7 +17929,7 @@
    "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 12574,
+   "speed_kbps": 10846,
    "verdict": "smooth"
   },
   {
@@ -17960,7 +17937,7 @@
    "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 7916,
+   "speed_kbps": 7533,
    "verdict": "smooth"
   },
   {
@@ -17968,7 +17945,7 @@
    "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5194620763762726260_hlsb.m3u8",
    "status": "pass",
    "reason": "not-m3u8",
-   "speed_kbps": 6280,
+   "speed_kbps": 6099,
    "verdict": "smooth"
   },
   {
@@ -18098,6 +18075,1238 @@
    "reason": "not-m3u8",
    "speed_kbps": null,
    "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "9Gem (720p) [Geo-blocked]",
+   "url": "https://9now-livestreams.akamaized.net/hls/live/2008311/gem-syd/master.m3u8",
+   "status": "fail",
+   "reason": "http400",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "9Go! (720p) [Geo-blocked]",
+   "url": "https://9now-livestreams.akamaized.net/hls/live/2008312/go-syd/master.m3u8",
+   "status": "fail",
+   "reason": "http400",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "9Life (720p) [Geo-blocked]",
+   "url": "https://9now-livestreams.akamaized.net/hls/live/2008313/life-syd/master.m3u8",
+   "status": "fail",
+   "reason": "http400",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Ausbiz TV (720p) [Not 24/7]",
+   "url": "https://d9quh89lh7dtw.cloudfront.net/public-output/index.m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error [Errno 8] nodename nor servname provided, or n",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Channel 9 (Australia) Brisbane (720p) [Geo-blocked]",
+   "url": "https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/bne/ch9/hls/r1/index.m3u8",
+   "status": "fail",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Channel 9 (Australia) (720p) [Geo-blocked]",
+   "url": "https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/syd/ch9/hls/r1/index.m3u8",
+   "status": "fail",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Channel 9 (Australia) Perth (720p) [Geo-blocked]",
+   "url": "https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/per/ch9/hls/r1/index.m3u8",
+   "status": "fail",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Channel 9 (Australia) Adelaide (720p) [Geo-blocked]",
+   "url": "https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/adl/ch9/hls/r1/index.m3u8",
+   "status": "fail",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "10 Bold (1080p)",
+   "url": "https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 5645,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Hope Channel Australia (1080p)",
+   "url": "https://videodelivery.net/9fb3596948ddf463fde0ec4b85625b24/manifest/video.m3u8",
+   "status": "fail",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "CTB Perth (720p)",
+   "url": "https://live.ctbperth.net.au/hls/0/stream.m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error [Errno 61] Connection refused>",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "ABC News (720p)",
+   "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 57979,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Adventure Earth (1080p)",
+   "url": "https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 121650,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Autentic Travel (1080p)",
+   "url": "https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 109739,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Channel 44 (480p)",
+   "url": "https://d1k6kax80wecy5.cloudfront.net/WFqZJc/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Autentic History (1080p)",
+   "url": "https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 40139,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Horse & Country TV (1080p)",
+   "url": "https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 43548,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Nickelodeon (Australia) [Geo-blocked]",
+   "url": "https://i.mjh.nz/.r/10shake-nsw.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Fox Sports News (1080p)",
+   "url": "https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 8579,
+   "verdict": "smooth"
+  },
+  {
+   "name": "PBC Tapesh TV (720p)",
+   "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Racing.com (720p)",
+   "url": "https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8",
+   "status": "fail",
+   "reason": "http400",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Sky Racing 2 (720p) [Geo-blocked]",
+   "url": "https://skylivetab-new.akamaized.net/hls/live/2038781/sky2/index.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Channel 200 (540p)",
+   "url": "https://d1jlnqid3sfc6m.cloudfront.net/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Shalom World Australia (1080p) [Geo-blocked]",
+   "url": "https://broadcaster-1.cclouds.in/srt-3/channel3_abr/playlist.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "News24 Weather",
+   "url": "https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/live_540p.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 5495,
+   "verdict": "smooth"
+  },
+  {
+   "name": "TVNZ 1 [Geo-blocked]",
+   "url": "https://d2ce82tpc3p734.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_1/master.m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error [Errno 8] nodename nor servname provided, or n",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "TVNZ 2 [Geo-blocked]",
+   "url": "https://duoak7vltfob0.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_2/master.m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error [Errno 8] nodename nor servname provided, or n",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "TVNZ DUKE [Geo-blocked]",
+   "url": "https://dayqb844napyo.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_Duke/master.m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error [Errno 8] nodename nor servname provided, or n",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Rai Italia Australia (1080p)",
+   "url": "https://d3k8wzt41aflvx.cloudfront.net/RAIHD/Live.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "The Chat Show Channel (1080p)",
+   "url": "https://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8",
+   "status": "fail",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Mediaset Italia Australia (1080p)",
+   "url": "https://d3k8wzt41aflvx.cloudfront.net/Mediaset_AU/Live.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 31997,
+   "verdict": "smooth"
+  },
+  {
+   "name": "News24 (1080p)",
+   "url": "https://skynewsau-live-premium.akamaized.net/hls/live/2105299/skynews/live.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 19281,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Sky News Extra 3 (1080p)",
+   "url": "https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 11610,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Duna World",
+   "url": "http://88.212.7.14/live/duna_world_hun/index.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 4041,
+   "verdict": "smooth"
+  },
+  {
+   "name": "PBS America (576p)",
+   "url": "http://185.19.191.2:8090/PBS/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Nippon TV",
+   "url": "https://ntv5.mov3.co/hls/ntv.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Rai World Premium (1080p)",
+   "url": "https://d3k8wzt41aflvx.cloudfront.net/RAIP/Live.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Euronews French (720p)",
+   "url": "https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 25972,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Folk Klub TV (720p)",
+   "url": "http://tv1.intv.mk:1935/live2/folkklub/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "INTV Australia (720p)",
+   "url": "http://tv1.intv.mk:1935/live/intv/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Mission Asia (1080p)",
+   "url": "https://livecdn.live247stream.com/missionasia/tv/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Fuji TV [Not 24/7]",
+   "url": "https://fujitv4.mov3.co/hls/fujitv.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "NatureTime AU (1080p)",
+   "url": "https://amg00090-blueantllc-lovenature-au-samsungau-wggcn.amagi.tv/playlist/amg00090-blueantllc-lovenature-au-samsungau/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 25617,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Shalom World Prayer (1080p)",
+   "url": "https://broadcaster-1.cclouds.in/srt-4/channel4_abr/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Disney Channel (Japan)",
+   "url": "http://103.255.250.188:5002/bs24.m3u8?channel=zhongying&gid=bs24&token=guoziyun",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Mr Bean Animated (1080p)",
+   "url": "https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 23404,
+   "verdict": "smooth"
+  },
+  {
+   "name": "News24 World",
+   "url": "https://skynewsau-live-premium.akamaized.net/hls/live/2105306/skynewsextra/live_540p.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 2583,
+   "verdict": "smooth"
+  },
+  {
+   "name": "ALTV (1080p)",
+   "url": "https://thaipbs-ujxrch.cdn.byteark.com/live/playlist_1080p/index.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Cartoon Network (Japan) HD",
+   "url": "http://103.255.250.188:5002/cs25.m3u8?channel=zhongying&gid=cs25&token=guoziyun",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "TV Asahi [Not 24/7]",
+   "url": "https://tvasahi.mov3.co/hls/tvasahi.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Cricket Gold (1080p)",
+   "url": "https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 26692,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Firstlight (576p)",
+   "url": "https://uni01rtmp.tulix.tv/firstlight/firstlight.smil/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "TV Tokyo",
+   "url": "https://tvtokyo.mov3.co/hls/tvtokyo.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Angel TV Australia (720p)",
+   "url": "https://janya-digimix.akamaized.net/vglive-sk-310787/australia/ngrp:angelaustralia_all/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 77145,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Bloomberg TV Australia (270p)",
+   "url": "https://bloomberg.com/media-manifest/streams/aus.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 10416,
+   "verdict": "smooth"
+  },
+  {
+   "name": "MNB World (1080p)",
+   "url": "https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd",
+   "status": "fail",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "The Pet Collective Australia (720p)",
+   "url": "https://the-pet-collective-international-au.samsung.wurl.tv/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 13923,
+   "verdict": "smooth"
+  },
+  {
+   "name": "3HD (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/ch3hd-3/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "AXN Asia Thailand",
+   "url": "http://103.253.74.210:7070/stream/89/index.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Amarin TV (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/chamarin-3/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Cartoon Network Asia Thailand",
+   "url": "http://103.253.74.210:7070/stream/118/index.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Parliament TV (New Zealand) (1080p)",
+   "url": "https://ptvlive.kordia.net.nz/out/v1/daf20b9a9ec5449dadd734e50ce52b74/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 53143,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Channel 8 (Thailand) (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/cheight-3/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "MovieSphere AU (1080p)",
+   "url": "https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 18081,
+   "verdict": "smooth"
+  },
+  {
+   "name": "ToonGoggles (720p)",
+   "url": "https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 19804,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Swamiji TV Australian (1080p) [Not 24/7]",
+   "url": "https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "WeatherSpy (Australia) (720p)",
+   "url": "https://jukin-weatherspy-2-au.samsung.wurl.tv/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 16954,
+   "verdict": "smooth"
+  },
+  {
+   "name": "C31 Melbourne (240p)",
+   "url": "https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 6295,
+   "verdict": "smooth"
+  },
+  {
+   "name": "QVC (Japan) (1080p)",
+   "url": "https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 26202,
+   "verdict": "smooth"
+  },
+  {
+   "name": "GSTV (720p)",
+   "url": "https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 14483,
+   "verdict": "smooth"
+  },
+  {
+   "name": "ticker News (1080p)",
+   "url": "https://live-hls-7agy.livepush.io/live_abr_cdn/nsitWAl1pTZtwca/emnmZbKZcO8RfwJR/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Kordia TV (1080p)",
+   "url": "https://ptvlive.kordia.net.nz/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 9694,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Good Idea TV (720p) [Not 24/7]",
+   "url": "http://stream1.ai-net.net:1935/gtv1/_definst_/smil:gtv.smil/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Sky News Extra 1 (540p)",
+   "url": "https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 6928,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Channel 5 (Thailand) (1080p)",
+   "url": "https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Wairarapa TV (1080p) [Not 24/7]",
+   "url": "https://stream1.np.co.nz/WAITVABR/WAITVABR/playlist.m3u8",
+   "status": "fail",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Channel 7 (Thailand) (1080p)",
+   "url": "https://lb1-live-mv.v2h-cdn.com/hls/ffac/gohg/gohg.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Shop Channel (1080p) [Not 24/7]",
+   "url": "https://stream3.shopch.jp/HLS/master.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 70274,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Drama Channel (1080p)",
+   "url": "https://lb1-live-mv.v2h-cdn.com/hls/fdee/mvmalldd/mvmalldd.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Baan Baan TV 73",
+   "url": "https://vdo.plathong.net/live8794/live8794/playlist.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "GMM 25 (720p)",
+   "url": "https://lb1-live-mv.v2h-cdn.com/hls/ffbf/ugvhgvh/ugvhgvh.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "HGTV (New Zealand) (1080p)",
+   "url": "https://mediapackage-sky-hgtv-source.fullscreen.nz/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 45888,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Lanthung TV (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/chlantung-2/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "JKN 18 (1080p)",
+   "url": "https://lb1-live-mv.v2h-cdn.com/hls/ffda/jkn18/jkn18.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "TV-U Yamagata (1080i)",
+   "url": "https://tv-stream-test.daydreamer-json.cc/stream/1668b5a43560598b385ccf33fd2d5f43/master.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 65441,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Lao-Thai TV (720p)",
+   "url": "https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 27467,
+   "verdict": "smooth"
+  },
+  {
+   "name": "CGNTV Japan (1080p)",
+   "url": "https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 19039,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Halal TV",
+   "url": "https://vdo.plathong.net/Halaltv/Halaltv/playlist.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "MCOT HD (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/chmcothd-3/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Sakuranbo TV (1080i)",
+   "url": "https://tv-stream-test.daydreamer-json.cc/stream/bd2dd29080c36c9b01338d329156febe/master.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 59451,
+   "verdict": "smooth"
+  },
+  {
+   "name": "MONO 29 (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/chmono29-2/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "DLTV 4 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv04.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "NAT TV (1080p)",
+   "url": "https://livefta.malimarcdn.com/ftaedge00/nat.sdp/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 77408,
+   "verdict": "smooth"
+  },
+  {
+   "name": "YTS Yamagata TV (1080i)",
+   "url": "https://tv-stream-test.daydreamer-json.cc/stream/407fd00ebd2a059c9cd1ea3fa7156097/master.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 62813,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Nation TV (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/chNation-3/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "DLTV 5 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv05.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "DLTV 7 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv07.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "DLTV 6 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv06.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Weathernews (720p)",
+   "url": "https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 2764,
+   "verdict": "buffering"
+  },
+  {
+   "name": "DLTV 9 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv09.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Sky Racing 1 (720p)",
+   "url": "https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "News1 (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/chnews1-2/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Sky News Extra 2 (540p) [Not 24/7]",
+   "url": "https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 6530,
+   "verdict": "smooth"
+  },
+  {
+   "name": "R Channel",
+   "url": "http://180.180.243.239/streams/3/hls",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Thai PBS (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/chThaipbshd-2/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "T Sports 7 (240p)",
+   "url": "https://live-us1.thaimomo.com/live-as/chtsport-1/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "One 31 (720p)",
+   "url": "https://lb1-live-mv.v2h-cdn.com/hls/ffba/yogvfi/yogvfi.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Dopa Channel",
+   "url": "http://dopachannel.truegse.com/live/dopatv03.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Thairath TV (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/chthairathhd-3/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Workpoint TV (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/chworkpointt-3/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Thaiban 83 (576p)",
+   "url": "https://lb1-live-mv.v2h-cdn.com/hls/ffcd/thaibaan/thaibaan.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Umm TV (576p)",
+   "url": "https://live-us1.thaimomo.com/live-as/chtvb-2/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "TNN16 (720p)",
+   "url": "https://lb1-live-mv.v2h-cdn.com/hls/ffdc/mugvhogvho/mugvhogvho.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "13 Siam Thai (1080p)",
+   "url": "https://live.x2.co.th/live/13livetv-th.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 606,
+   "verdict": "buffering"
+  },
+  {
+   "name": "TV Muslim Thailand",
+   "url": "https://vdo.plathong.net/tvmuslim/tvmuslim/playlist.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "MTV (Japan)",
+   "url": "http://103.255.250.188:5002/cs18.m3u8?channel=zhongying&gid=cs18&token=guoziyun",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 3228,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Rama Channel",
+   "url": "https://ramach.ddns.net/live/ramalive/index.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Zabb Channel (720p)",
+   "url": "https://vdo.plathong.net/flash7057/flash7057/playlist.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Suwannabhumi Channel (720p)",
+   "url": "https://live.bangkokstream.com:19360/suwannabhumi/suwannabhumi.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Star Channel International (720p)",
+   "url": "https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 7706,
+   "verdict": "smooth"
+  },
+  {
+   "name": "Vipa TV (1080p)",
+   "url": "https://fastly.live.brightcove.com/1846248737588002042/ap-southeast-1/6075037809001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoibzRoaGc2LmVncmVzcy5zYjBmOGsiLCJhY2NvdW50X2lkIjoiNjA3NTAzNzgwOTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDc1MDM3ODA5MDAxIl0sImp0aSI6IjE4NDYyNDg3Mzc1ODgwMDIwNDIifQ.HbjGHxGv87ivAdsCtAdEDjj2SVCfRnCUMYWn2fCkVPY/playlist-hls.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 48566,
+   "verdict": "smooth"
+  },
+  {
+   "name": "DLTV 3 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv03.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 9406,
+   "verdict": "smooth"
+  },
+  {
+   "name": "World Entertainment TV 42",
+   "url": "http://3bb.engatetv.com:25461/hstn/line/147",
+   "status": "fail",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Boonniyom TV (720p)",
+   "url": "https://live.x2.co.th/live/bntv.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 2675,
+   "verdict": "smooth"
+  },
+  {
+   "name": "DLTV 2 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv02.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 6897,
+   "verdict": "smooth"
+  },
+  {
+   "name": "DLTV 8 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv08.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 10238,
+   "verdict": "smooth"
+  },
+  {
+   "name": "SBT TV (720p)",
+   "url": "http://122.155.12.107:1935/live/sbt_tv_aac_300/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "DLTV 1 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv01.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 4624,
+   "verdict": "ok"
+  },
+  {
+   "name": "DLTV 11 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv11.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 9870,
+   "verdict": "smooth"
+  },
+  {
+   "name": "DLTV 13 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv13.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 5985,
+   "verdict": "smooth"
+  },
+  {
+   "name": "DLTV 15 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv15.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 2057,
+   "verdict": "buffering"
+  },
+  {
+   "name": "SBB TV (1080p)",
+   "url": "https://cdn-th-vip2.livestreaming.in.th/watsanghathan/watsanghathan/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "DLTV 10 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv10.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 3099,
+   "verdict": "buffering"
+  },
+  {
+   "name": "DLTV 12 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv12.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 5774,
+   "verdict": "smooth"
+  },
+  {
+   "name": "DLTV 14 (1080p)",
+   "url": "https://cdn-live.dltv.ac.th/dltv14.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 6202,
+   "verdict": "smooth"
+  },
+  {
+   "name": "White Channel (1080p)",
+   "url": "http://symc-cdn.violin.co.th:1935/tndedge/whitechannel/chunklist.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Cool Channel",
+   "url": "https://live-iptv.cool-channel.com/cool/live-720P.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 2335,
+   "verdict": "ok"
+  },
+  {
+   "name": "Top News (720p)",
+   "url": "https://live.topnews.co.th/hls/topnews_a_720.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 11421,
+   "verdict": "smooth"
+  },
+  {
+   "name": "NickToons 90s [Geo-blocked]",
+   "url": "https://i.mjh.nz/.r/10-nicktoons-90s.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 26620,
+   "verdict": "smooth"
+  },
+  {
+   "name": "True4U (720p)",
+   "url": "https://lb1-live-mv.v2h-cdn.com/hls/ffca/mifainp/mifainp.m3u8",
+   "status": "fail",
+   "reason": "http403",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "NBT TV Chiang Mai",
+   "url": "https://cdn-edge.iiptvcdn.com/live_event/smil:4f6e-aa34-2034-5492-c82d.smil/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "NBT 2 HD (1080p)",
+   "url": "https://cdn-edge.iiptvcdn.com/live_event/smil:f180-054a-38d7-ce66-f7cf.smil/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "STOU Channel (720p)",
+   "url": "https://stream1.stou.ac.th/live/stou_720p/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "Thai Chaiyo",
+   "url": "https://live.thaichaiyo.tv/tcy/live-transmux.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": 3480,
+   "verdict": "ok"
+  },
+  {
+   "name": "Thai Parliament Television (1080p) [Not 24/7]",
+   "url": "https://tv-live.tpchannel.org/live/tv.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": 2823,
+   "verdict": "buffering"
+  },
+  {
+   "name": "ABC Australia (480p)",
+   "url": "https://proxy-v.rctiplus.id/live/web/abcaus/index.m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error timed out>",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "CTB Perth Movies Channel (720p)",
+   "url": "https://movies.ctbperth.net.au/hls/stream.m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error timed out>",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Boomerang (Thailand)",
+   "url": "https://live-us1.thaimomo.com/live-as/chboomerang-2/chunklist_w135479847.m3u8",
+   "status": "pass",
+   "reason": "not-m3u8",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "JonmoBhumi TV (720p)",
+   "url": "https://jtvs.ncare.live/Gznr84Woj7UEye3OPVeWq2ForboWAgdV/jonmobhumitv.stream/playlist.m3u8",
+   "status": "fail",
+   "reason": "TimeoutError:The read operation timed out",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "TVSN Beauty (1080p)",
+   "url": "https://live-tvsn.simplestreamcdn.com/live12/tvsnbeauty/bitrate1.isml/.m3u8",
+   "status": "fail",
+   "reason": "TimeoutError:The read operation timed out",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Charoen Cable 37 TV (1080p)",
+   "url": "http://www5.cabletv.co.th/StreamToCTV/cablechannel/playlist.m3u8",
+   "status": "pass",
+   "reason": "variant-200",
+   "speed_kbps": null,
+   "verdict": "play-error:HTTPError"
+  },
+  {
+   "name": "ETV (Thailand) (1080p)",
+   "url": "http://150.95.66.20:1935/live/livestream/playlist.m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error timed out>",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Mangorn (720p)",
+   "url": "http://49.0.87.24:1936/HDDragon/Dragon/playlist.m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error timed out>",
+   "speed_kbps": null,
+   "verdict": null
+  },
+  {
+   "name": "Maya Channel",
+   "url": "http://146.88.62.69:1935/Transcoder/มายาHD.stream_576p/playlist.m3u8",
+   "status": "fail",
+   "reason": "URLError:<urlopen error timed out>",
+   "speed_kbps": null,
+   "verdict": null
   }
  ]
 }
