@@ -67,12 +67,14 @@ def classify(n, hint):
     if re.search(r'体育|體育|足球|篮球|籃球|赛事|賽事|Sports|ESPN|五星体育', t): return '体育'
     if re.search(r'少儿|少兒|卡通|动漫|動漫|动画|動畫|宝宝|寶貝|Kids|金鹰卡通|优漫', t): return '少儿动漫'
     if re.search(r'纪录|紀錄|科教|探索|Discovery|地理|纪实|紀實|求索|世界地理', t): return '纪录科教'
-    if re.search(r'新闻|新聞|资讯|資訊|财经|財經|News', t): return '新闻'
+    if re.search(r'新闻|新聞|资讯|資訊|财经|財經|News', t):
+        if re.search(r'(?i)CNN|BBC|NHK|DW|France ?24|Al ?Jazeera|Bloomberg|CNBC|Fox News|Sky News|Euronews|ABC News|CBC|NBC News|Newsmax|RT News|WION|NDTV|Times Now|Arirang|CNA|寰宇', n) or not re.search(r'[\u4e00-\u9fff]', n): return '境外新闻'
+        return '大陆新闻'
     if re.search(r'综艺|綜藝|娱乐|娛樂|音乐|音樂|戏曲|戲曲|时尚|時尚|生活|旅游|旅遊|美食|健康|养生|養生|女性|都市频道|都市頻道', t): return '综艺生活'
     if re.search(r'地方|本地|市台|新闻综合|新聞綜合|公共频道|公共頻道|经济科教|經濟科教|影视频道|都市|民生', t): return '地方台'
     if not re.search(r'[\u4e00-\u9fff]', n): return '国际'
     return '综合'
-ORDER=['4K超高清','香港','台湾','央视','卫视','新马','电影','体育','少儿动漫','新闻','纪录科教','综艺生活','地方台','国际','澳新','日本','泰国','综合']
+ORDER=['4K超高清','香港','台湾','央视','卫视','新马','电影','体育','少儿动漫','大陆新闻','境外新闻','纪录科教','综艺生活','地方台','国际','澳新','日本','泰国','综合']
 seen=set(); per_name={}; groups={g:[] for g in ORDER}
 total_in=0
 for u in SOURCES:
