@@ -109,7 +109,10 @@ if os.path.exists(rep_path):
         if r is None and _hard(h): return True
         return False
     RANK = {'smooth': 0, 'ok': 1, 'buffering': 2}
-    def rank_of(url):
+    def rank_of(url, inf=''):
+        if 'http-user-agent' in inf:
+            s0 = info.get(url)
+            if s0 is None or s0['status'] != 'pass': return 3
         s = info.get(url)
         if s is None: return 4
         if s['status'] != 'pass':
@@ -124,10 +127,10 @@ if os.path.exists(rep_path):
         buckets = {}
         order = []
         for inf, url in entries:
-            if agreed_dead(url): continue
+            if 'http-user-agent' not in inf and agreed_dead(url): continue
             k = norm(name_of(inf))
             if k not in buckets: buckets[k] = []; order.append(k)
-            buckets[k].append((rank_of(url), inf, url))
+            buckets[k].append((rank_of(url, inf), inf, url))
         kept = []
         for k in order:
             b = sorted(buckets[k], key=lambda x: x[0])

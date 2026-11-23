@@ -14,8 +14,8 @@ PLAYLIST_URL = 'https://raw.githubusercontent.com/Jas0nla/tv-dist/main/huaren-li
 UA = {'User-Agent': 'Mozilla/5.0 (Linux; Android 12; TV) AppleWebKit/537.36'}
 CTX = ssl.create_default_context()
 
-def get(url, timeout=8, limit=65536):
-    req = urllib.request.Request(url, headers=UA)
+def get(url, timeout=8, limit=65536, headers=None):
+    req = urllib.request.Request(url, headers=headers or UA)
     with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
         return r.status, r.read(limit).decode('utf-8', 'ignore')
 
@@ -32,14 +32,16 @@ def enc(url):
     return urllib.parse.urlunsplit((p.scheme, p.netloc, path, query, ""))
 
 def knock(entry):
-    name, url = entry
+    name, url = entry[0], entry[1]
+    ua = entry[2] if len(entry) > 2 else ''
+    HDR = {'User-Agent': ua} if ua else UA
     try:
         if re.search(r'\.(flv|ts|mp4)(\?|$)', url):
-            req = urllib.request.Request(enc(url), headers=UA, method='GET')
+            req = urllib.request.Request(enc(url), headers=HDR, method='GET')
             with urllib.request.urlopen(req, timeout=8, context=CTX) as r:
                 r.read(1024)
                 return (name, url, 'pass', 'direct-stream', None)
-        st, body = get(enc(url))
+        st, body = get(enc(url), headers=HDR)
         if '#EXT-X-STREAM-INF' in body:
             best = None; best_bw = -1; first = None
             lines = body.splitlines()
@@ -56,11 +58,11 @@ def knock(entry):
                             break
             pick = best or first
             if not pick: return (name, url, 'fail', 'no-variant', None)
-            st2, body2 = get(pick[0])
+            st2, body2 = get(pick[0], headers=HDR)
             ok = ('#EXT-X-TARGETDURATION' in body2) or ('.ts' in body2) or ('.m4s' in body2)
-            return (name, url, 'pass' if ok else 'fail', 'variant-' + str(st2), (pick[0], pick[1], body2) if ok else None)
+            return (name, url, 'pass' if ok else 'fail', 'variant-' + str(st2), (pick[0], pick[1], body2, ua) if ok else None)
         ok = ('#EXT-X-TARGETDURATION' in body) or ('.ts' in body) or ('.m4s' in body)
-        return (name, url, 'pass' if ok else 'fail', 'not-m3u8', (url, 0, body) if ok else None)
+        return (name, url, 'pass' if ok else 'fail', 'not-m3u8', (url, 0, body, ua) if ok else None)
     except urllib.error.HTTPError as e:
         return (name, url, 'fail', 'http%d' % e.code, None)
     except Exception as e:
@@ -70,7 +72,8 @@ def play(res):
     name, url, status, detail, ctx = res
     if status != 'pass' or not ctx:
         return (name, url, status, detail, None, None)
-    media_url, declared_bw, body = ctx
+    media_url, declared_bw, body = ctx[0], ctx[1], ctx[2]
+    HDR = {'User-Agent': ctx[3]} if len(ctx) > 3 and ctx[3] else UA
     try:
         segs = []; dur = 0.0
         lines = body.splitlines()
@@ -87,7 +90,7 @@ def play(res):
         if not segs: return (name, url, 'pass', detail, None, 'no-segments')
         total_bytes = 0; t0 = time.time(); total_dur = 0.0; got = 0
         for surl, sdur in segs:
-            req = urllib.request.Request(enc(surl), headers=UA)
+            req = urllib.request.Request(enc(surl), headers=HDR)
             with urllib.request.urlopen(req, timeout=10, context=CTX) as r:
                 while True:
                     chunk = r.read(262144)
@@ -135,8 +138,11 @@ def main():
         text = open(src, encoding='utf-8').read()
     entries = parse(text)
     uniq = {}
-    for n, u, inf in entries: uniq.setdefault(u, n)
-    tests = [(n, u) for u, n in uniq.items()]
+    for n, u, inf in entries:
+        if u not in uniq:
+            m = re.search(r'http-user-agent="([^"]*)"', inf)
+            uniq[u] = (n, m.group(1) if m else '')
+    tests = [(n, u, ua) for u, (n, ua) in uniq.items()]
     print('stage1 knock: testing %d streams...' % len(tests), flush=True)
     from concurrent.futures import as_completed
     stage1 = []
