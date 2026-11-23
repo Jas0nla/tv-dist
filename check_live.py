@@ -22,9 +22,10 @@ def get_full(url, timeout=60):
 
 def enc(url):
     p = urllib.parse.urlsplit(url)
-    path = urllib.parse.quote(p.path, safe='/:@!$&'()*+,;=-._~%')
-    query = urllib.parse.quote(p.query, safe='/:@!$&'()*+,;=-._~%=?')
-    return urllib.parse.urlunsplit((p.scheme, p.netloc, path, query, ''))
+    safe = "/:@!$&()*+,;=-._~%"
+    path = urllib.parse.quote(p.path, safe=safe)
+    query = urllib.parse.quote(p.query, safe=safe + "=?")
+    return urllib.parse.urlunsplit((p.scheme, p.netloc, path, query, ""))
 
 def test(entry):
     name, url = entry
