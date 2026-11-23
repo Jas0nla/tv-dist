@@ -83,6 +83,11 @@ def classify(n, hint):
 ORDER=['4K超高清','香港','台湾','央视','卫视','新马','电影','体育','少儿动漫','大陆新闻','境外新闻','纪录科教','综艺生活','地方台','国际','澳新','日本','泰国','美加','综合']
 USCA_KEEP = re.compile(r'(?i)Pluto|Roku Channel|Xumo|Tubi|Samsung TV|LG Channels|Plex|Stirr|Freevee|Redbox|CNN|Fox News|Fox Sports|FS1|FS2|MSNBC|CNBC|Bloomberg|ABC News|CBS News|NBC News|Newsmax|Weather Channel|ESPN|NFL Network|NBA TV|MLB Network|NHL Network|Golf Channel|Tennis Channel|AMC|FX |FXX|Paramount|Comedy Central|MTV|VH1|BET|Nickelodeon|Nick Jr|Cartoon Network|Disney|Discovery|History|A&E|Lifetime|Hallmark|Turner Classic|Bravo|Oxygen|Syfy|TNT|TBS|USA Network|National Geographic|Nat Geo|Animal Planet|HGTV|Food Network|TLC|Travel Channel|BBC America|Sundance|Showtime|Starz|PBS|The CW|MeTV|Court TV|CTV|CBC|Global News|Global TV|Citytv|CP24|TSN|Sportsnet|TVA|Noovo|ICI |OMNI|Fairchild|Talentvision|CHCH|BNN|Much')
 FAMOUS_NEWS = re.compile(r'(?i)Al ?Jazeera|Aljazeera|半岛|BBC World|BBC News|CNN|Deutsche Welle|DW News|DW English|DW Deutsch|DW Latino|DW Arabic|France 24|NHK World|TRT World|Euronews|Sky News|RT News|Russia Today|WION|NDTV|CNA|Arirang|KBS World|Bloomberg|CNBC|Fox News|MSNBC|ABC News|CBS News|NBC News|GB News|India Today|Times Now')
+DROP_NAME = re.compile(r'(?i)arabia|arabic|mubasher|阿拉伯')
+def dropped(n):
+    if DROP_NAME.search(n): return True
+    if re.match(r'(?i)Al Jazeera(?! English)', n): return True
+    return False
 FILTERS = {
  'https://iptv-org.github.io/iptv/countries/us.m3u': USCA_KEEP,
  'https://iptv-org.github.io/iptv/countries/ca.m3u': USCA_KEEP,
@@ -99,6 +104,7 @@ for u in SOURCES:
         if url in seen or url in blacklist: continue
         seen.add(url)
         n=name_of(inf)
+        if dropped(n): continue
         if u in FILTERS and not FILTERS[u].search(n): continue
         g=FORCED.get(u) or classify(n, hint_of(inf))
         key=(g,norm(n))
