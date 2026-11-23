@@ -5,8 +5,15 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 ctx = ssl.create_default_context()
 UA = {'User-Agent':'Mozilla/5.0 (Linux; Android 12; TV) AppleWebKit/537.36'}
 def fetch(url):
-    req = urllib.request.Request(url, headers=UA)
-    return urllib.request.urlopen(req, timeout=60, context=ctx).read().decode('utf-8','ignore').splitlines()
+    import time
+    last = None
+    for attempt in range(4):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            return urllib.request.urlopen(req, timeout=60, context=ctx).read().decode('utf-8','ignore').splitlines()
+        except Exception as e:
+            last = e; time.sleep(2 * (attempt + 1))
+    raise last
 def parse(lines):
     out=[]; i=0
     while i < len(lines):
@@ -145,9 +152,25 @@ if os.path.exists(rep_path):
     def rank_of(url, inf=''):
         if 'http-user-agent' in inf:
             s0 = info.get(url)
-            if s0 is None or s0['status'] != 'pass': return 3
+            if s0 is None or s0['status'] != 'pass':
+                r0 = rinfo.get(url)
+                if r0 is not None and r0['status'] == 'pass':
+                    v0 = r0.get('verdict') or ''
+                    if v0 in RANK: return RANK[v0]
+                    return 2
+                if r0 is not None: return 8
+                return 3
         s = info.get(url)
-        if s is None: return 4
+        if s is None:
+            # no home data: fall back to the runner report for ORDER only
+            # (deletion still requires agreed_dead; soft runner fails rank 3)
+            r = rinfo.get(url)
+            if r is None: return 4
+            if r['status'] != 'pass': return 3
+            v = r.get('verdict') or ''
+            if v in RANK: return RANK[v]
+            if v.startswith('play-error'): return 3
+            return 2
         if s['status'] != 'pass':
             r = rinfo.get(url)
             return 3 if (r is not None and r['status'] == 'pass') else 9
@@ -164,16 +187,45 @@ if os.path.exists(rep_path):
             k = norm(name_of(inf))
             if k not in buckets: buckets[k] = []; order.append(k)
             buckets[k].append((rank_of(url, inf), inf, url))
-        kept = []
-        for k in order:
+        chans = []
+        for idx, k in enumerate(order):
             b = sorted(buckets[k], key=lambda x: x[0])
+            has_home = any(u in info for _, _, u in b)
             reported = [x for x in b if x[0] != 4]
-            if reported and all(x[0] > 2 for x in reported) and not any(x[0] == 4 for x in b):
+            if has_home and reported and all(x[0] > 2 for x in reported) and not any(x[0] == 4 for x in b):
                 pe = [x for x in b if x[0] == 3]
-                if pe: kept.append((pe[0][1], pe[0][2]))
-                continue
-            kept.extend((inf, url) for _, inf, url in b[:3])
-        groups[g] = kept
+                ent = [(pe[0][1], pe[0][2])] if pe else []
+            else:
+                ent = [(inf, url) for _, inf, url in b[:3]]
+            if ent:
+                chans.append((min(x[0] for x in b), idx, ent))
+        # channels ordered by their best line's rank (smooth first), stable on ties
+        chans.sort(key=lambda c: (c[0], c[1]))
+        groups[g] = [e for _, _, ent in chans for e in ent]
+# --- Taiwan relay injection ---
+# Channels geo-blocked from the US but verified playable through the home
+# Raspberry Pi relay (Pi -> West World Taiwan exit). Relay lines replace the
+# direct entries for the same channels and lead the Taiwan group.
+import base64 as _b64
+RELAY_BASE = 'http://192.168.216.88:8899/tw/j99zzuJ1NGaHW27i'
+RELAY_CHANNELS = [
+    ('TVBS新闻台', 'http://61.221.215.25:8800/hls/9/index.m3u8'),
+    ('纬来精采', 'http://61.221.215.25:8800/hls/48/index.m3u8'),
+    ('东森超视', 'http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8'),
+    ('TVBS亚洲', 'http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8'),
+    ('TVBS亚洲', 'http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8'),
+    ('纬来体育', 'https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8'),
+    ('纬来体育', 'https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8'),
+    ('台视新闻', 'http://38.64.72.148/hls/modn/list/4013/chunklist1.m3u8'),
+    ('三立戏剧', 'http://61.221.215.25:8800/hls/41/index.m3u8'),
+]
+RELAY_NAMES = {norm(n) for n, _ in RELAY_CHANNELS} | {norm('TVBS-Asia (1080p)')}
+def _relay_url(origin):
+    return RELAY_BASE + '/' + _b64.urlsafe_b64encode(origin.encode()).decode().rstrip('=')
+if '台湾' in groups:
+    groups['台湾'] = [(inf, url) for inf, url in groups['台湾'] if norm(name_of(inf)) not in RELAY_NAMES]
+    relay_entries = [('#EXTINF:-1 group-title="台湾",%s' % n, _relay_url(u)) for n, u in RELAY_CHANNELS]
+    groups['台湾'] = relay_entries + groups['台湾']
 out=['#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"']
 counts={}
 for g in ORDER:
