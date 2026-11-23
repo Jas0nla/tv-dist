@@ -1,0 +1,29 @@
+name: check-live
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 19 * * 4'
+  push:
+    paths:
+      - '.github/workflows/check.yml'
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test all streams and prune hard-dead ones
+        run: PRUNE=1 python3 check_live.py huaren-live.m3u
+      - name: Commit results
+        run: |
+          if [ -f huaren-live-pruned.m3u ]; then cp huaren-live-pruned.m3u huaren-live.m3u; fi
+          if [ -f live-check-report.json ]; then cp live-check-report.json check-report.json; fi
+          git config user.name 'github-actions'
+          git config user.email 'actions@github.com'
+          git add huaren-live.m3u check-report.json || true
+          git diff --cached --quiet || git commit -m 'auto check: prune hard-dead streams'
+          git push
