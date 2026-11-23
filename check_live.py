@@ -4,26 +4,42 @@ Run at home (Mac):  curl -sL https://raw.githubusercontent.com/Jas0nla/tv-dist/m
 Run in GitHub Actions with PRUNE=1: tests the repo copy, writes live-check-report.json and huaren-live-pruned.m3u
 (pruned = only hard failures removed: HTTP 404/410 and DNS-dead hosts; timeouts/5xx are kept).
 Stdlib only."""
-import sys, os, json, ssl, urllib.request, urllib.error, urllib.parse
+import sys, os, json, ssl, re, urllib.request, urllib.error, urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 PLAYLIST_URL = 'https://raw.githubusercontent.com/Jas0nla/tv-dist/main/huaren-live.m3u'
 UA = {'User-Agent': 'Mozilla/5.0 (Linux; Android 12; TV) AppleWebKit/537.36'}
 CTX = ssl.create_default_context()
 
-def get(url, timeout=8):
+def get(url, timeout=8, limit=65536):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
-        return r.status, r.read(65536).decode('utf-8', 'ignore')
+        return r.status, r.read(limit).decode('utf-8', 'ignore')
+
+def get_full(url, timeout=60):
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
+        return r.status, r.read().decode('utf-8', 'ignore')
+
+def enc(url):
+    p = urllib.parse.urlsplit(url)
+    path = urllib.parse.quote(p.path, safe='/:@!$&'()*+,;=-._~%')
+    query = urllib.parse.quote(p.query, safe='/:@!$&'()*+,;=-._~%=?')
+    return urllib.parse.urlunsplit((p.scheme, p.netloc, path, query, ''))
 
 def test(entry):
     name, url = entry
     try:
-        st, body = get(url)
+        if re.search(r'\.(flv|ts|mp4)(\?|$)', url):
+            req = urllib.request.Request(enc(url), headers=UA, method='GET')
+            with urllib.request.urlopen(req, timeout=8, context=CTX) as r:
+                r.read(1024)
+                return (name, url, 'pass', 'direct-stream')
+        st, body = get(enc(url))
         if '#EXT-X-STREAM-INF' in body:
             for line in body.splitlines():
                 line = line.strip()
                 if line and not line.startswith('#'):
-                    v = urllib.parse.urljoin(url, line)
+                    v = urllib.parse.urljoin(enc(url), line)
                     st2, body2 = get(v)
                     ok = ('#EXT-X-TARGETDURATION' in body2) or ('.ts' in body2) or ('.m4s' in body2)
                     return (name, url, 'pass' if ok else 'fail', 'variant-' + str(st2))
@@ -55,7 +71,7 @@ def parse(text):
 def main():
     src = sys.argv[1] if len(sys.argv) > 1 else PLAYLIST_URL
     if src.startswith('http'):
-        _, text = get(src, timeout=60)
+        _, text = get_full(src, timeout=60)
     else:
         text = open(src, encoding='utf-8').read()
     entries = parse(text)
