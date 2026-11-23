@@ -31,7 +31,17 @@ SOURCES=[
  'https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u',
  'https://iptv-org.github.io/iptv/countries/sg.m3u',
  'https://iptv-org.github.io/iptv/countries/my.m3u',
+ 'https://iptv-org.github.io/iptv/countries/au.m3u',
+ 'https://iptv-org.github.io/iptv/countries/nz.m3u',
+ 'https://iptv-org.github.io/iptv/countries/jp.m3u',
+ 'https://iptv-org.github.io/iptv/countries/th.m3u',
 ]
+FORCED = {
+ 'https://iptv-org.github.io/iptv/countries/au.m3u': '澳新',
+ 'https://iptv-org.github.io/iptv/countries/nz.m3u': '澳新',
+ 'https://iptv-org.github.io/iptv/countries/jp.m3u': '日本',
+ 'https://iptv-org.github.io/iptv/countries/th.m3u': '泰国',
+}
 try: blacklist=set(l.strip() for l in open(os.path.join(BASE, 'blacklist.txt')) if l.strip())
 except FileNotFoundError: blacklist=set()
 def name_of(inf): return inf.split(',')[-1].strip()
@@ -62,7 +72,7 @@ def classify(n, hint):
     if re.search(r'地方|本地|市台|新闻综合|新聞綜合|公共频道|公共頻道|经济科教|經濟科教|影视频道|都市|民生', t): return '地方台'
     if not re.search(r'[\u4e00-\u9fff]', n): return '国际'
     return '综合'
-ORDER=['4K超高清','香港','台湾','央视','卫视','新马','电影','体育','少儿动漫','新闻','纪录科教','综艺生活','地方台','国际','综合']
+ORDER=['4K超高清','香港','台湾','央视','卫视','新马','电影','体育','少儿动漫','新闻','纪录科教','综艺生活','地方台','国际','澳新','日本','泰国','综合']
 seen=set(); per_name={}; groups={g:[] for g in ORDER}
 total_in=0
 for u in SOURCES:
@@ -73,7 +83,7 @@ for u in SOURCES:
         total_in+=1
         if url in seen or url in blacklist: continue
         seen.add(url)
-        n=name_of(inf); g=classify(n, hint_of(inf))
+        n=name_of(inf); g=FORCED.get(u) or classify(n, hint_of(inf))
         key=(g,norm(n))
         if per_name.get(key,0)>=3: continue
         per_name[key]=per_name.get(key,0)+1
