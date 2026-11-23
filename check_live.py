@@ -173,6 +173,17 @@ def main():
     json.dump(report, open('live-check-results.json', 'w'), ensure_ascii=False, indent=1); out_paths.append('./live-check-results.json')
     if os.environ.get('PRUNE') == '1':
         hard = set(r[1] for r in failed if r[3] in ('http404', 'http410') or 'Name or service not known' in r[3] or 'nodename' in r[3] or 'Temporary failure in name resolution' in r[3])
+        # rule (user, 2026-11-23): if two test results disagree, do NOT delete.
+        # A stream the home-network test passed is never pruned by the runner test alone.
+        for cand in (os.path.join(os.path.dirname(os.path.abspath(__file__)), 'home-check-report.json'), 'home-check-report.json'):
+            try:
+                hrep = json.load(open(cand))
+                home_pass = set(s['url'] for s in hrep['streams'] if s['status'] == 'pass')
+                before = len(hard); hard -= home_pass
+                print('PRUNE: kept %d disputed streams that passed at home' % (before - len(hard)))
+                break
+            except Exception:
+                continue
         kept = ['#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"']
         removed = 0
         for n, u, inf in entries:

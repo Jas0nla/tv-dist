@@ -91,11 +91,30 @@ rep_path = os.path.join(BASE, 'home-check-report.json')
 if os.path.exists(rep_path):
     rep = json.load(open(rep_path))
     info = {s['url']: s for s in rep['streams']}
+    rinfo = {}
+    try:
+        rrep = json.load(open(os.path.join(BASE, 'check-report.json')))
+        rinfo = {s['url']: s for s in rrep['streams']}
+    except Exception:
+        pass
+    def _hard(s):
+        return s is not None and s['status'] != 'pass' and (s['reason'] in ('http404', 'http410') or 'not known' in s['reason'] or 'nodename' in s['reason'] or 'Temporary failure' in s['reason'])
+    def _fail(s):
+        return s is not None and s['status'] != 'pass'
+    def agreed_dead(url):
+        # rule (user, 2026-11-23): disputed results are never deleted.
+        h = info.get(url); r = rinfo.get(url)
+        if _fail(h) and _fail(r): return True
+        if h is None and _hard(r): return True
+        if r is None and _hard(h): return True
+        return False
     RANK = {'smooth': 0, 'ok': 1, 'buffering': 2}
     def rank_of(url):
         s = info.get(url)
         if s is None: return 4
-        if s['status'] != 'pass': return 9
+        if s['status'] != 'pass':
+            r = rinfo.get(url)
+            return 3 if (r is not None and r['status'] == 'pass') else 9
         v = s.get('verdict') or ''
         if v in RANK: return RANK[v]
         if v.startswith('play-error'): return 3
@@ -105,8 +124,7 @@ if os.path.exists(rep_path):
         buckets = {}
         order = []
         for inf, url in entries:
-            s = info.get(url)
-            if s is not None and s['status'] != 'pass': continue
+            if agreed_dead(url): continue
             k = norm(name_of(inf))
             if k not in buckets: buckets[k] = []; order.append(k)
             buckets[k].append((rank_of(url), inf, url))
