@@ -130,6 +130,15 @@ def parse(text):
             i += 1
     return out
 
+def _fsec(s):
+    return '%dm%02ds' % (s // 60, int(s % 60)) if s >= 60 else '%ds' % int(s)
+
+def _eta(t0, done, total):
+    if done <= 0 or total <= 0: return ''
+    el = time.time() - t0
+    left = el / done * (total - done)
+    return ' - %d%% - elapsed %s - about %s left' % (done * 100 // total, _fsec(el), _fsec(left))
+
 def main():
     src = sys.argv[1] if len(sys.argv) > 1 else PLAYLIST_URL
     if src.startswith('http'):
@@ -146,21 +155,23 @@ def main():
     print('stage1 knock: testing %d streams...' % len(tests), flush=True)
     from concurrent.futures import as_completed
     stage1 = []
+    t0 = time.time()
     with ThreadPoolExecutor(max_workers=40) as ex:
         futs = [ex.submit(knock, t) for t in tests]
         for i, f in enumerate(as_completed(futs)):
             stage1.append(f.result())
-            if (i + 1) % 200 == 0 or i + 1 == len(tests):
-                print('  stage1 %d/%d' % (i + 1, len(tests)), flush=True)
+            if (i + 1) % 50 == 0 or i + 1 == len(tests):
+                print('  stage1 %d/%d%s' % (i + 1, len(tests), _eta(t0, i + 1, len(tests))), flush=True)
     passed1 = [r for r in stage1 if r[2] == 'pass']
     print('stage1 done: %d passed, now stage2 play-test...' % len(passed1), flush=True)
     results = []
+    t1 = time.time()
     with ThreadPoolExecutor(max_workers=16) as ex:
         futs = [ex.submit(play, r) for r in stage1]
         for i, f in enumerate(as_completed(futs)):
             results.append(f.result())
-            if (i + 1) % 100 == 0 or i + 1 == len(stage1):
-                print('  stage2 %d/%d' % (i + 1, len(stage1)), flush=True)
+            if (i + 1) % 50 == 0 or i + 1 == len(stage1):
+                print('  stage2 %d/%d%s' % (i + 1, len(stage1), _eta(t1, i + 1, len(stage1))), flush=True)
     passed = [r for r in results if r[2] == 'pass']
     failed = [r for r in results if r[2] != 'pass']
     from collections import Counter
