@@ -1,8 +1,6 @@
 name: check-live
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 19 * * 4'
   push:
     paths:
       - '.github/workflows/check.yml'
