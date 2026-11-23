@@ -138,12 +138,23 @@ def main():
     for n, u, inf in entries: uniq.setdefault(u, n)
     tests = [(n, u) for u, n in uniq.items()]
     print('stage1 knock: testing %d streams...' % len(tests), flush=True)
+    from concurrent.futures import as_completed
+    stage1 = []
     with ThreadPoolExecutor(max_workers=40) as ex:
-        stage1 = list(ex.map(knock, tests))
+        futs = [ex.submit(knock, t) for t in tests]
+        for i, f in enumerate(as_completed(futs)):
+            stage1.append(f.result())
+            if (i + 1) % 200 == 0 or i + 1 == len(tests):
+                print('  stage1 %d/%d' % (i + 1, len(tests)), flush=True)
     passed1 = [r for r in stage1 if r[2] == 'pass']
     print('stage1 done: %d passed, now stage2 play-test...' % len(passed1), flush=True)
+    results = []
     with ThreadPoolExecutor(max_workers=16) as ex:
-        results = list(ex.map(play, stage1))
+        futs = [ex.submit(play, r) for r in stage1]
+        for i, f in enumerate(as_completed(futs)):
+            results.append(f.result())
+            if (i + 1) % 100 == 0 or i + 1 == len(stage1):
+                print('  stage2 %d/%d' % (i + 1, len(stage1)), flush=True)
     passed = [r for r in results if r[2] == 'pass']
     failed = [r for r in results if r[2] != 'pass']
     from collections import Counter
