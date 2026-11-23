@@ -207,7 +207,7 @@ if os.path.exists(rep_path):
 # Raspberry Pi relay (Pi -> West World Taiwan exit). Relay lines replace the
 # direct entries for the same channels and lead the Taiwan group.
 import base64 as _b64
-RELAY_BASE = 'http://192.168.216.88:8899/tw/j99zzuJ1NGaHW27i'
+RELAY_BASE = 'http://192.168.216.88:8899/tw/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR'
 RELAY_CHANNELS = [
     ('TVBS新闻台', 'http://61.221.215.25:8800/hls/9/index.m3u8'),
     ('纬来精采', 'http://61.221.215.25:8800/hls/48/index.m3u8'),
