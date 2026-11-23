@@ -201,6 +201,15 @@ def main():
                 break
             except Exception:
                 continue
+        # Protected hosts: the LAN relay is unreachable from the runner by
+        # definition, and the cnlive / Chunghwa-TS lines were verified from
+        # the home network on the Pi (2026-11-23). Runner verdicts on these
+        # never prune.
+        PROTECT = ('192.168.216.88', '4gtv.cnlive.club', '211.72.174.95')
+        before = len(hard)
+        hard = set(u for u in hard if not any(p in u for p in PROTECT))
+        if before - len(hard):
+            print('PRUNE: kept %d protected streams (LAN relay / home-verified)' % (before - len(hard)))
         kept = ['#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"']
         removed = 0
         for n, u, inf in entries:

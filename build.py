@@ -226,6 +226,43 @@ if '台湾' in groups:
     groups['台湾'] = [(inf, url) for inf, url in groups['台湾'] if norm(name_of(inf)) not in RELAY_NAMES]
     relay_entries = [('#EXTINF:-1 group-title="台湾",%s' % n, _relay_url(u)) for n, u in RELAY_CHANNELS]
     groups['台湾'] = relay_entries + groups['台湾']
+# --- Extra verified Taiwan lines (2026-11-23 source hunt) ---
+# Tested from the Pi on the home network AND via the Taiwan exit: all play
+# DIRECTLY from home (no relay needed). Injected after the relay block so
+# report-based pruning can never drop them; check_live.py PRUNE protects
+# these hosts as well. The cnlive key (?q=...) is a static relay key from
+# the source lists; if it rotates, re-hunt and update here.
+EXTRA_TW = [
+    ('民视新闻', 'http://4gtv.cnlive.club/channel/nca14742/index.m3u8?q=1784702901150'),
+    ('民视第一台', 'http://4gtv.cnlive.club/channel/nc56ba28/index.m3u8?q=1784702901150'),
+    ('民视台湾台', 'http://4gtv.cnlive.club/channel/nce5d867/index.m3u8?q=1784702901150'),
+    ('民视综合', 'http://211.72.174.95:8115/0.ts'),
+    ('中天新闻', 'http://4gtv.cnlive.club/channel/3824d067/index.m3u8?q=1784702901150'),
+    ('中视新闻', 'http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1784702901150'),
+    ('华视', 'http://4gtv.cnlive.club/channel/n721fc25a/index.m3u8?q=1784702901150'),
+    ('华视新闻', 'http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1784702901150'),
+    ('东森新闻', 'http://4gtv.cnlive.club/channel/n5ca63a3a/index.m3u8?q=1784702901150'),
+    ('三立新闻', 'http://4gtv.cnlive.club/channel/4fa717ad/index.m3u8?q=1784702901150'),
+    ('三立综合', 'http://4gtv.cnlive.club/channel/45c7d3e3/index.m3u8?q=1784702901150'),
+    ('公视', 'http://211.72.174.95:8116/0.ts'),
+    ('TVBS欢乐', 'http://4gtv.cnlive.club/channel/498f035d/index.m3u8?q=1784702901150'),
+]
+# YouTube official 24h live streams, resolved on demand by the Pi relay
+# (/yt/ route, yt-dlp). Backup lines for news channels + 镜新闻 (YT-only).
+_YT_BASE = 'http://192.168.216.88:8899/yt/' + RELAY_BASE.split('/tw/')[1]
+EXTRA_YT = [
+    ('镜新闻', '5n0y6b0Q25o'),
+    ('民视新闻', 'ylYJSBUgaMA'),
+    ('三立新闻', 'yeYC0mbSIOo'),
+    ('华视新闻', 'wM0g8EoUZ_E'),
+    ('中视新闻', 'TCnaIE_SAtM'),
+]
+if '台湾' in groups:
+    _have = {u for _, u in groups['台湾']}
+    _extra = [('#EXTINF:-1 group-title="台湾",%s' % n, u) for n, u in EXTRA_TW if u not in _have]
+    _extra += [('#EXTINF:-1 group-title="台湾",%s' % n, _YT_BASE + '/' + v) for n, v in EXTRA_YT if (_YT_BASE + '/' + v) not in _have]
+    _cut = len(RELAY_CHANNELS)
+    groups['台湾'] = groups['台湾'][:_cut] + _extra + groups['台湾'][_cut:]
 out=['#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"']
 counts={}
 for g in ORDER:
