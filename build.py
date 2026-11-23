@@ -35,12 +35,18 @@ SOURCES=[
  'https://iptv-org.github.io/iptv/countries/nz.m3u',
  'https://iptv-org.github.io/iptv/countries/jp.m3u',
  'https://iptv-org.github.io/iptv/countries/th.m3u',
+ 'https://iptv-org.github.io/iptv/countries/us.m3u',
+ 'https://iptv-org.github.io/iptv/countries/ca.m3u',
+ 'https://iptv-org.github.io/iptv/categories/news.m3u',
 ]
 FORCED = {
  'https://iptv-org.github.io/iptv/countries/au.m3u': '澳新',
  'https://iptv-org.github.io/iptv/countries/nz.m3u': '澳新',
  'https://iptv-org.github.io/iptv/countries/jp.m3u': '日本',
  'https://iptv-org.github.io/iptv/countries/th.m3u': '泰国',
+ 'https://iptv-org.github.io/iptv/countries/us.m3u': '美加',
+ 'https://iptv-org.github.io/iptv/countries/ca.m3u': '美加',
+ 'https://iptv-org.github.io/iptv/categories/news.m3u': '境外新闻',
 }
 try: blacklist=set(l.strip() for l in open(os.path.join(BASE, 'blacklist.txt')) if l.strip())
 except FileNotFoundError: blacklist=set()
@@ -74,7 +80,14 @@ def classify(n, hint):
     if re.search(r'地方|本地|市台|新闻综合|新聞綜合|公共频道|公共頻道|经济科教|經濟科教|影视频道|都市|民生', t): return '地方台'
     if not re.search(r'[\u4e00-\u9fff]', n): return '国际'
     return '综合'
-ORDER=['4K超高清','香港','台湾','央视','卫视','新马','电影','体育','少儿动漫','大陆新闻','境外新闻','纪录科教','综艺生活','地方台','国际','澳新','日本','泰国','综合']
+ORDER=['4K超高清','香港','台湾','央视','卫视','新马','电影','体育','少儿动漫','大陆新闻','境外新闻','纪录科教','综艺生活','地方台','国际','澳新','日本','泰国','美加','综合']
+USCA_KEEP = re.compile(r'(?i)Pluto|Roku Channel|Xumo|Tubi|Samsung TV|LG Channels|Plex|Stirr|Freevee|Redbox|CNN|Fox News|Fox Sports|FS1|FS2|MSNBC|CNBC|Bloomberg|ABC News|CBS News|NBC News|Newsmax|Weather Channel|ESPN|NFL Network|NBA TV|MLB Network|NHL Network|Golf Channel|Tennis Channel|AMC|FX |FXX|Paramount|Comedy Central|MTV|VH1|BET|Nickelodeon|Nick Jr|Cartoon Network|Disney|Discovery|History|A&E|Lifetime|Hallmark|Turner Classic|Bravo|Oxygen|Syfy|TNT|TBS|USA Network|National Geographic|Nat Geo|Animal Planet|HGTV|Food Network|TLC|Travel Channel|BBC America|Sundance|Showtime|Starz|PBS|The CW|MeTV|Court TV|CTV|CBC|Global News|Global TV|Citytv|CP24|TSN|Sportsnet|TVA|Noovo|ICI |OMNI|Fairchild|Talentvision|CHCH|BNN|Much')
+FAMOUS_NEWS = re.compile(r'(?i)Al ?Jazeera|Aljazeera|半岛|BBC World|BBC News|CNN|Deutsche Welle|DW News|DW English|DW Deutsch|DW Latino|DW Arabic|France 24|NHK World|TRT World|Euronews|Sky News|RT News|Russia Today|WION|NDTV|CNA|Arirang|KBS World|Bloomberg|CNBC|Fox News|MSNBC|ABC News|CBS News|NBC News|GB News|India Today|Times Now')
+FILTERS = {
+ 'https://iptv-org.github.io/iptv/countries/us.m3u': USCA_KEEP,
+ 'https://iptv-org.github.io/iptv/countries/ca.m3u': USCA_KEEP,
+ 'https://iptv-org.github.io/iptv/categories/news.m3u': FAMOUS_NEWS,
+}
 seen=set(); per_name={}; groups={g:[] for g in ORDER}
 total_in=0
 for u in SOURCES:
@@ -85,7 +98,9 @@ for u in SOURCES:
         total_in+=1
         if url in seen or url in blacklist: continue
         seen.add(url)
-        n=name_of(inf); g=FORCED.get(u) or classify(n, hint_of(inf))
+        n=name_of(inf)
+        if u in FILTERS and not FILTERS[u].search(n): continue
+        g=FORCED.get(u) or classify(n, hint_of(inf))
         key=(g,norm(n))
         if per_name.get(key,0)>=3: continue
         per_name[key]=per_name.get(key,0)+1
