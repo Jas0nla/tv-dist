@@ -205,7 +205,7 @@ def main():
         # definition, and the cnlive / Chunghwa-TS lines were verified from
         # the home network on the Pi (2026-11-23). Runner verdicts on these
         # never prune.
-        PROTECT = ('192.168.216.88', '4gtv.cnlive.club', '211.72.174.95')
+        PROTECT = ('192.168.216.88', '4gtv.cnlive.club', '211.72.174.95', '61.221.215.25', '38.64.72.148', 'epg.pw')
         before = len(hard)
         hard = set(u for u in hard if not any(p in u for p in PROTECT))
         if before - len(hard):

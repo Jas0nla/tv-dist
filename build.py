@@ -202,10 +202,13 @@ if os.path.exists(rep_path):
         # channels ordered by their best line's rank (smooth first), stable on ties
         chans.sort(key=lambda c: (c[0], c[1]))
         groups[g] = [e for _, _, ent in chans for e in ent]
-# --- Taiwan relay injection ---
-# Channels geo-blocked from the US but verified playable through the home
-# Raspberry Pi relay (Pi -> West World Taiwan exit). Relay lines replace the
-# direct entries for the same channels and lead the Taiwan group.
+# --- Taiwan hybrid injection ---
+# 2026-11-23 retest from the Pi: all 9 upstreams play DIRECTLY from the US
+# home IP (playlist + segments verified; the earlier geo-block attribution
+# was wrong). Each channel therefore gets the direct line FIRST and the Pi
+# relay line (Pi -> West World Taiwan exit) SECOND as fallback, in case an
+# upstream ever starts geo-locking or the direct path dies. These entries
+# replace any source-list entries for the same channels and lead the group.
 import base64 as _b64
 RELAY_BASE = 'http://192.168.216.88:8899/tw/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR'
 RELAY_CHANNELS = [
@@ -224,8 +227,11 @@ def _relay_url(origin):
     return RELAY_BASE + '/' + _b64.urlsafe_b64encode(origin.encode()).decode().rstrip('=')
 if '台湾' in groups:
     groups['台湾'] = [(inf, url) for inf, url in groups['台湾'] if norm(name_of(inf)) not in RELAY_NAMES]
-    relay_entries = [('#EXTINF:-1 group-title="台湾",%s' % n, _relay_url(u)) for n, u in RELAY_CHANNELS]
-    groups['台湾'] = relay_entries + groups['台湾']
+    hybrid_entries = []
+    for n, u in RELAY_CHANNELS:
+        hybrid_entries.append(('#EXTINF:-1 group-title="台湾",%s' % n, u))
+        hybrid_entries.append(('#EXTINF:-1 group-title="台湾",%s' % n, _relay_url(u)))
+    groups['台湾'] = hybrid_entries + groups['台湾']
 # --- Extra verified Taiwan lines (2026-11-23 source hunt) ---
 # Tested from the Pi on the home network AND via the Taiwan exit: all play
 # DIRECTLY from home (no relay needed). Injected after the relay block so
@@ -261,7 +267,7 @@ if '台湾' in groups:
     _have = {u for _, u in groups['台湾']}
     _extra = [('#EXTINF:-1 group-title="台湾",%s' % n, u) for n, u in EXTRA_TW if u not in _have]
     _extra += [('#EXTINF:-1 group-title="台湾",%s' % n, _YT_BASE + '/' + v) for n, v in EXTRA_YT if (_YT_BASE + '/' + v) not in _have]
-    _cut = len(RELAY_CHANNELS)
+    _cut = len(RELAY_CHANNELS) * 2
     groups['台湾'] = groups['台湾'][:_cut] + _extra + groups['台湾'][_cut:]
 out=['#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"']
 counts={}
