@@ -69,12 +69,18 @@ https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV12.m3u8
 #EXTINF:-1 group-title="台湾",民视新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV17.m3u8
-#EXTINF:-1 group-title="台湾",镜新闻 - YouTube
-http://192.168.216.88:8899/yt/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/5n0y6b0Q25o
-#EXTINF:-1 group-title="台湾",华视新闻 - YouTube
-http://192.168.216.88:8899/yt/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/wM0g8EoUZ_E
-#EXTINF:-1 group-title="台湾",TVBS新闻 - YouTube
-http://192.168.216.88:8899/yt/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/m_dhMSvUCIc
+#EXTINF:-1 group-title="台湾",东森新闻 - YouTube (1080P)
+http://192.168.216.88:8899/yt/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/live/ebc
+#EXTINF:-1 group-title="台湾",中天新闻 - YouTube (1080P)
+http://192.168.216.88:8899/yt/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/live/cti
+#EXTINF:-1 group-title="台湾",公视新闻 - YouTube (1080P)
+http://192.168.216.88:8899/yt/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/live/pts
+#EXTINF:-1 group-title="台湾",镜新闻 - YouTube (1080P)
+http://192.168.216.88:8899/yt/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/live/mnews
+#EXTINF:-1 group-title="台湾",华视新闻 - YouTube (1080P)
+http://192.168.216.88:8899/yt/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/live/cts
+#EXTINF:-1 group-title="台湾",TVBS新闻 - YouTube (1080P)
+http://192.168.216.88:8899/yt/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/live/tvbs
 #EXTINF:-1 tvg-id="TTVNews.tw@SD" tvg-logo="https://i.imgur.com/AfkK0gv.png" group-title="台湾",TTV News (SD)
 https://live.wcetv.com/hls/master-ttvnews.m3u8
 #EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" group-title="央视",CGTN西语 (1080P)
