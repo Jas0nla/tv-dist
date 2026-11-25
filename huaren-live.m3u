@@ -1439,608 +1439,608 @@ https://vdo.plathong.net/flash7253/flash7253/playlist.m3u8
 https://cdn-th-vip.livestreaming.in.th/policetv/policetv/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeNung.th@SD" tvg-logo="https://i.imgur.com/OqlxU7t.png" group-title="泰国",Zee Nung (1080p) [Geo-blocked] (1080P)
 https://amg17931-zee-amg17931c4-samsung-th-5592.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeenung-samsungth/playlist.m3u8
-#EXTINF:-1 tvg-id="AE.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" http-referrer="https://tvnow.st" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246" group-title="美加",A&E (1080P)
-https://cache0.wonvt.st/live/0c4r73315dt0we0fitn3j/master.m3u8
-#EXTINF:-1 tvg-id="FoxNewsInternational.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="美加",Fox News International (SD)
-http://103.253.74.210:7070/stream/124/index.m3u8
-#EXTINF:-1 tvg-id="MilitaryHistory.us@SD" tvg-logo="https://i.imgur.com/S1SnpoA.png" http-referrer="https://bhoomtv.org/" http-user-agent="Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="美加",Military History (720P)
-https://frndly.keralive.workers.dev/v1/master/840a24ccd7c75076211d060179b3ad0c64fdc6ca/militaryhistory_live_nr/ab44a8245afe413db1169317ee5cda08/index.m3u8?type=ae2
-#EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-logo="https://i.imgur.com/E84jnP8.png" http-referrer="https://tvnow.st/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="美加",Nickelodeon (United States)
-https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8
-#EXTINF:-1 tvg-id="TNTInternational.ru@SD" tvg-logo="https://i.imgur.com/l0RGbRI.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="美加",TNT International (SD)
-https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive1.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美加",ABC News Live 1 (720P)
-https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive2.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美加",ABC News Live 2 (720P)
-https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive3.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美加",ABC News Live 3 (720P)
-https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive4.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美加",ABC News Live 4 (720P)
-https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive5.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美加",ABC News Live 5 (720P)
-https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive6.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美加",ABC News Live 6 (720P)
-https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive7.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美加",ABC News Live 7 (720P)
-https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive8.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美加",ABC News Live 8 (720P)
-https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive9.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美加",ABC News Live 9 (720P)
-https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive10.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美加",ABC News Live 10 (720P)
-https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8
-#EXTINF:-1 tvg-id="ACTV.us@SD" tvg-logo="https://i.imgur.com/Z6lB0Ww.png" group-title="美加",ACTV (United States) (720P)
-https://castus-vod-dev.s3.amazonaws.com/vod_clients/athens/live/ch2/video.m3u8
-#EXTINF:-1 tvg-id="AMC.us@EastHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="美加",AMC (United States) (1080p) [Geo-blocked] (1080P)
-http://41.205.93.154/AMC/index.m3u8
-#EXTINF:-1 tvg-id="AMCenEspanol.us@SD" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="美加",AMC en Espanol (1080P)
-https://amc-amcespanol-1-us.vizio.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="AMCThrillers.us@SD" tvg-logo="https://i.imgur.com/EVD0aIt.png" group-title="美加",AMC Thrillers (1080P)
-https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="AnimalPlanet.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" group-title="美加",Animal Planet (United States) (720P)
-http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
-#EXTINF:-1 tvg-id="BETCinema.us@SD" tvg-logo="https://images.pluto.tv/channels/58af4c093a41ca9d4ecabe96/colorLogoPNG_1759338280891.png" group-title="美加",BET Cinema (SD)
-https://jmp2.uk/plu-58af4c093a41ca9d4ecabe96.m3u8
-#EXTINF:-1 tvg-id="BETClassicsPlutoTV.us@SD" tvg-logo="https://images.pluto.tv/channels/60f85644a9493e0007a1f035/colorLogoPNG_1759339662769.png" group-title="美加",BET Classics Pluto TV (SD)
-https://jmp2.uk/plu-60f85644a9493e0007a1f035.m3u8
-#EXTINF:-1 tvg-id="BETComedyMovies.us@SD" tvg-logo="https://images.pluto.tv/channels/68c32d88f56983aba40052bd/colorLogoPNG_1759246622596.png" group-title="美加",BET Comedy Movies (SD)
-https://jmp2.uk/plu-68c32d88f56983aba40052bd.m3u8
-#EXTINF:-1 tvg-id="BETPlutoTV.us@US" tvg-logo="https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png" group-title="美加",BET Pluto TV
-https://jmp2.uk/plu-5ca670f6593a5d78f0e85aed.m3u8
-#EXTINF:-1 tvg-id="BETThrowbacks.us@SD" tvg-logo="https://images.pluto.tv/channels/61326275b3c86a00078e4833/colorLogoPNG_1759340015358.png" group-title="美加",BET Throwbacks (SD)
-https://jmp2.uk/plu-61326275b3c86a00078e4833.m3u8
-#EXTINF:-1 tvg-id="BETVisionaries.us@SD" tvg-logo="https://images.pluto.tv/channels/663946c1b18d700008d9c168/colorLogoPNG_1759338795452.png" group-title="美加",BET Visionaries (SD)
-https://jmp2.uk/plu-663946c1b18d700008d9c168.m3u8
-#EXTINF:-1 tvg-id="BetterHealthTV.us@SD" tvg-logo="https://i.imgur.com/qnwJiji.png" group-title="美加",Better Health TV (SD)
-https://tgn.bozztv.com/betterlife/betterhealth/betterhealth/index.m3u8
-#EXTINF:-1 tvg-id="BetterLifeNatureChannel.us@SD" tvg-logo="https://i.imgur.com/D8Vuw6I.png" group-title="美加",Better Life Nature Channel (SD)
-https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
-#EXTINF:-1 tvg-id="BetterLifeTV.us@SD" tvg-logo="https://i.imgur.com/OWI7Y0l.png" group-title="美加",Better Life TV (720P)
-https://tgn.bozztv.com/betterlife/betterlife/betterlife/index.m3u8
-#EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="美加",Bloomberg Originals (1080P)
-https://bloomberg.com/media-manifest/streams/qt.m3u8
-#EXTINF:-1 tvg-id="BloombergOriginals.us@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="美加",Bloomberg Originals (1080P)
-https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="美加",Bloomberg TV (1080P)
-http://23.237.104.106:8080/USA_BLOOMBERG/index.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@LiveEvent" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="美加",Bloomberg TV Live Event (720P)
-https://bloomberg.com/media-manifest/streams/us-event.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us@PoliticsLiveEvent" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="美加",Bloomberg TV Politics Live Event (720P)
-https://bloomberg.com/media-manifest/streams/politics.m3u8
-#EXTINF:-1 tvg-id="Bravo.us@East" tvg-logo="https://i.imgur.com/JmTIRLF.png" group-title="美加",Bravo (720P)
-http://41.205.93.154/BRAVO/index.m3u8
-#EXTINF:-1 tvg-id="BXOmni.us@SD" tvg-logo="https://i.imgur.com/PF71rdZ.png" group-title="美加",BX Omni (720P)
+#EXTINF:-1 tvg-id="BXOmni.us@SD" tvg-logo="https://i.imgur.com/PF71rdZ.png" group-title="加拿大",BX Omni (720P)
 https://reflect-stream-bronxnet.cablecast.tv/live-16/live/stream-1/live.m3u8
-#EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="美加",Cartoon Network (United States) [Not 24/7;Geo-blocked]
-https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
-#EXTINF:-1 tvg-id="CartoonNetwork.us@West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="美加",Cartoon Network (United States) West (1080p) [Geo-blocked] (1080P)
-http://212.5.144.156:8080/cartoon/index.m3u8
-#EXTINF:-1 tvg-id="CBS.us@KMTVTV" tvg-logo="https://i.imgur.com/E4PkyqN.png" group-title="美加",CBS KMTV-TV (1080P)
-https://amg01438-amg01438c9-vizio-us-10858.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="CBSNews247.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png" group-title="美加",CBS News 24/7 (720P)
-https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
-#EXTINF:-1 tvg-id="CBSNewsBaltimore.us@SD" tvg-logo="https://i.imgur.com/jy3UfCe.png" group-title="美加",CBS News Baltimore (720P)
-https://lineup.cbsivideo.com/playout/8877a7d5-b094-4ac8-bc72-75a5fed68e5b/index.m3u8
-#EXTINF:-1 tvg-id="CBSNewsBayArea.us@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1a/Logo-cbsn-bayarea-1920x1080.jpg/revision/latest/scale-to-width-down/512" group-title="美加",CBS News Bay Area (1080P)
-https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8
-#EXTINF:-1 tvg-id="CBSNewsBoston.us@SD" tvg-logo="https://i.imgur.com/9un7R3N.png" group-title="美加",CBS News Boston (720P)
-https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8
-#EXTINF:-1 tvg-id="CBSNewsChicago.us@SD" tvg-logo="https://i.imgur.com/qGbVQir.png" group-title="美加",CBS News Chicago (720P)
-https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8
-#EXTINF:-1 tvg-id="CBSNewsColorado.us@SD" tvg-logo="https://i.imgur.com/2oyYwBw.png" group-title="美加",CBS News Colorado (720P)
-https://cbsn-den.cbsnstream.cbsnews.com/out/v1/2e49baf2906244ecb01b07d9885fbe7a/master.m3u8
-#EXTINF:-1 tvg-id="CBSNewsDetroit.us@SD" tvg-logo="https://i.imgur.com/cMels2Y.png" group-title="美加",CBS News Detroit (720P)
-https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8
-#EXTINF:-1 tvg-id="CBSNewsLosAngeles.us@SD" tvg-logo="https://i.imgur.com/klULxMV.png" group-title="美加",CBS News Los Angeles (720P)
-https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
-#EXTINF:-1 tvg-id="CBSNewsMiami.us@SD" tvg-logo="https://i.imgur.com/DExbVa9.png" group-title="美加",CBS News Miami (720P)
-https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8
-#EXTINF:-1 tvg-id="CBSNewsMinnesota.us@SD" tvg-logo="https://i.imgur.com/ubxwfMY.png" group-title="美加",CBS News Minnesota (720P)
-https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8
-#EXTINF:-1 tvg-id="CBSNewsNewYork.us@SD" tvg-logo="https://i.imgur.com/bpc4v0u.png" group-title="美加",CBS News New York (720P)
-https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8
-#EXTINF:-1 tvg-id="CBSNewsPhilly.us@SD" tvg-logo="https://i.imgur.com/FmtTbNY.png" group-title="美加",CBS News Philly (720P)
-https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8
-#EXTINF:-1 tvg-id="CBSNewsPittsburgh.us@SD" tvg-logo="https://i.imgur.com/Un9IrUh.png" group-title="美加",CBS News Pittsburgh (720P)
-https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8
-#EXTINF:-1 tvg-id="CBSNewsSacramento.us@SD" tvg-logo="https://i.imgur.com/0e1kSGX.png" group-title="美加",CBS News Sacramento (720P)
-https://lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8
-#EXTINF:-1 tvg-id="CityTV20SantaMonica.us@SD" tvg-logo="https://i.imgur.com/NY4fOLy.png" group-title="美加",CityTV 20 Santa Monica (360p) [Not 24/7] (SD)
-https://cdn3.wowza.com/5/bGZUOHp2TnhudnM2/santamonica/G0039_002/playlist.m3u8
-#EXTINF:-1 tvg-id="CityTVLakewood.us@SD" tvg-logo="https://i.imgur.com/e1shzv9.png" group-title="美加",CityTV Lakewood (720P)
-https://dlttx48mxf9m3.cloudfront.net/vod_clients/lakewood/live/ch1/video.m3u8
-#EXTINF:-1 tvg-id="CityTVSanDiego.us@SD" tvg-logo="https://i.imgur.com/OfNV6I7.png" group-title="美加",CityTV San Diego (360p) (SD)
-https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/sandiego/G1826_005/playlist.m3u8
-#EXTINF:-1 tvg-id="CityTVWhittier.us@SD" tvg-logo="https://i.imgur.com/68n7ifH.png" group-title="美加",CityTV Whittier (720P)
-https://whittier.cablecast.tv/live/stream-1/live.m3u8
-#EXTINF:-1 tvg-id="CMTV.us@SD" tvg-logo="https://i.imgur.com/73LKwAK.png" group-title="美加",CMTV (720P)
-https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/costamesa/G0075_002/playlist.m3u8
-#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" group-title="美加",CNBC (720p) [Geo-blocked] (720P)
-http://41.205.93.154/CNBC/index.m3u8
-#EXTINF:-1 tvg-id="CNN.us@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" group-title="美加",CNN (720P)
-https://tvsen6.aynaott.com/cnn/index.m3u8
-#EXTINF:-1 tvg-id="CNN.us@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" group-title="美加",CNN HD (720p) [Geo-blocked] (720P)
-http://212.5.144.156:8080/cnn/index.m3u8
-#EXTINF:-1 tvg-id="CNNenEspanol.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png" group-title="美加",CNN en Espanol (1080P)
-https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="CNNHeadlines.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/de3851fb-9598-4d13-8e03-f421418c9b5b/CNN_Headlines_ChannelLogo_Dark_1500x1000_2025_-_Grace_Hartwig.png" group-title="美加",CNN Headlines (1080p) [Geo-blocked] (1080P)
-https://amg01918-cnnus-amg01918c1-vizio-us-1813.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnheadlines-vizious/playlist.m3u8
-#EXTINF:-1 tvg-id="CNNOriginals.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f351d697-1e1f-4e7d-86c7-5995698e593f/CNN_Originals_ChannelLogo_Dark_1500x1000_2025_-_Grace_Hartwig.png" group-title="美加",CNN Originals (1080P)
-https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8
-#EXTINF:-1 tvg-id="ComedyCentralAnimation.us@SD" tvg-logo="https://i.imgur.com/uENch0P.png" group-title="美加",Comedy Central Animation (SD)
-https://jmp2.uk/plu-64f8a949f5b5e4000862467c.m3u8
-#EXTINF:-1 tvg-id="ComedyCentralenEspanol.us@SD" tvg-logo="https://i.imgur.com/6xTD3G8.png" group-title="美加",Comedy Central en Espanol (SD)
-https://jmp2.uk/plu-5cf96dad1652631e36d43320.m3u8
-#EXTINF:-1 tvg-id="ComedyCentralPlutoTV.us@US" tvg-logo="https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png" group-title="美加",Comedy Central Pluto TV
-https://jmp2.uk/plu-5ca671f215a62078d2ec0abf.m3u8
-#EXTINF:-1 tvg-id="CourtTV.us@SD" tvg-logo="https://i.imgur.com/jOKA735.png" group-title="美加",Court TV (1080P)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8
-#EXTINF:-1 tvg-id="CTV.us@SD" tvg-logo="https://i.imgur.com/N5uiIJo.png" group-title="美加",CTV (United States) (SD)
-https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/calabasas/G0009_003/playlist.m3u8
-#EXTINF:-1 tvg-id="DiscoveryChannel.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="美加",Discovery Channel (United States) (1080p) [Geo-blocked] (1080P)
-http://212.5.144.156:8080/discovery/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryTurbo.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Discovery_Turbo_2025.svg/1920px-Discovery_Turbo_2025.svg.png" group-title="美加",Discovery Turbo (United States) (720P)
-http://41.205.93.154/ESPNNEWS/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/960px-2024_Disney_Channel_text_logo.svg.png" group-title="美加",Disney Channel (United States) (720P)
-http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
-#EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png" group-title="美加",Disney Junior (United States) (SD)
-http://tvsen5.aynascope.net/disney/index.m3u8
-#EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/960px-2015_Disney_XD_logo.svg.png" group-title="美加",Disney XD (United States) (720P)
-http://89.187.179.148:826/1368/gXwiagaXda/1672
-#EXTINF:-1 tvg-id="ESPN2.us@HD" tvg-logo="https://i.imgur.com/00tsvjE.png" group-title="美加",ESPN 2 (United States) (720P)
-http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="美加",ESPN (United States) (432p) (SD)
-http://tvsen7.aynascope.net/espn/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us@HD" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd_c.png" group-title="美加",ESPN (United States) (720P)
-http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
-#EXTINF:-1 tvg-id="ESPNDeportes.us@HD" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd-deportes_c.png" group-title="美加",ESPN Deportes (720P)
-http://168.228.44.241:9998/play/a0dz/index.m3u8
-#EXTINF:-1 tvg-id="ESPNU.us@HD" tvg-logo="https://i.imgur.com/HiBrysh.png" group-title="美加",ESPNU (720P)
-http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
-#EXTINF:-1 tvg-id="FCTV.us@SD" tvg-logo="https://i.imgur.com/N5Canf3.png" group-title="美加",FCTV (1080P)
-https://reflect-vod-fcgov.cablecast.tv/live-9/live/stream-1/live.m3u8
-#EXTINF:-1 tvg-id="FilAmTVNetwork.us@HD" tvg-logo="https://i.imgur.com/nRiApdI.png" group-title="美加",FilAmTV Network (1080P)
-https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
-#EXTINF:-1 tvg-id="FoodNetwork.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" group-title="美加",Food Network (United States) (720P)
-http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="美加",Fox News Channel (1080P)
-https://tvsen6.aynaott.com/foxnews/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-logo="https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png" group-title="美加",Fox News Radio (720P)
-https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports1.us@HD" tvg-logo="https://i.imgur.com/O9BapV9.png" group-title="美加",Fox Sports 1 (720P)
-http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
-#EXTINF:-1 tvg-id="FoxSports2.us@HD" tvg-logo="https://imgx.fubo.tv/station_logos/fs2_c.png" group-title="美加",Fox Sports 2 (720P)
-https://tvsen7.aynascope.net/foxsports2/index.m3u8
-#EXTINF:-1 tvg-id="FX.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="美加",FX (United States) (720P)
-https://tvsen7.aynascope.net/fx/index.m3u8
-#EXTINF:-1 tvg-id="GMTV.us@SD" tvg-logo="https://i.imgur.com/GJYb8c8.png" group-title="美加",GMTV (1080P)
-https://livechannel.mdc.akamaized.net/stitch/livechannel/1341/master1400000.m3u8;session=live_stream_1341
-#EXTINF:-1 tvg-id="GolfChannel.us@SD" tvg-logo="https://i.imgur.com/Lgux6Ik.png" group-title="美加",Golf Channel (United States) (576p) (SD)
-https://tvsen6.aynaott.com/golfchannel/index.m3u8
-#EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/29af70d1-d3ba-4a16-bc4d-bd99e7e7def4/hallmark-movies-and-more_color.png" group-title="美加",Hallmark Movies & More (1080P)
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
-#EXTINF:-1 tvg-id="HallmarkMystery.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Hallmark_Mystery_2024.svg" group-title="美加",Hallmark Mystery (720p) [Geo-blocked] (720P)
-http://41.205.93.154/HALLMARK/index.m3u8
-#EXTINF:-1 tvg-id="HCTVEducationalAccessChannel.us@SD" tvg-logo="https://i.imgur.com/bVbpgiD.png" group-title="美加",HCTV Educational Access Channel (SD)
-https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8
-#EXTINF:-1 tvg-id="HCTVGovernmentChannel.us@SD" tvg-logo="https://i.imgur.com/bVbpgiD.png" group-title="美加",HCTV Government Channel (SD)
-https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-2/live.m3u8
-#EXTINF:-1 tvg-id="HCTVPublicAccessChannel.us@SD" tvg-logo="https://i.imgur.com/bVbpgiD.png" group-title="美加",HCTV Public Access Channel (SD)
-https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-5/live.m3u8
-#EXTINF:-1 tvg-id="HGTV.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png" group-title="美加",HGTV (United States) (720P)
-http://tvsen7.aynascope.net/hgtv/index.m3u8
-#EXTINF:-1 tvg-id="History.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="美加",History (United States) (720P)
-http://212.5.144.156:8080/history/index.m3u8
-#EXTINF:-1 tvg-id="HistoryHit.uk@SD" tvg-logo="https://i.imgur.com/ulHoqlP.png" group-title="美加",History Hit (1080P)
-https://lds-timeline-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="美加",Investigation Discovery (United States) (1080p) [Geo-blocked] (1080P)
-http://212.5.144.156:8080/id/index.m3u8
-#EXTINF:-1 tvg-id="Lifetime.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png" group-title="美加",Lifetime
-https://tvsen7.aynascope.net/lifetime/index.m3u8
-#EXTINF:-1 tvg-id="LogoPlutoTV.us@SD" tvg-logo="https://i.imgur.com/GtNgJ28.png" group-title="美加",Logo Pluto TV (SD)
-https://jmp2.uk/plu-5ce5a8954311f992edbe1da2.m3u8
-#EXTINF:-1 tvg-id="MeTVToons.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/MeTV_Toons.png/250px-MeTV_Toons.png" group-title="美加",MeTV Toons (SD)
-https://sr-live-weigel1.akamaized.net/out/v1/0d1dbf29e64e47bc991796cc24fbeb97/index_2.m3u8
-#EXTINF:-1 tvg-id="MNT.us@KCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/MyNetworkTV_2D_Logo.svg/960px-MyNetworkTV_2D_Logo.svg.png" group-title="美加",MNT KCTV (1080p) [Geo-blocked] (1080P)
-https://amg00312-amg00312c41-amgplt0022.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00312-amg00312c41-amgplt0022/playlist.m3u8
-#EXTINF:-1 tvg-id="MTV.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="美加",MTV (United States) (1080P)
-http://23.237.104.106:8080/USA_MTV/index.m3u8
-#EXTINF:-1 tvg-id="MTVBiggestPop.us@US" tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="美加",MTV Biggest Pop (1080P)
-https://jmp2.uk/plu-5d14fd1a252d35decbc4080c.m3u8
-#EXTINF:-1 tvg-id="MTVenEspanol.us@SD" tvg-logo="https://i.imgur.com/vQWWfyW.png" group-title="美加",MTV en Espanol (SD)
-https://jmp2.uk/plu-5cf96d351652631e36d4331f.m3u8
-#EXTINF:-1 tvg-id="MTVFlowLatino.us@SD" tvg-logo="https://images.pluto.tv/channels/62b218fc511d4b00070ddc0c/colorLogoPNG.png" group-title="美加",MTV Flow Latino (720P)
-https://jmp2.uk/plu-5d3609cd6a6c78d7672f2a81.m3u8
-#EXTINF:-1 tvg-id="MTVPlutoTV.us@US" tvg-logo="https://images.pluto.tv/channels/5f1212fb81e85c00077ae9ef/colorLogoPNG_1759263027326.png" group-title="美加",MTV Pluto TV
-https://jmp2.uk/plu-5ca672f515a62078d2ec0ad2.m3u8
-#EXTINF:-1 tvg-id="MTVSpankinNew.us@US" tvg-logo="https://images.pluto.tv/channels/6541010f770cf1000866be98/colorLogoPNG.png" group-title="美加",MTV Spankin' New (1080P)
-https://jmp2.uk/plu-5d14fdb8ca91eedee1633117.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="美加",National Geographic (United States) (720P)
-http://212.5.144.156:8080/natgeo/index.m3u8
-#EXTINF:-1 tvg-id="NBATV.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" group-title="美加",NBA TV (720P)
-http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 tvg-id="NBCNewsNOW.us@SD" tvg-logo="https://i.imgur.com/JZt2qh5.png" group-title="美加",NBC News NOW (1080P)
-https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
-#EXTINF:-1 tvg-id="NCTV79.us@SD" tvg-logo="https://i.imgur.com/64sZVF9.jpg" group-title="美加",NCTV79 (1080P)
-https://livestream.telvue.com/nctv791/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="Newsmax2.us@SD" tvg-logo="https://i.imgur.com/iE1izWq.png" group-title="美加",Newsmax 2 (1080P)
-https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Newsmax2.us@KPVMLD" tvg-logo="https://i.imgur.com/iE1izWq.png" group-title="美加",Newsmax 2 KPVM-LD (484p)
-https://2-fss-2.streamhoster.com/pl_120/206858-4404556-1/playlist.m3u8
-#EXTINF:-1 tvg-id="NewsmaxSpanish.us@SD" tvg-logo="https://i.imgur.com/mrXMW7H.png" group-title="美加",Newsmax Spanish (1080P)
-https://n1ottesorkatv.akamaized.net/hls/live/2113795/Live_1/index.m3u8
-#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/960px-Newsmax_logo.svg.png" group-title="美加",Newsmax TV (720P)
-https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
-#EXTINF:-1 tvg-id="NFLNetwork.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png" group-title="美加",NFL Network (576p) (SD)
-https://tvsen6.aynaott.com/nfl/index.m3u8
-#EXTINF:-1 tvg-id="NHLNetwork.us@SD" tvg-logo="https://i.imgur.com/UNZ8bef.png" group-title="美加",NHL Network (1080P)
-https://nhl-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NickJr.us@East" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="美加",Nick Jr. (United States) (720P)
-http://212.5.144.156:8080/nickjr/index.m3u8
-#EXTINF:-1 tvg-id="NickJrPlutoTV.us@US" tvg-logo="https://images.pluto.tv/channels/62bdb75c3afd1200079146a6/colorLogoPNG.png" group-title="美加",Nick Jr. Pluto TV (720P)
-https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8
-#EXTINF:-1 tvg-id="Nickelodeonenespanol.us@SD" tvg-logo="https://images.pluto.tv/channels/5d8d08395f39465da6fb3ec4/colorLogoPNG.png" group-title="美加",Nickelodeon en espanol (SD)
-https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
-#EXTINF:-1 tvg-id="NickelodeonPlutoTV.us@SD" tvg-logo="https://images.pluto.tv/channels/5ca673e0d0bd6c2689c94ce3/colorLogoPNG.png" group-title="美加",Nickelodeon Pluto TV (720P)
-https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
-#EXTINF:-1 tvg-id="ParamountMovieChannel.us@SD" tvg-logo="https://i.imgur.com/sj5h9bl.png" group-title="美加",Paramount Movie Channel (SD)
-https://jmp2.uk/plu-5cb0cae7a461406ffe3f5213.m3u8
-#EXTINF:-1 tvg-id="ParamountNetwork.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png" group-title="美加",Paramount Network (United States) (1080P)
-http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="ParamountPlusPicks.us@SD" tvg-logo="https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg" group-title="美加",Paramount+ Picks (SD)
-https://jmp2.uk/plu-5ff8c708653d080007361b14.m3u8
-#EXTINF:-1 tvg-id="PBS.us@East" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美加",PBS (1080p) [Geo-blocked] (1080P)
-https://pbs.lls.cdn.pbs.org/est/index.m3u8
-#EXTINF:-1 tvg-id="PBS.us@KETS" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美加",PBS KETS [Geo-blocked]
-https://ketsdt.lls.pbs.org/out/v1/03c094dbd7874a4a8c3fe9fb10081bdb/index.m3u8
-#EXTINF:-1 tvg-id="PBS.us@KHET" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美加",PBS KHET (1080p) [Not 24/7] (1080P)
-https://khetdt.lls.pbs.org/out/v1/7ec7903413294b72bb64f83963d8ea9b/index.m3u8
-#EXTINF:-1 tvg-id="PBS.us@KMOSTV" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美加",PBS KMOS-TV (1080p) [Geo-blocked] (1080P)
-https://hls-kmosdt.lls.cdn.pbs.org/hls/live/index.m3u8
-#EXTINF:-1 tvg-id="PBS.us@KQED" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美加",PBS KQED (1080P)
-https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8
-#EXTINF:-1 tvg-id="PBS.us@KUONTV" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美加",PBS KUON-TV (1080p) [Geo-blocked] (1080P)
-https://kuondt.lls.pbs.org/out/v1/91d8b5ffc5c1453c8a621508a07749a6/index.m3u8
-#EXTINF:-1 tvg-id="PBS.us@KVIE" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美加",PBS KVIE (1080P)
-https://kviedt2.lls.pbs.org/kviedt2-hls.m3u8
-#EXTINF:-1 tvg-id="PBS.us@WEDQ" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美加",PBS WEDQ (1080P)
-https://wedqdt4.lls.pbs.org/wedqdt4-hls.m3u8
-#EXTINF:-1 tvg-id="PBS.us@WJXT" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美加",PBS WJXT (720P)
-https://dai.google.com/linear/hls/event/RDmbn03GRCOLNG1eetEKhg/master.m3u8
-#EXTINF:-1 tvg-id="PBS.us@WNJT" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美加",PBS WNJT (1080p) [Not 24/7] (1080P)
-https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8
-#EXTINF:-1 tvg-id="PBSAntiquesRoadshow.us@SD" tvg-logo="https://i.imgur.com/U9CYaok.png" group-title="美加",PBS Antiques Roadshow (1080P)
-https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-logo="https://i.imgur.com/fg8c9WK.png" group-title="美加",PBS Kids (720P)
-https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
-#EXTINF:-1 tvg-id="PBSKidsAlaska.us@SD" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="美加",PBS Kids Alaska (1080P)
-https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8
-#EXTINF:-1 tvg-id="PBSKidsEasternCentral.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg" group-title="美加",PBS Kids Eastern/Central (720P)
-https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
-#EXTINF:-1 tvg-id="PBSKidsHawaii.us@SD" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="美加",PBS Kids Hawaii (720P)
-https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
-#EXTINF:-1 tvg-id="PBSKidsMountain.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg" group-title="美加",PBS Kids Mountain (1080P)
-https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
-#EXTINF:-1 tvg-id="PBSKidsPacific.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg" group-title="美加",PBS Kids Pacific (1080P)
-https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
-#EXTINF:-1 tvg-id="PBSNature.us@SD" tvg-logo="https://i.imgur.com/Brry7cZ.png" group-title="美加",PBS Nature (1080P)
-https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8
-#EXTINF:-1 tvg-id="PBSRetro.us@SD" tvg-logo="https://i.imgur.com/3iWzQqw.png" group-title="美加",PBS Retro (1080p) [Geo-blocked] (1080P)
-https://amg02333-pbs-amg02333c6-vizio-us-4416.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="PBSTravel.us@SD" tvg-logo="https://i.imgur.com/A6GXhta.png" group-title="美加",PBS Travel (1080P)
-https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
-#EXTINF:-1 tvg-id="PCTV26.us@SD" tvg-logo="https://i.imgur.com/3tMAQU7.png" group-title="美加",PCTV 26 (SD)
-https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/pinole/G0032_004/playlist.m3u8
-#EXTINF:-1 tvg-id="PCTV28.us@SD" tvg-logo="https://i.imgur.com/WahZg3L.png" group-title="美加",PCTV 28 (SD)
-https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/pinole/G0032_002/playlist.m3u8
-#EXTINF:-1 tvg-id="PlutoTVAction.us@US" tvg-logo="https://i.imgur.com/tDapGal.png" group-title="美加",Pluto TV Action
-https://jmp2.uk/plu-561d7d484dc7c8770484914a.m3u8
-#EXTINF:-1 tvg-id="PlutoTVAdventure.us@US" tvg-logo="https://images.pluto.tv/channels/653bdb0fbdf3cf00089cc395/colorLogoPNG.png" group-title="美加",Pluto TV Adventure
-https://jmp2.uk/plu-69d7ebb726eeec84158e28cb.m3u8
-#EXTINF:-1 tvg-id="PlutoTVAnime.us@US" tvg-logo="https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1777595293242.png" group-title="美加",Pluto TV Anime
-https://jmp2.uk/plu-5812b7d3249444e05d09cc49.m3u8
-#EXTINF:-1 tvg-id="PlutoTVAnimeMovies.us@SD" tvg-logo="https://images.pluto.tv/channels/67ed8f7e443f0671bc2b2368/colorLogoPNG.png" group-title="美加",Pluto TV Anime Movies (SD)
-https://jmp2.uk/plu-67ed8f7e443f0671bc2b2368.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCars.us@SD" tvg-logo="https://images.pluto.tv/channels/69c592dff0f1a7d732dc6e36/colorLogoPNG_1774557827331.png" group-title="美加",Pluto TV Cars (SD)
-https://jmp2.uk/plu-5812b3a4249444e05d09cc46.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCineComedia.us@US" tvg-logo="https://images.pluto.tv/channels/5f12101f0b12f00007844c7c/colorLogoPNG_1732662798298.png" group-title="美加",Pluto TV Cine Comedia (United States)
-https://jmp2.uk/plu-5f513564e4622a0007c578c0.m3u8
-#EXTINF:-1 tvg-id="PlutoTVComedy.us@US" tvg-logo="https://images.pluto.tv/channels/62e92178946c8000079a3160/colorLogoPNG.png" group-title="美加",Pluto TV Comedy
-https://jmp2.uk/plu-5a4d3a00ad95e4718ae8d8db.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCompetition.us@SD" tvg-logo="https://images.pluto.tv/channels/603fde9026ecbf0007752c2c/colorLogoPNG.png" group-title="美加",Pluto TV Competition (SD)
-https://jmp2.uk/plu-603fde9026ecbf0007752c2c.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCrimeDrama.us@SD" tvg-logo="https://images.pluto.tv/channels/62e92708a7ce600007b2676a/colorLogoPNG.png" group-title="美加",Pluto TV Crime Drama (SD)
-https://jmp2.uk/plu-5f31fd1b4c510e00071c3103.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCrimeMovies.us@SD" tvg-logo="https://i.imgur.com/SJcqknt.png" group-title="美加",Pluto TV Crime Movies (SD)
-https://jmp2.uk/plu-5f4d8594eb979c0007706de7.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCultFilms.us@US" tvg-logo="https://i.imgur.com/xoaIAus.png" group-title="美加",Pluto TV Cult Films (United States)
-https://jmp2.uk/plu-5c665db3e6c01b72c4977bc2.m3u8
-#EXTINF:-1 tvg-id="PlutoTVDogelcazarrecompensas.us@SD" tvg-logo="https://i.imgur.com/h3kSZLc.png" group-title="美加",Pluto TV Dog el cazarrecompensas (SD)
-https://jmp2.uk/plu-5f9992c685a2a80007fa414a.m3u8
-#EXTINF:-1 tvg-id="PlutoTVDrama.us@US" tvg-logo="https://i.imgur.com/PvhbHTZ.png" group-title="美加",Pluto TV Drama
-https://jmp2.uk/plu-5b4e92e4694c027be6ecece1.m3u8
-#EXTINF:-1 tvg-id="PlutoTVElReinoInfantil.us@SD" tvg-logo="https://i.imgur.com/u7DOoBK.png" group-title="美加",Pluto TV El Reino Infantil (SD)
-https://jmp2.uk/plu-6523f672a6c38300088cb807.m3u8
-#EXTINF:-1 tvg-id="PlutoTVEstrellasdeAccion.us@SD" tvg-logo="https://i.imgur.com/GVOYX4L.png" group-title="美加",Pluto TV Estrellas de Accion (SD)
-https://jmp2.uk/plu-5e972a21ad709d00074195ba.m3u8
-#EXTINF:-1 tvg-id="PlutoTVFantastic.us@SD" tvg-logo="https://i.imgur.com/MCu7YTA.png" group-title="美加",Pluto TV Fantastic (SD)
-https://jmp2.uk/plu-5b64a245a202b3337f09e51d.m3u8
-#EXTINF:-1 tvg-id="PlutoTVFranchiseFavorites.us@SD" tvg-logo="https://images.pluto.tv/channels/68fbf8101d26140175db8b58/colorLogoPNG_1762383685562.png" group-title="美加",Pluto TV Franchise Favorites (SD)
-https://jmp2.uk/plu-68fbf8101d26140175db8b58.m3u8
-#EXTINF:-1 tvg-id="PlutoTVGameShows.us@SD" tvg-logo="https://i.imgur.com/JXZEg2e.png" group-title="美加",Pluto TV Game Shows (SD)
-https://jmp2.uk/plu-6036e7c385749f00075dbd3b.m3u8
-#EXTINF:-1 tvg-id="PlutoTVHistory.us@US" tvg-logo="https://i.imgur.com/XkQD5kM.png" group-title="美加",Pluto TV History
-https://jmp2.uk/plu-5a4d35dfa5c02e717a234f86.m3u8
-#EXTINF:-1 tvg-id="PlutoTVHometownDrama.us@SD" tvg-logo="https://images.pluto.tv/channels/69d6c7befde57cd5ba0160c3/colorLogoPNG_1777488284970.png" group-title="美加",Pluto TV Hometown Drama (SD)
-https://jmp2.uk/plu-69d6c7befde57cd5ba0160c3.m3u8
-#EXTINF:-1 tvg-id="PlutoTVHorror.us@US" tvg-logo="https://images.pluto.tv/channels/569546031a619b8f07ce6e25/colorLogoPNG.png" group-title="美加",Pluto TV Horror
-https://jmp2.uk/plu-569546031a619b8f07ce6e25.m3u8
-#EXTINF:-1 tvg-id="PlutoTVIcons.us@SD" tvg-logo="https://images.pluto.tv/channels/64b585f84ea480000838e446/colorLogoPNG.png" group-title="美加",Pluto TV Icons (SD)
-https://jmp2.uk/plu-64b585f84ea480000838e446.m3u8
-#EXTINF:-1 tvg-id="PlutoTVLives.us@US" tvg-logo="https://i.imgur.com/laupYwG.png" group-title="美加",Pluto TV Lives
-https://jmp2.uk/plu-5d8beeb39b5d5d5f8c672530.m3u8
-#EXTINF:-1 tvg-id="PlutoTVLosnuevosdetectives.us@SD" tvg-logo="https://i.imgur.com/Iru8tqj.png" group-title="美加",Pluto TV Los nuevos detectives (SD)
-https://jmp2.uk/plu-5f1acba0d1f6340007db8843.m3u8
-#EXTINF:-1 tvg-id="PlutoTVMilitary.us@SD" tvg-logo="https://i.imgur.com/O8VXZB4.png" group-title="美加",Pluto TV Military (SD)
-https://jmp2.uk/plu-5bb3fea0f711fd76340eebff.m3u8
-#EXTINF:-1 tvg-id="PlutoTVMinutoParaGanar.us@SD" tvg-logo="https://i.imgur.com/go5o1gB.png" group-title="美加",Pluto TV Minuto Para Ganar (SD)
-https://jmp2.uk/plu-5e46e64dc73db400094b5f0b.m3u8
-#EXTINF:-1 tvg-id="PlutoTVMisteriosMedicos.us@SD" tvg-logo="https://i.imgur.com/1WDFKF0.png" group-title="美加",Pluto TV Misterios Medicos (SD)
-https://jmp2.uk/plu-5f230e416b68ff00075b0139.m3u8
-#EXTINF:-1 tvg-id="PlutoTVNovelas.us@US" tvg-logo="https://images.pluto.tv/channels/5f512365abe1f50007d3ff56/colorLogoPNG.png" group-title="美加",Pluto TV Novelas
-https://jmp2.uk/plu-5cf96c0222df39f1a338d163.m3u8
-#EXTINF:-1 tvg-id="PlutoTVParanormal.us@US" tvg-logo="https://images.pluto.tv/channels/62e92a58f3e4290007290c96/colorLogoPNG.png" group-title="美加",Pluto TV Paranormal
-https://jmp2.uk/plu-5adf96e3e738977e2c31cb04.m3u8
-#EXTINF:-1 tvg-id="PlutoTVReaction.us@SD" tvg-logo="https://i.imgur.com/H9k3OXN.png" group-title="美加",Pluto TV Reaction (SD)
-https://jmp2.uk/plu-617b37b361e0fd0008cfd8c5.m3u8
-#EXTINF:-1 tvg-id="PlutoTVReality.us@US" tvg-logo="https://images.pluto.tv/channels/67922858b83355184c699699/colorLogoPNG.png" group-title="美加",Pluto TV Reality
-https://jmp2.uk/plu-69fa3faab9c0f0d444e64de3.m3u8
-#EXTINF:-1 tvg-id="PlutoTVRomance.us@US" tvg-logo="https://i.imgur.com/GJBxfyf.png" group-title="美加",Pluto TV Romance
-https://jmp2.uk/plu-5a66795ef91fef2c7031c599.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSanctuary.us@SD" tvg-logo="https://i.imgur.com/Fu2jn2t.png" group-title="美加",Pluto TV Sanctuary (SD)
-https://jmp2.uk/plu-63eb57d6c111bc0008fe2658.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSciFi.us@US" tvg-logo="https://images.pluto.tv/channels/66166cb1307fa30008f275e7/colorLogoPNG.png" group-title="美加",Pluto TV Sci-Fi
-https://jmp2.uk/plu-5b4fc274694c027be6ed3eea.m3u8
-#EXTINF:-1 tvg-id="PlutoTVScience.us@US" tvg-logo="https://i.imgur.com/uhunRoU.png" group-title="美加",Pluto TV Science
-https://jmp2.uk/plu-563a970aa1a1f7fe7c9daad7.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSpotlight.us@SD" tvg-logo="https://i.imgur.com/UmuJkVB.png" group-title="美加",Pluto TV Spotlight (SD)
-https://jmp2.uk/plu-5ba3fb9c4b078e0f37ad34e8.m3u8
-#EXTINF:-1 tvg-id="PlutoTVStaffPicks.us@SD" tvg-logo="https://i.imgur.com/JzwO8IO.png" group-title="美加",Pluto TV Staff Picks (SD)
-https://jmp2.uk/plu-5f4d863b98b41000076cd061.m3u8
-#EXTINF:-1 tvg-id="PlutoTVStorageWars.us@SD" tvg-logo="https://i.imgur.com/mnHRLlg.png" group-title="美加",Pluto TV Storage Wars (720P)
-https://jmp2.uk/plu-6887aaf4e3703b7d42b71a1e.m3u8
-#EXTINF:-1 tvg-id="PlutoTVTerror.us@SD" tvg-logo="https://i.imgur.com/eWtoHDM.png" group-title="美加",Pluto TV Terror (SD)
-https://jmp2.uk/plu-5c6dc88fcd232425a6e0f06e.m3u8
-#EXTINF:-1 tvg-id="PlutoTVTheTwilightZone.us@SD" tvg-logo="https://i.imgur.com/FiIRQAR.png" group-title="美加",Pluto TV The Twilight Zone (SD)
-https://jmp2.uk/plu-67352ed93a61d4000881f9fa.m3u8
-#EXTINF:-1 tvg-id="PlutoTVThrillers.us@US" tvg-logo="https://i.imgur.com/ULKvDN7.png" group-title="美加",Pluto TV Thrillers
-https://jmp2.uk/plu-5b4e69e08291147bd04a9fd7.m3u8
-#EXTINF:-1 tvg-id="PlutoTVTrendingNow.us@SD" tvg-logo="https://images.pluto.tv/channels/673247127d5da5000817b4d6/colorLogoPNG_1732662634386.png" group-title="美加",Pluto TV Trending Now (SD)
-https://jmp2.uk/plu-673247127d5da5000817b4d6.m3u8
-#EXTINF:-1 tvg-id="PlutoTVTrueCrime.us@US" tvg-logo="https://images.pluto.tv/channels/62e9289f8d467f0007fbc701/colorLogoPNG.png" group-title="美加",Pluto TV True Crime
-https://jmp2.uk/plu-5812be1c249444e05d09cc50.m3u8
-#EXTINF:-1 tvg-id="PlutoTVWesterns.us@US" tvg-logo="https://images.pluto.tv/channels/62bdacc96a3751000811842d/colorLogoPNG.png" group-title="美加",Pluto TV Westerns
-https://jmp2.uk/plu-5b4e94282d4ec87bdcbb87cd.m3u8
-#EXTINF:-1 tvg-id="PlutoTVWipeout.us@SD" tvg-logo="https://i.imgur.com/KVTNBFr.png" group-title="美加",Pluto TV Wipeout (SD)
-https://jmp2.uk/plu-6909e5c3a3a4b49706b8373b.m3u8
-#EXTINF:-1 tvg-id="RCTV3.us@SD" tvg-logo="https://i.imgur.com/TvFKG35.png" group-title="美加",RCTV3 (SD)
-https://vod.cityofrc.us/live-6/live/stream-1/live.m3u8
-#EXTINF:-1 tvg-id="RCTV.us@SD" tvg-logo="https://i.imgur.com/DWwequ0.png" group-title="美加",RCTV (United States) (720P)
-https://livestream.telvue.com/riflecmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="ShowtimeFamilyZone.us@East" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Showtime_Family_Zone.svg/960px-Showtime_Family_Zone.svg.png" group-title="美加",Showtime Family Zone (720P)
-http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
-#EXTINF:-1 tvg-id="SMCTVChannel23.us@SD" tvg-logo="https://i.imgur.com/J2SKPoY.png" group-title="美加",SMCTV Channel 23 (720P)
-https://livestream.telvue.com/santamariactv1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="SMCTVChannel24.us@SD" tvg-logo="https://i.imgur.com/4Autljp.png" group-title="美加",SMCTV Channel 24 (720P)
-https://livestream.telvue.com/santamariactv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="SMCTVChannel25.us@SD" tvg-logo="https://i.imgur.com/5jBOsTc.png" group-title="美加",SMCTV Channel 25 (720P)
-https://livestream.telvue.com/santamariactv3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="SpikePlutoTV.us@SD" tvg-logo="https://i.imgur.com/woY8Ecb.png" group-title="美加",Spike Pluto TV (SD)
-https://jmp2.uk/plu-5812bcc8237a6ff45d16c407.m3u8
-#EXTINF:-1 tvg-id="Starz.us@West" tvg-logo="https://i.imgur.com/N7oSm4d.png" group-title="美加",Starz West (720P)
-http://23.237.104.106:8080/USA_STARZ_WEST/index.m3u8
-#EXTINF:-1 tvg-id="StarzComedy.us@East" tvg-logo="https://i.imgur.com/JpKvjZe.png" group-title="美加",Starz Comedy (1080P)
-http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
-#EXTINF:-1 tvg-id="StarzEncoreSpanish.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Starz_Encore_Espa%C3%B1ol_Logo_2022.svg/960px-Starz_Encore_Espa%C3%B1ol_Logo_2022.svg.png" group-title="美加",Starz Encore Spanish (720P)
-http://168.228.44.241:9998/play/a0e1/index.m3u8
-#EXTINF:-1 tvg-id="StarzKidsFamily.us@East" tvg-logo="https://i.imgur.com/eE9FzEP.png" group-title="美加",Starz Kids & Family (1080P)
-http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
-#EXTINF:-1 tvg-id="StoriesbyAMC.us@SD" tvg-logo="https://i.imgur.com/QJtwJoS.png" group-title="美加",Stories by AMC (1080P)
-https://amc-amcpresents-1-us.xumo.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="SUMtvEnglish.us@SD" tvg-logo="https://i.imgur.com/hp1rJjX.png" group-title="美加",SUMtv English (1080P)
-https://bozztv.com/uni10rtmp/ssstv1-cdn/smil:ssstv1web.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SUMtvLatino.us@SD" tvg-logo="https://i.imgur.com/ZObFN8Z.png" group-title="美加",SUMtv Latino (1080P)
-https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SYFY.us@East" tvg-logo="https://i.imgur.com/4fMWhUE.png" group-title="美加",SYFY (720P)
-http://23.237.104.106:8080/USA_SYFY/index.m3u8
-#EXTINF:-1 tvg-id="TBS.us@East" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/TBS_2020.svg/960px-TBS_2020.svg.png" group-title="美加",TBS (720p) [Geo-blocked] (720P)
-https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="TBS.us@West" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/TBS_2020.svg/960px-TBS_2020.svg.png" group-title="美加",TBS West (720p) [Geo-blocked] (720P)
-https://turnerlive.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="TennisChannel2.us@SD" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/7382296F-97F6-4450-B77B-8FE331FC04F6/3-1x1.png" group-title="美加",Tennis Channel 2 (1080P)
-https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
-#EXTINF:-1 tvg-id="TennisChannel.us@SD" tvg-logo="https://i.imgur.com/tsljAnY.png" group-title="美加",Tennis Channel (1080P)
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
-#EXTINF:-1 tvg-id="TennisChannel.us@Plus2" tvg-logo="https://i.imgur.com/tsljAnY.png" group-title="美加",Tennis Channel +2 (720P)
-https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
-#EXTINF:-1 tvg-id="TheCW.us@KTNVTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/960px-The_CW_2024.svg.png" group-title="美加",The CW KTNV-TV (1080P)
-https://amg01438-amg01438c18-vizio-us-10901.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TheCW.us@KWCHDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/960px-The_CW_2024.svg.png" group-title="美加",The CW KWCH-DT (1080p) [Geo-blocked] (1080P)
-https://amg00312-amg00312c39-amgplt0022.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00312-amg00312c39-amgplt0022/playlist.m3u8
-#EXTINF:-1 tvg-id="TheCW.us@WAVE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/960px-The_CW_2024.svg.png" group-title="美加",The CW WAVE (1080p) [Geo-blocked] (1080P)
-https://amg00312-amg00312c33-amgplt0022.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00312-amg00312c33-amgplt0022/playlist.m3u8
-#EXTINF:-1 tvg-id="TheCW.us@WWBT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/960px-The_CW_2024.svg.png" group-title="美加",The CW WWBT (1080p) [Geo-blocked] (1080P)
-https://amg00312-amg00312c35-amgplt0022.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00312-amg00312c35-amgplt0022/playlist.m3u8
-#EXTINF:-1 tvg-id="TheWeatherChannel.us@SD" tvg-logo="https://i.imgur.com/PIaNjfa.png" group-title="美加",The Weather Channel (1080P)
-https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/4.m3u8
-#EXTINF:-1 tvg-id="TNT.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" group-title="美加",TNT (United States) (720p) [Geo-blocked] (720P)
-http://212.5.144.156/tnt/index.m3u8
-#EXTINF:-1 tvg-id="TNT.us@West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" group-title="美加",TNT (United States) West (720p) [Geo-blocked] (720P)
-https://turnerlive.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="TNTSports4.uk@SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-4-uk.png?raw=true" group-title="美加",TNT Sports 4 (SD)
-http://37.49.224.5/stream/4/index.m3u8
-#EXTINF:-1 tvg-id="TrueHistory.us@SD" tvg-logo="https://i.imgur.com/1BHDGXx.png" group-title="美加",True History (720P)
-https://linear-188.frequency.stream/dist/glewedtv/188/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="TVSHollywoodHistory.us@SD" tvg-logo="https://i.imgur.com/QtQGyMS.png" group-title="美加",TVS Hollywood History (582p) (SD)
-https://rpn.bozztv.com/gusa/gusa-tvshollywoohistory/index.m3u8
-#EXTINF:-1 tvg-id="UCTV.us@SD" tvg-logo="https://i.imgur.com/ehMz9T5.png" group-title="美加",UCTV (720p) [Not 24/7] (720P)
-https://59e8e1c60a2b2.streamlock.net/509/509.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="USANetwork.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/960px-USA_Network_logo_%282016%29.svg.png" group-title="美加",USA Network (720P)
-http://200.32.231.178/USA_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="VH1.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png" group-title="美加",VH1 (1080P)
-http://23.237.104.106:8080/USA_VH1/index.m3u8
-#EXTINF:-1 tvg-id="VH1QueensofReality.us@SD" tvg-logo="https://images.pluto.tv/channels/66abefe5d2d50d00082c7d12/colorLogoPNG.png" group-title="美加",VH1 Queens of Reality (SD)
-https://jmp2.uk/plu-66abefe5d2d50d00082c7d12.m3u8
-#EXTINF:-1 tvg-id="VSCTV.us@SD" tvg-logo="https://i.imgur.com/cn6pAEZ.png" group-title="美加",VSCTV (1080P)
-https://reflect-vsctv.cablecast.tv/live-3/live/live.m3u8
-#EXTINF:-1 tvg-id="YoMTV.us@SD" tvg-logo="https://images.pluto.tv/channels/654102ed770cf1000866c307/colorLogoPNG.png" group-title="美加",Yo! MTV (1080P)
-https://jmp2.uk/plu-5d14fc31252d35decbc4080b.m3u8
-#EXTINF:-1 tvg-id="BNNBloomberg.ca@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/BNN_Bloomberg.svg/960px-BNN_Bloomberg.svg.png" group-title="美加",BNN Bloomberg (SD)
+#EXTINF:-1 tvg-id="BNNBloomberg.ca@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/BNN_Bloomberg.svg/960px-BNN_Bloomberg.svg.png" group-title="加拿大",BNN Bloomberg (SD)
 https://pe-ak-lp01a-9c9media.akamaized.net/live/News1BNNDigi/p/dash/00000001/1bba52dc66e4c68e/manifest.mpd
-#EXTINF:-1 tvg-id="CBCNewsNetwork.ca@SD" tvg-logo="https://i.imgur.com/SjTdhvJ.png" group-title="美加",CBC News Network (1080P)
+#EXTINF:-1 tvg-id="CBCNewsNetwork.ca@SD" tvg-logo="https://i.imgur.com/SjTdhvJ.png" group-title="加拿大",CBC News Network (1080P)
 https://aka-live1050.delivery.roku.com/0c24a9ef-e9c3-485c-bf68-3f1ae5ef3e85/t2-origin/out/v1/live.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBATDT" tvg-logo="https://i.imgur.com/xflShTG.png" group-title="美加",CBC Television CBAT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBATDT" tvg-logo="https://i.imgur.com/xflShTG.png" group-title="加拿大",CBC Television CBAT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042757/CBCRCLINEAR_TOR_3/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBCTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CBCT-DT_2017.svg/960px-CBCT-DT_2017.svg.png" group-title="美加",CBC Television CBCT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBCTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CBCT-DT_2017.svg/960px-CBCT-DT_2017.svg.png" group-title="加拿大",CBC Television CBCT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042756/CBCRCLINEAR_TOR_2/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBETDT" tvg-logo="https://i.imgur.com/NFts1uU.png" group-title="美加",CBC Television CBET-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBETDT" tvg-logo="https://i.imgur.com/NFts1uU.png" group-title="加拿大",CBC Television CBET-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042759/CBCRCLINEAR_TOR_5/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBHTDT" tvg-logo="https://i.imgur.com/jdlYY4t.png" group-title="美加",CBC Television CBHT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBHTDT" tvg-logo="https://i.imgur.com/jdlYY4t.png" group-title="加拿大",CBC Television CBHT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042758/CBCRCLINEAR_TOR_4/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBKTDT" tvg-logo="https://i.imgur.com/PWGVjsg.png" group-title="美加",CBC Television CBKT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBKTDT" tvg-logo="https://i.imgur.com/PWGVjsg.png" group-title="加拿大",CBC Television CBKT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042764/CBCRCLINEAR_TOR_10/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBLTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CBC_Logo_1992-Present.svg/960px-CBC_Logo_1992-Present.svg.png" group-title="美加",CBC Television CBLT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBLTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CBC_Logo_1992-Present.svg/960px-CBC_Logo_1992-Present.svg.png" group-title="加拿大",CBC Television CBLT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042760/CBCRCLINEAR_TOR_6/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBMTDT" tvg-logo="https://i.imgur.com/OiiM6Mz.png" group-title="美加",CBC Television CBMT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBMTDT" tvg-logo="https://i.imgur.com/OiiM6Mz.png" group-title="加拿大",CBC Television CBMT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042761/CBCRCLINEAR_TOR_7/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBNTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CBNT-DT_2017.svg/960px-CBNT-DT_2017.svg.png" group-title="美加",CBC Television CBNT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBNTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CBNT-DT_2017.svg/960px-CBNT-DT_2017.svg.png" group-title="加拿大",CBC Television CBNT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042755/CBCRCLINEAR_TOR_1/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBOTDT" tvg-logo="https://i.imgur.com/v3DJUa8.png" group-title="美加",CBC Television CBOT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBOTDT" tvg-logo="https://i.imgur.com/v3DJUa8.png" group-title="加拿大",CBC Television CBOT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042762/CBCRCLINEAR_TOR_8/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBRTDT" tvg-logo="https://i.imgur.com/ocq1x2B.png" group-title="美加",CBC Television CBRT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBRTDT" tvg-logo="https://i.imgur.com/ocq1x2B.png" group-title="加拿大",CBC Television CBRT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042763/CBCRCLINEAR_TOR_9/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBUTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/CBUT_Logo_%28cleaned_up_ver%29.png" group-title="美加",CBC Television CBUT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBUTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/CBUT_Logo_%28cleaned_up_ver%29.png" group-title="加拿大",CBC Television CBUT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042768/CBCRCLINEAR_TOR_14/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBWTDT" tvg-logo="https://i.imgur.com/aWNHg5z.png" group-title="美加",CBC Television CBWT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBWTDT" tvg-logo="https://i.imgur.com/aWNHg5z.png" group-title="加拿大",CBC Television CBWT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042767/CBCRCLINEAR_TOR_13/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CBXTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CBC_Logo_1992-Present.svg/960px-CBC_Logo_1992-Present.svg.png" group-title="美加",CBC Television CBXT-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CBXTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CBC_Logo_1992-Present.svg/960px-CBC_Logo_1992-Present.svg.png" group-title="加拿大",CBC Television CBXT-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042765/CBCRCLINEAR_TOR_11/master5.m3u8
-#EXTINF:-1 tvg-id="CBCTelevision.ca@CFYKDT" tvg-logo="https://i.imgur.com/EHGOQhj.png" group-title="美加",CBC Television CFYK-DT (720p) [Geo-blocked] (720P)
+#EXTINF:-1 tvg-id="CBCTelevision.ca@CFYKDT" tvg-logo="https://i.imgur.com/EHGOQhj.png" group-title="加拿大",CBC Television CFYK-DT (720p) [Geo-blocked] (720P)
 https://cbcrclinear-tor.akamaized.net/hls/live/2042766/CBCRCLINEAR_TOR_12/master5.m3u8
-#EXTINF:-1 tvg-id="ComedyCentral.us@CA" tvg-logo="https://images.pluto.tv/channels/64f8a408bd341e000818fcda/colorLogoPNG.png" group-title="美加",Comedy Central (United States) CA
+#EXTINF:-1 tvg-id="ComedyCentral.us@CA" tvg-logo="https://images.pluto.tv/channels/64f8a408bd341e000818fcda/colorLogoPNG.png" group-title="加拿大",Comedy Central (United States) CA
 https://jmp2.uk/plu-64f8a408bd341e000818fcda.m3u8
-#EXTINF:-1 tvg-id="CP24.ca@SD" tvg-logo="https://i.imgur.com/YzjZUEl.png" group-title="美加",CP24 (576p) (SD)
+#EXTINF:-1 tvg-id="CP24.ca@SD" tvg-logo="https://i.imgur.com/YzjZUEl.png" group-title="加拿大",CP24 (576p) (SD)
 https://tvsen6.aynaott.com/cp24/index.m3u8
-#EXTINF:-1 tvg-id="CTV2Atlantic.ca@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/CTV_2_2018.svg/960px-CTV_2_2018.svg.png" group-title="美加",CTV 2 Atlantic (720P)
+#EXTINF:-1 tvg-id="CTV2Atlantic.ca@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/CTV_2_2018.svg/960px-CTV_2_2018.svg.png" group-title="加拿大",CTV 2 Atlantic (720P)
 http://stream.cammonitorplus.net/1731/index.m3u8
-#EXTINF:-1 tvg-id="CTV.ca@CFTODT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/960px-CTV_logo_2018.svg.png" group-title="美加",CTV (Canada) CFTO-DT (720P)
+#EXTINF:-1 tvg-id="CTV.ca@CFTODT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/960px-CTV_logo_2018.svg.png" group-title="加拿大",CTV (Canada) CFTO-DT (720P)
 http://stream.cammonitorplus.net/1712/index.m3u8
-#EXTINF:-1 tvg-id="CTVLifeChannel.ca@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/CTV_Life_Channel_2019.svg/500px-CTV_Life_Channel_2019.svg.png" group-title="美加",CTV Life Channel (720P)
+#EXTINF:-1 tvg-id="CTVLifeChannel.ca@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/CTV_Life_Channel_2019.svg/500px-CTV_Life_Channel_2019.svg.png" group-title="加拿大",CTV Life Channel (720P)
 http://185.246.209.113/ANIMALPLANETHD/index.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBAFTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="美加",Ici Radio-Canada Tele CBAFT-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBAFTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="加拿大",Ici Radio-Canada Tele CBAFT-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/704014/cancbaft/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBFTDT" tvg-logo="https://i.imgur.com/pFCJGj4.png" group-title="美加",Ici Radio-Canada Tele CBFT-DT (1080p) [Geo-blocked] (1080P)
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBFTDT" tvg-logo="https://i.imgur.com/pFCJGj4.png" group-title="加拿大",Ici Radio-Canada Tele CBFT-DT (1080p) [Geo-blocked] (1080P)
 https://rcavlive-dai.akamaized.net/hls/live/696614/cancbftprem/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBKFTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="美加",Ici Radio-Canada Tele CBKFT-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBKFTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="加拿大",Ici Radio-Canada Tele CBKFT-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/704019/cancbkft/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBLFTDT" tvg-logo="https://i.imgur.com/1f798e8.png" group-title="美加",Ici Radio-Canada Tele CBLFT-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBLFTDT" tvg-logo="https://i.imgur.com/1f798e8.png" group-title="加拿大",Ici Radio-Canada Tele CBLFT-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/704022/cancblft/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBOFTDT" tvg-logo="https://i.imgur.com/373Y8Py.png" group-title="美加",Ici Radio-Canada Tele CBOFT-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBOFTDT" tvg-logo="https://i.imgur.com/373Y8Py.png" group-title="加拿大",Ici Radio-Canada Tele CBOFT-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/664046/cancboft/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBUFTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="美加",Ici Radio-Canada Tele CBUFT-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBUFTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="加拿大",Ici Radio-Canada Tele CBUFT-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/704017/cancbuft/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBVTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="美加",Ici Radio-Canada Tele CBVT-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBVTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="加拿大",Ici Radio-Canada Tele CBVT-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/664045/cancbvt/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBWFTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="美加",Ici Radio-Canada Tele CBWFT-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBWFTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="加拿大",Ici Radio-Canada Tele CBWFT-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/704018/cancbwft/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBXFTDT" tvg-logo="https://i.imgur.com/xN4Valg.png" group-title="美加",Ici Radio-Canada Tele CBXFT-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBXFTDT" tvg-logo="https://i.imgur.com/xN4Valg.png" group-title="加拿大",Ici Radio-Canada Tele CBXFT-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/704020/cancbxft/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CFHDDT" tvg-logo="https://i.imgur.com/x0vLIWr.png" group-title="美加",Ici Radio-Canada Tele CFHD-DT (1080P)
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CFHDDT" tvg-logo="https://i.imgur.com/x0vLIWr.png" group-title="加拿大",Ici Radio-Canada Tele CFHD-DT (1080P)
 https://amdici.akamaized.net/hls/live/873426/ICI-Live-Stream/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CJBRDT" tvg-logo="https://i.imgur.com/1B3d8Jc.png" group-title="美加",Ici Radio-Canada Tele CJBR-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CJBRDT" tvg-logo="https://i.imgur.com/1B3d8Jc.png" group-title="加拿大",Ici Radio-Canada Tele CJBR-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/704024/cancjbr/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CKSHDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="美加",Ici Radio-Canada Tele CKSH-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CKSHDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="加拿大",Ici Radio-Canada Tele CKSH-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/704016/cancksh/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CKTMDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="美加",Ici Radio-Canada Tele CKTM-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CKTMDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="加拿大",Ici Radio-Canada Tele CKTM-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/704021/cancktm/master.m3u8
-#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CKTVDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="美加",Ici Radio-Canada Tele CKTV-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CKTVDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="加拿大",Ici Radio-Canada Tele CKTV-DT [Geo-blocked]
 https://rcavlive.akamaized.net/hls/live/704023/cancktv/master.m3u8
-#EXTINF:-1 tvg-id="IciRDI.ca@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/960px-ICI_RDI_logo.svg.png" group-title="美加",Ici RDI (720P)
+#EXTINF:-1 tvg-id="IciRDI.ca@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/960px-ICI_RDI_logo.svg.png" group-title="加拿大",Ici RDI (720P)
 https://rcavlive.akamaized.net/hls/live/704026/canrdi/master.m3u8
-#EXTINF:-1 tvg-id="MorePlutoTVComedy.us@CA" tvg-logo="https://images.pluto.tv/channels/62e91c3add66e00007eeb24c/colorLogoPNG_1759310317971.png" group-title="美加",More Pluto TV Comedy
-https://jmp2.uk/plu-62e91c3add66e00007eeb24c.m3u8
-#EXTINF:-1 tvg-id="MTVBiggestPop.us@CA" tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="美加",MTV Biggest Pop CA (1080P)
+#EXTINF:-1 tvg-id="MTVBiggestPop.us@CA" tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="加拿大",MTV Biggest Pop CA (1080P)
 https://jmp2.uk/plu-65410176770cf1000866bf31.m3u8
-#EXTINF:-1 tvg-id="MTVCatfish.us@CA" tvg-logo="https://images.pluto.tv/channels/626c2a3502d84a0007cec817/colorLogoPNG.png" group-title="美加",MTV Catfish
-https://jmp2.uk/plu-64f8a2a23a0d700008a6ed7b.m3u8
-#EXTINF:-1 tvg-id="MTVClassic.us@CA" tvg-logo="https://images.pluto.tv/channels/66a01dcb8561260008b0a41d/colorLogoPNG.png" group-title="美加",MTV Classic CA (720P)
+#EXTINF:-1 tvg-id="MTVClassic.us@CA" tvg-logo="https://images.pluto.tv/channels/66a01dcb8561260008b0a41d/colorLogoPNG.png" group-title="加拿大",MTV Classic CA (720P)
 https://jmp2.uk/plu-654100b4bdf3cf0008aa49c7.m3u8
-#EXTINF:-1 tvg-id="MTVDating.us@CA" tvg-logo="https://images.pluto.tv/channels/6851bb3426beced4f2f67ee6/colorLogoPNG_1750686926779.png" group-title="美加",MTV Dating CA
+#EXTINF:-1 tvg-id="MTVDating.us@CA" tvg-logo="https://images.pluto.tv/channels/6851bb3426beced4f2f67ee6/colorLogoPNG_1750686926779.png" group-title="加拿大",MTV Dating CA
 https://jmp2.uk/plu-64f8a0c230ab3300084369b8.m3u8
-#EXTINF:-1 tvg-id="MTVJerseyShore.us@CA" tvg-logo="https://images.pluto.tv/channels/68b9b0dbf9cf3d7cb9f56d88/colorLogoPNG_1757455543454.png" group-title="美加",MTV Jersey Shore
-https://jmp2.uk/plu-68b9b0dbf9cf3d7cb9f56d88.m3u8
-#EXTINF:-1 tvg-id="MTVReality.us@CA" tvg-logo="https://images.pluto.tv/channels/6493f4f566e485000853d640/colorLogoPNG.png" group-title="美加",MTV Reality CA
+#EXTINF:-1 tvg-id="MTVReality.us@CA" tvg-logo="https://images.pluto.tv/channels/6493f4f566e485000853d640/colorLogoPNG.png" group-title="加拿大",MTV Reality CA
 https://jmp2.uk/plu-64f89fcfd661bb00081ba45c.m3u8
-#EXTINF:-1 tvg-id="MTVRidiculousness.us@CA" tvg-logo="https://images.pluto.tv/channels/68641eb4852dfe78698c3390/colorLogoPNG_1751392300412.png" group-title="美加",MTV Ridiculousness CA
+#EXTINF:-1 tvg-id="MTVRidiculousness.us@CA" tvg-logo="https://images.pluto.tv/channels/68641eb4852dfe78698c3390/colorLogoPNG_1751392300412.png" group-title="加拿大",MTV Ridiculousness CA
 https://jmp2.uk/plu-64f9cccf110545000837912e.m3u8
-#EXTINF:-1 tvg-id="MTVSpankinNew.us@CA" tvg-logo="https://images.pluto.tv/channels/6541010f770cf1000866be98/colorLogoPNG.png" group-title="美加",MTV Spankin' New CA (1080P)
+#EXTINF:-1 tvg-id="MTVSpankinNew.us@CA" tvg-logo="https://images.pluto.tv/channels/6541010f770cf1000866be98/colorLogoPNG.png" group-title="加拿大",MTV Spankin' New CA (1080P)
 https://jmp2.uk/plu-6541010f770cf1000866be98.m3u8
-#EXTINF:-1 tvg-id="NACTV.ca@SD" tvg-logo="https://i.imgur.com/FzM95rH.png" group-title="美加",NACTV (SD)
-https://stream2.pivotalelements.com/memfs/2d2e1038-9eb2-44df-a9b9-109de5752f3b_output_0.m3u8
-#EXTINF:-1 tvg-id="NickJrPlutoTV.us@CA" tvg-logo="https://images.pluto.tv/channels/62bdb75c3afd1200079146a6/colorLogoPNG.png" group-title="美加",Nick Jr. Pluto TV CA
+#EXTINF:-1 tvg-id="NickJrPlutoTV.us@CA" tvg-logo="https://images.pluto.tv/channels/62bdb75c3afd1200079146a6/colorLogoPNG.png" group-title="加拿大",Nick Jr. Pluto TV CA
 https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
-#EXTINF:-1 tvg-id="PlutoClassicMovieWesterns.us@CA" tvg-logo="https://images.pluto.tv/channels/66dad50215d2c60008d7afbd/colorLogoPNG.png" group-title="美加",Pluto Classic Movie Westerns
-https://jmp2.uk/plu-66dad50215d2c60008d7afbd.m3u8
-#EXTINF:-1 tvg-id="PlutoTVActionMovies.us@CA" tvg-logo="https://images.pluto.tv/channels/62ea3c2e4823db00072788ed/colorLogoPNG.png" group-title="美加",Pluto TV Action Movies
-https://jmp2.uk/plu-62ea3c2e4823db00072788ed.m3u8
-#EXTINF:-1 tvg-id="PlutoTVAdventure.us@CA" tvg-logo="https://images.pluto.tv/channels/653bdb0fbdf3cf00089cc395/colorLogoPNG.png" group-title="美加",Pluto TV Adventure CA
+#EXTINF:-1 tvg-id="PlutoTVAdventure.us@CA" tvg-logo="https://images.pluto.tv/channels/653bdb0fbdf3cf00089cc395/colorLogoPNG.png" group-title="加拿大",Pluto TV Adventure CA
 https://jmp2.uk/plu-653bdb0fbdf3cf00089cc395.m3u8
-#EXTINF:-1 tvg-id="PlutoTVAnime.us@CA" tvg-logo="https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1777595293242.png" group-title="美加",Pluto TV Anime CA
+#EXTINF:-1 tvg-id="PlutoTVAnime.us@CA" tvg-logo="https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1777595293242.png" group-title="加拿大",Pluto TV Anime CA
 https://jmp2.uk/plu-68d25b620a0f3829b116bb6f.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCars.us@CA" tvg-logo="https://images.pluto.tv/channels/69c592dff0f1a7d732dc6e36/colorLogoPNG_1774557827331.png" group-title="美加",Pluto TV Cars CA
+#EXTINF:-1 tvg-id="PlutoTVCars.us@CA" tvg-logo="https://images.pluto.tv/channels/69c592dff0f1a7d732dc6e36/colorLogoPNG_1774557827331.png" group-title="加拿大",Pluto TV Cars CA
 https://jmp2.uk/plu-69c592dff0f1a7d732dc6e36.m3u8
-#EXTINF:-1 tvg-id="PlutoTVClassicTVVariety.us@CA" tvg-logo="https://images.pluto.tv/channels/68d25c623175a2780d051d3a/colorLogoPNG_1758809678864.png" group-title="美加",Pluto TV Classic TV Variety
-https://jmp2.uk/plu-68d25c623175a2780d051d3a.m3u8
-#EXTINF:-1 tvg-id="PlutoTVComedy.us@CA" tvg-logo="https://images.pluto.tv/channels/62e92178946c8000079a3160/colorLogoPNG.png" group-title="美加",Pluto TV Comedy CA
+#EXTINF:-1 tvg-id="PlutoTVComedy.us@CA" tvg-logo="https://images.pluto.tv/channels/62e92178946c8000079a3160/colorLogoPNG.png" group-title="加拿大",Pluto TV Comedy CA
 https://jmp2.uk/plu-62e92178946c8000079a3160.m3u8
-#EXTINF:-1 tvg-id="PlutoTVComedyMovies.us@CA" tvg-logo="https://images.pluto.tv/channels/62ea3d24b8e02600071fa296/colorLogoPNG.png" group-title="美加",Pluto TV Comedy Movies
-https://jmp2.uk/plu-62ea3d24b8e02600071fa296.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCrimeDrama.us@CA" tvg-logo="https://images.pluto.tv/channels/62e92708a7ce600007b2676a/colorLogoPNG.png" group-title="美加",Pluto TV Crime Drama CA
+#EXTINF:-1 tvg-id="PlutoTVCrimeDrama.us@CA" tvg-logo="https://images.pluto.tv/channels/62e92708a7ce600007b2676a/colorLogoPNG.png" group-title="加拿大",Pluto TV Crime Drama CA
 https://jmp2.uk/plu-62e92708a7ce600007b2676a.m3u8
-#EXTINF:-1 tvg-id="PlutoTVDramaMovies.us@CA" tvg-logo="https://images.pluto.tv/channels/62bdb0bcd707b9000739d2e5/colorLogoPNG.png" group-title="美加",Pluto TV Drama Movies
-https://jmp2.uk/plu-62bdb0bcd707b9000739d2e5.m3u8
-#EXTINF:-1 tvg-id="PlutoTVFBI.us@CA" tvg-logo="https://images.pluto.tv/channels/693adae77f21340ef9746f56/colorLogoPNG_1767879898099.png" group-title="美加",Pluto TV FBI
-https://jmp2.uk/plu-693adae77f21340ef9746f56.m3u8
-#EXTINF:-1 tvg-id="PlutoTVHorror.us@CA" tvg-logo="https://images.pluto.tv/channels/569546031a619b8f07ce6e25/colorLogoPNG.png" group-title="美加",Pluto TV Horror CA
+#EXTINF:-1 tvg-id="PlutoTVHorror.us@CA" tvg-logo="https://images.pluto.tv/channels/569546031a619b8f07ce6e25/colorLogoPNG.png" group-title="加拿大",Pluto TV Horror CA
 https://jmp2.uk/plu-62ea3f8a38acc80007072d26.m3u8
-#EXTINF:-1 tvg-id="PlutoTVParanormal.us@CA" tvg-logo="https://images.pluto.tv/channels/62e92a58f3e4290007290c96/colorLogoPNG.png" group-title="美加",Pluto TV Paranormal CA
+#EXTINF:-1 tvg-id="PlutoTVParanormal.us@CA" tvg-logo="https://images.pluto.tv/channels/62e92a58f3e4290007290c96/colorLogoPNG.png" group-title="加拿大",Pluto TV Paranormal CA
 https://jmp2.uk/plu-62e92a58f3e4290007290c96.m3u8
-#EXTINF:-1 tvg-id="PlutoTVReality.us@CA" tvg-logo="https://images.pluto.tv/channels/67922858b83355184c699699/colorLogoPNG.png" group-title="美加",Pluto TV Reality CA
+#EXTINF:-1 tvg-id="PlutoTVReality.us@CA" tvg-logo="https://images.pluto.tv/channels/67922858b83355184c699699/colorLogoPNG.png" group-title="加拿大",Pluto TV Reality CA
 https://jmp2.uk/plu-67922858b83355184c699699.m3u8
-#EXTINF:-1 tvg-id="PlutoTVRetroActionMovies.us@CA" tvg-logo="https://images.pluto.tv/channels/69a9ae4d3bd16a4ed04240d7/colorLogoPNG_1774879695281.png" group-title="美加",Pluto TV Retro Action Movies
-https://jmp2.uk/plu-69a9ae4d3bd16a4ed04240d7.m3u8
-#EXTINF:-1 tvg-id="PlutoTVRetroCrimeAction.us@CA" tvg-logo="https://images.pluto.tv/channels/69aee8a1acb7eb0bb68df641/colorLogoPNG_1774899454178.png" group-title="美加",Pluto TV Retro Crime Action
-https://jmp2.uk/plu-69aee8a1acb7eb0bb68df641.m3u8
-#EXTINF:-1 tvg-id="PlutoTVRetroCrimeDrama.us@CA" tvg-logo="https://images.pluto.tv/channels/630f1e6073bd1800082107f0/colorLogoPNG.png" group-title="美加",Pluto TV Retro Crime Drama
-https://jmp2.uk/plu-630f1e6073bd1800082107f0.m3u8
-#EXTINF:-1 tvg-id="PlutoTVRetroKid.us@CA" tvg-logo="https://images.pluto.tv/channels/6408b41b83f58900081d91ad/colorLogoPNG.png" group-title="美加",Pluto TV Retro Kid
-https://jmp2.uk/plu-6408b41b83f58900081d91ad.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSciFi.us@CA" tvg-logo="https://images.pluto.tv/channels/66166cb1307fa30008f275e7/colorLogoPNG.png" group-title="美加",Pluto TV Sci-Fi CA
+#EXTINF:-1 tvg-id="PlutoTVSciFi.us@CA" tvg-logo="https://images.pluto.tv/channels/66166cb1307fa30008f275e7/colorLogoPNG.png" group-title="加拿大",Pluto TV Sci-Fi CA
 https://jmp2.uk/plu-66166cb1307fa30008f275e7.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSnooker900.us@CA" tvg-logo="https://images.pluto.tv/channels/639b4f75d3d35c0007d37b30/colorLogoPNG_1759333260607.png" group-title="美加",Pluto TV Snooker 900 (United States)
-https://jmp2.uk/plu-639b4f75d3d35c0007d37b30.m3u8
-#EXTINF:-1 tvg-id="PlutoTVTrueCrime.us@CA" tvg-logo="https://images.pluto.tv/channels/62e9289f8d467f0007fbc701/colorLogoPNG.png" group-title="美加",Pluto TV True Crime CA
+#EXTINF:-1 tvg-id="PlutoTVTrueCrime.us@CA" tvg-logo="https://images.pluto.tv/channels/62e9289f8d467f0007fbc701/colorLogoPNG.png" group-title="加拿大",Pluto TV True Crime CA
 https://jmp2.uk/plu-62e9289f8d467f0007fbc701.m3u8
-#EXTINF:-1 tvg-id="PlutoTVWesterns.us@CA" tvg-logo="https://images.pluto.tv/channels/62bdacc96a3751000811842d/colorLogoPNG.png" group-title="美加",Pluto TV Westerns CA
+#EXTINF:-1 tvg-id="PlutoTVWesterns.us@CA" tvg-logo="https://images.pluto.tv/channels/62bdacc96a3751000811842d/colorLogoPNG.png" group-title="加拿大",Pluto TV Westerns CA
 https://jmp2.uk/plu-62bdacc96a3751000811842d.m3u8
-#EXTINF:-1 tvg-id="TSN4.ca@SD" tvg-logo="https://i.imgur.com/qJyAWU8.png" group-title="美加",TSN4 (720P)
+#EXTINF:-1 tvg-id="TSN4.ca@SD" tvg-logo="https://i.imgur.com/qJyAWU8.png" group-title="加拿大",TSN4 (720P)
 http://109.104.153.220/TSN-4/index.m3u8
-#EXTINF:-1 tvg-id="TSNTheOcho.ca@SD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400003R3_20240709T002034SQUARE.png" group-title="美加",TSN The Ocho (1080P)
+#EXTINF:-1 tvg-id="TSNTheOcho.ca@SD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400003R3_20240709T002034SQUARE.png" group-title="加拿大",TSN The Ocho (1080P)
 https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
-#EXTINF:-1 tvg-id="TVA.ca@CFTMDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/TVA_logo_2020.svg/960px-TVA_logo_2020.svg.png" group-title="美加",TVA (Canada) CFTM-DT [Geo-blocked]
+#EXTINF:-1 tvg-id="TVA.ca@CFTMDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/TVA_logo_2020.svg/960px-TVA_logo_2020.svg.png" group-title="加拿大",TVA (Canada) CFTM-DT [Geo-blocked]
 https://tvalive-dai01.akamaized.net/Content/HLS/Live/channel(575b93c5-be31-ee34-6285-14620fd14048)/index.m3u8
-#EXTINF:-1 tvg-id="YoMTV.us@CA" tvg-logo="https://images.pluto.tv/channels/654102ed770cf1000866c307/colorLogoPNG.png" group-title="美加",Yo! MTV CA (1080P)
+#EXTINF:-1 tvg-id="YoMTV.us@CA" tvg-logo="https://images.pluto.tv/channels/654102ed770cf1000866c307/colorLogoPNG.png" group-title="加拿大",Yo! MTV CA (1080P)
 https://jmp2.uk/plu-654102ed770cf1000866c307.m3u8
+#EXTINF:-1 tvg-id="FoxNewsInternational.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="美国新闻",Fox News International (SD)
+http://103.253.74.210:7070/stream/124/index.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive1.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美国新闻",ABC News Live 1 (720P)
+https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive2.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美国新闻",ABC News Live 2 (720P)
+https://abcnews-streams.akamaized.net/hls/live/2023561/abcnewshudson2/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive3.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美国新闻",ABC News Live 3 (720P)
+https://abcnews-streams.akamaized.net/hls/live/2023562/abcnewshudson3/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive4.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美国新闻",ABC News Live 4 (720P)
+https://abcnews-streams.akamaized.net/hls/live/2023563/abcnewshudson4/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive5.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美国新闻",ABC News Live 5 (720P)
+https://abcnews-streams.akamaized.net/hls/live/2023564/abcnewshudson5/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive6.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美国新闻",ABC News Live 6 (720P)
+https://abcnews-streams.akamaized.net/hls/live/2023565/abcnewshudson6/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive7.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美国新闻",ABC News Live 7 (720P)
+https://abcnews-streams.akamaized.net/hls/live/2023566/abcnewshudson7/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive8.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美国新闻",ABC News Live 8 (720P)
+https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive9.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美国新闻",ABC News Live 9 (720P)
+https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8
+#EXTINF:-1 tvg-id="ABCNewsLive10.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png" group-title="美国新闻",ABC News Live 10 (720P)
+https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8
+#EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="美国新闻",Bloomberg Originals (1080P)
+https://bloomberg.com/media-manifest/streams/qt.m3u8
+#EXTINF:-1 tvg-id="BloombergOriginals.us@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="美国新闻",Bloomberg Originals (1080P)
+https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="美国新闻",Bloomberg TV (1080P)
+http://23.237.104.106:8080/USA_BLOOMBERG/index.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us@LiveEvent" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="美国新闻",Bloomberg TV Live Event (720P)
+https://bloomberg.com/media-manifest/streams/us-event.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us@PoliticsLiveEvent" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="美国新闻",Bloomberg TV Politics Live Event (720P)
+https://bloomberg.com/media-manifest/streams/politics.m3u8
+#EXTINF:-1 tvg-id="CBSNews247.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png" group-title="美国新闻",CBS News 24/7 (720P)
+https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
+#EXTINF:-1 tvg-id="CBSNewsBaltimore.us@SD" tvg-logo="https://i.imgur.com/jy3UfCe.png" group-title="美国新闻",CBS News Baltimore (720P)
+https://lineup.cbsivideo.com/playout/8877a7d5-b094-4ac8-bc72-75a5fed68e5b/index.m3u8
+#EXTINF:-1 tvg-id="CBSNewsBayArea.us@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1a/Logo-cbsn-bayarea-1920x1080.jpg/revision/latest/scale-to-width-down/512" group-title="美国新闻",CBS News Bay Area (1080P)
+https://cbsn-sf.cbsnstream.cbsnews.com/out/v1/dac63c1abb3f4a2dac9f508f44bb072a/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsBoston.us@SD" tvg-logo="https://i.imgur.com/9un7R3N.png" group-title="美国新闻",CBS News Boston (720P)
+https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb8434c96c28de0370d1326/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsChicago.us@SD" tvg-logo="https://i.imgur.com/qGbVQir.png" group-title="美国新闻",CBS News Chicago (720P)
+https://cbsn-chi.cbsnstream.cbsnews.com/out/v1/b2fc0d5715d54908adf07f97d2616646/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsColorado.us@SD" tvg-logo="https://i.imgur.com/2oyYwBw.png" group-title="美国新闻",CBS News Colorado (720P)
+https://cbsn-den.cbsnstream.cbsnews.com/out/v1/2e49baf2906244ecb01b07d9885fbe7a/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsDetroit.us@SD" tvg-logo="https://i.imgur.com/cMels2Y.png" group-title="美国新闻",CBS News Detroit (720P)
+https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsLosAngeles.us@SD" tvg-logo="https://i.imgur.com/klULxMV.png" group-title="美国新闻",CBS News Los Angeles (720P)
+https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsMiami.us@SD" tvg-logo="https://i.imgur.com/DExbVa9.png" group-title="美国新闻",CBS News Miami (720P)
+https://cbsn-mia.cbsnstream.cbsnews.com/out/v1/ac174b7938264d24ae27e56f6584bca0/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsMinnesota.us@SD" tvg-logo="https://i.imgur.com/ubxwfMY.png" group-title="美国新闻",CBS News Minnesota (720P)
+https://cbsn-min.cbsnstream.cbsnews.com/out/v1/76518f06941246ba810c8d175600bf74/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsNewYork.us@SD" tvg-logo="https://i.imgur.com/bpc4v0u.png" group-title="美国新闻",CBS News New York (720P)
+https://cbsn-ny.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsPhilly.us@SD" tvg-logo="https://i.imgur.com/FmtTbNY.png" group-title="美国新闻",CBS News Philly (720P)
+https://cbsn-phi.cbsnstream.cbsnews.com/out/v1/5c9ad3e215984b0e9ad845b335216b72/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsPittsburgh.us@SD" tvg-logo="https://i.imgur.com/Un9IrUh.png" group-title="美国新闻",CBS News Pittsburgh (720P)
+https://cbsn-pit.cbsnstream.cbsnews.com/out/v1/6966dabf8150405ab26f854e3cd6a2b8/master.m3u8
+#EXTINF:-1 tvg-id="CBSNewsSacramento.us@SD" tvg-logo="https://i.imgur.com/0e1kSGX.png" group-title="美国新闻",CBS News Sacramento (720P)
+https://lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8
+#EXTINF:-1 tvg-id="CNBC.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" group-title="美国新闻",CNBC (720p) [Geo-blocked] (720P)
+http://41.205.93.154/CNBC/index.m3u8
+#EXTINF:-1 tvg-id="CNN.us@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" group-title="美国新闻",CNN (720P)
+https://tvsen6.aynaott.com/cnn/index.m3u8
+#EXTINF:-1 tvg-id="CNN.us@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" group-title="美国新闻",CNN HD (720p) [Geo-blocked] (720P)
+http://212.5.144.156:8080/cnn/index.m3u8
+#EXTINF:-1 tvg-id="CNNenEspanol.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png" group-title="美国新闻",CNN en Espanol (1080P)
+https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CNNHeadlines.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/de3851fb-9598-4d13-8e03-f421418c9b5b/CNN_Headlines_ChannelLogo_Dark_1500x1000_2025_-_Grace_Hartwig.png" group-title="美国新闻",CNN Headlines (1080p) [Geo-blocked] (1080P)
+https://amg01918-cnnus-amg01918c1-vizio-us-1813.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnheadlines-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="CNNOriginals.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f351d697-1e1f-4e7d-86c7-5995698e593f/CNN_Originals_ChannelLogo_Dark_1500x1000_2025_-_Grace_Hartwig.png" group-title="美国新闻",CNN Originals (1080P)
+https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="美国新闻",Fox News Channel (1080P)
+https://tvsen6.aynaott.com/foxnews/index.m3u8
+#EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-logo="https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png" group-title="美国新闻",Fox News Radio (720P)
+https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
+#EXTINF:-1 tvg-id="NBCNewsNOW.us@SD" tvg-logo="https://i.imgur.com/JZt2qh5.png" group-title="美国新闻",NBC News NOW (1080P)
+https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
+#EXTINF:-1 tvg-id="Newsmax2.us@SD" tvg-logo="https://i.imgur.com/iE1izWq.png" group-title="美国新闻",Newsmax 2 (1080P)
+https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Newsmax2.us@KPVMLD" tvg-logo="https://i.imgur.com/iE1izWq.png" group-title="美国新闻",Newsmax 2 KPVM-LD (484p)
+https://2-fss-2.streamhoster.com/pl_120/206858-4404556-1/playlist.m3u8
+#EXTINF:-1 tvg-id="NewsmaxSpanish.us@SD" tvg-logo="https://i.imgur.com/mrXMW7H.png" group-title="美国新闻",Newsmax Spanish (1080P)
+https://n1ottesorkatv.akamaized.net/hls/live/2113795/Live_1/index.m3u8
+#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/960px-Newsmax_logo.svg.png" group-title="美国新闻",Newsmax TV (720P)
+https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
+#EXTINF:-1 tvg-id="TheWeatherChannel.us@SD" tvg-logo="https://i.imgur.com/PIaNjfa.png" group-title="美国新闻",The Weather Channel (1080P)
+https://twcprod-live.twc-tv.com/v1/manifest/b4d4d63a49309cc5140171fb2e92485c31be1e9e/DSP_6228e4760505741a116f1ba2_twcprod-live/6bf09ce5-366b-463c-b67e-c4b799f73c3f/4.m3u8
+#EXTINF:-1 tvg-id="ESPN2.us@HD" tvg-logo="https://i.imgur.com/00tsvjE.png" group-title="美国体育",ESPN 2 (United States) (720P)
+http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="美国体育",ESPN (United States) (432p) (SD)
+http://tvsen7.aynascope.net/espn/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.us@HD" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd_c.png" group-title="美国体育",ESPN (United States) (720P)
+http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
+#EXTINF:-1 tvg-id="ESPNDeportes.us@HD" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd-deportes_c.png" group-title="美国体育",ESPN Deportes (720P)
+http://168.228.44.241:9998/play/a0dz/index.m3u8
+#EXTINF:-1 tvg-id="ESPNU.us@HD" tvg-logo="https://i.imgur.com/HiBrysh.png" group-title="美国体育",ESPNU (720P)
+http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
+#EXTINF:-1 tvg-id="FoxSports1.us@HD" tvg-logo="https://i.imgur.com/O9BapV9.png" group-title="美国体育",Fox Sports 1 (720P)
+http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
+#EXTINF:-1 tvg-id="FoxSports2.us@HD" tvg-logo="https://imgx.fubo.tv/station_logos/fs2_c.png" group-title="美国体育",Fox Sports 2 (720P)
+https://tvsen7.aynascope.net/foxsports2/index.m3u8
+#EXTINF:-1 tvg-id="GolfChannel.us@SD" tvg-logo="https://i.imgur.com/Lgux6Ik.png" group-title="美国体育",Golf Channel (United States) (576p) (SD)
+https://tvsen6.aynaott.com/golfchannel/index.m3u8
+#EXTINF:-1 tvg-id="NBATV.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" group-title="美国体育",NBA TV (720P)
+http://23.237.104.106:8080/USA_NBA/index.m3u8
+#EXTINF:-1 tvg-id="NFLNetwork.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png" group-title="美国体育",NFL Network (576p) (SD)
+https://tvsen6.aynaott.com/nfl/index.m3u8
+#EXTINF:-1 tvg-id="NHLNetwork.us@SD" tvg-logo="https://i.imgur.com/UNZ8bef.png" group-title="美国体育",NHL Network (1080P)
+https://nhl-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TennisChannel2.us@SD" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/7382296F-97F6-4450-B77B-8FE331FC04F6/3-1x1.png" group-title="美国体育",Tennis Channel 2 (1080P)
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
+#EXTINF:-1 tvg-id="TennisChannel.us@SD" tvg-logo="https://i.imgur.com/tsljAnY.png" group-title="美国体育",Tennis Channel (1080P)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 tvg-id="TennisChannel.us@Plus2" tvg-logo="https://i.imgur.com/tsljAnY.png" group-title="美国体育",Tennis Channel +2 (720P)
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSnooker900.us@CA" tvg-logo="https://images.pluto.tv/channels/639b4f75d3d35c0007d37b30/colorLogoPNG_1759333260607.png" group-title="美国体育",Pluto TV Snooker 900 (United States)
+https://jmp2.uk/plu-639b4f75d3d35c0007d37b30.m3u8
+#EXTINF:-1 tvg-id="AE.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" http-referrer="https://tvnow.st" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edge/12.246" group-title="美国影视",A&E (1080P)
+https://cache0.wonvt.st/live/0c4r73315dt0we0fitn3j/master.m3u8
+#EXTINF:-1 tvg-id="TNTInternational.ru@SD" tvg-logo="https://i.imgur.com/l0RGbRI.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="美国影视",TNT International (SD)
+https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
+#EXTINF:-1 tvg-id="AMC.us@EastHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="美国影视",AMC (United States) (1080p) [Geo-blocked] (1080P)
+http://41.205.93.154/AMC/index.m3u8
+#EXTINF:-1 tvg-id="AMCenEspanol.us@SD" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="美国影视",AMC en Espanol (1080P)
+https://amc-amcespanol-1-us.vizio.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="AMCThrillers.us@SD" tvg-logo="https://i.imgur.com/EVD0aIt.png" group-title="美国影视",AMC Thrillers (1080P)
+https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BETCinema.us@SD" tvg-logo="https://images.pluto.tv/channels/58af4c093a41ca9d4ecabe96/colorLogoPNG_1759338280891.png" group-title="美国影视",BET Cinema (SD)
+https://jmp2.uk/plu-58af4c093a41ca9d4ecabe96.m3u8
+#EXTINF:-1 tvg-id="BETClassicsPlutoTV.us@SD" tvg-logo="https://images.pluto.tv/channels/60f85644a9493e0007a1f035/colorLogoPNG_1759339662769.png" group-title="美国影视",BET Classics Pluto TV (SD)
+https://jmp2.uk/plu-60f85644a9493e0007a1f035.m3u8
+#EXTINF:-1 tvg-id="BETComedyMovies.us@SD" tvg-logo="https://images.pluto.tv/channels/68c32d88f56983aba40052bd/colorLogoPNG_1759246622596.png" group-title="美国影视",BET Comedy Movies (SD)
+https://jmp2.uk/plu-68c32d88f56983aba40052bd.m3u8
+#EXTINF:-1 tvg-id="BETPlutoTV.us@US" tvg-logo="https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png" group-title="美国影视",BET Pluto TV
+https://jmp2.uk/plu-5ca670f6593a5d78f0e85aed.m3u8
+#EXTINF:-1 tvg-id="BETThrowbacks.us@SD" tvg-logo="https://images.pluto.tv/channels/61326275b3c86a00078e4833/colorLogoPNG_1759340015358.png" group-title="美国影视",BET Throwbacks (SD)
+https://jmp2.uk/plu-61326275b3c86a00078e4833.m3u8
+#EXTINF:-1 tvg-id="BETVisionaries.us@SD" tvg-logo="https://images.pluto.tv/channels/663946c1b18d700008d9c168/colorLogoPNG_1759338795452.png" group-title="美国影视",BET Visionaries (SD)
+https://jmp2.uk/plu-663946c1b18d700008d9c168.m3u8
+#EXTINF:-1 tvg-id="Bravo.us@East" tvg-logo="https://i.imgur.com/JmTIRLF.png" group-title="美国影视",Bravo (720P)
+http://41.205.93.154/BRAVO/index.m3u8
+#EXTINF:-1 tvg-id="ComedyCentralAnimation.us@SD" tvg-logo="https://i.imgur.com/uENch0P.png" group-title="美国影视",Comedy Central Animation (SD)
+https://jmp2.uk/plu-64f8a949f5b5e4000862467c.m3u8
+#EXTINF:-1 tvg-id="ComedyCentralenEspanol.us@SD" tvg-logo="https://i.imgur.com/6xTD3G8.png" group-title="美国影视",Comedy Central en Espanol (SD)
+https://jmp2.uk/plu-5cf96dad1652631e36d43320.m3u8
+#EXTINF:-1 tvg-id="ComedyCentralPlutoTV.us@US" tvg-logo="https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png" group-title="美国影视",Comedy Central Pluto TV
+https://jmp2.uk/plu-5ca671f215a62078d2ec0abf.m3u8
+#EXTINF:-1 tvg-id="FX.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="美国影视",FX (United States) (720P)
+https://tvsen7.aynascope.net/fx/index.m3u8
+#EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/29af70d1-d3ba-4a16-bc4d-bd99e7e7def4/hallmark-movies-and-more_color.png" group-title="美国影视",Hallmark Movies & More (1080P)
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
+#EXTINF:-1 tvg-id="HallmarkMystery.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Hallmark_Mystery_2024.svg" group-title="美国影视",Hallmark Mystery (720p) [Geo-blocked] (720P)
+http://41.205.93.154/HALLMARK/index.m3u8
+#EXTINF:-1 tvg-id="Lifetime.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png" group-title="美国影视",Lifetime
+https://tvsen7.aynascope.net/lifetime/index.m3u8
+#EXTINF:-1 tvg-id="LogoPlutoTV.us@SD" tvg-logo="https://i.imgur.com/GtNgJ28.png" group-title="美国影视",Logo Pluto TV (SD)
+https://jmp2.uk/plu-5ce5a8954311f992edbe1da2.m3u8
+#EXTINF:-1 tvg-id="MTV.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="美国影视",MTV (United States) (1080P)
+http://23.237.104.106:8080/USA_MTV/index.m3u8
+#EXTINF:-1 tvg-id="MTVBiggestPop.us@US" tvg-logo="https://images.pluto.tv/channels/6047fbdbbb776a0007e7f2ff/colorLogoPNG.png" group-title="美国影视",MTV Biggest Pop (1080P)
+https://jmp2.uk/plu-5d14fd1a252d35decbc4080c.m3u8
+#EXTINF:-1 tvg-id="MTVenEspanol.us@SD" tvg-logo="https://i.imgur.com/vQWWfyW.png" group-title="美国影视",MTV en Espanol (SD)
+https://jmp2.uk/plu-5cf96d351652631e36d4331f.m3u8
+#EXTINF:-1 tvg-id="MTVFlowLatino.us@SD" tvg-logo="https://images.pluto.tv/channels/62b218fc511d4b00070ddc0c/colorLogoPNG.png" group-title="美国影视",MTV Flow Latino (720P)
+https://jmp2.uk/plu-5d3609cd6a6c78d7672f2a81.m3u8
+#EXTINF:-1 tvg-id="MTVPlutoTV.us@US" tvg-logo="https://images.pluto.tv/channels/5f1212fb81e85c00077ae9ef/colorLogoPNG_1759263027326.png" group-title="美国影视",MTV Pluto TV
+https://jmp2.uk/plu-5ca672f515a62078d2ec0ad2.m3u8
+#EXTINF:-1 tvg-id="MTVSpankinNew.us@US" tvg-logo="https://images.pluto.tv/channels/6541010f770cf1000866be98/colorLogoPNG.png" group-title="美国影视",MTV Spankin' New (1080P)
+https://jmp2.uk/plu-5d14fdb8ca91eedee1633117.m3u8
+#EXTINF:-1 tvg-id="ParamountMovieChannel.us@SD" tvg-logo="https://i.imgur.com/sj5h9bl.png" group-title="美国影视",Paramount Movie Channel (SD)
+https://jmp2.uk/plu-5cb0cae7a461406ffe3f5213.m3u8
+#EXTINF:-1 tvg-id="ParamountNetwork.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png" group-title="美国影视",Paramount Network (United States) (1080P)
+http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="ParamountPlusPicks.us@SD" tvg-logo="https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg" group-title="美国影视",Paramount+ Picks (SD)
+https://jmp2.uk/plu-5ff8c708653d080007361b14.m3u8
+#EXTINF:-1 tvg-id="PlutoTVAction.us@US" tvg-logo="https://i.imgur.com/tDapGal.png" group-title="美国影视",Pluto TV Action
+https://jmp2.uk/plu-561d7d484dc7c8770484914a.m3u8
+#EXTINF:-1 tvg-id="PlutoTVAdventure.us@US" tvg-logo="https://images.pluto.tv/channels/653bdb0fbdf3cf00089cc395/colorLogoPNG.png" group-title="美国影视",Pluto TV Adventure
+https://jmp2.uk/plu-69d7ebb726eeec84158e28cb.m3u8
+#EXTINF:-1 tvg-id="PlutoTVAnime.us@US" tvg-logo="https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG_1777595293242.png" group-title="美国影视",Pluto TV Anime
+https://jmp2.uk/plu-5812b7d3249444e05d09cc49.m3u8
+#EXTINF:-1 tvg-id="PlutoTVAnimeMovies.us@SD" tvg-logo="https://images.pluto.tv/channels/67ed8f7e443f0671bc2b2368/colorLogoPNG.png" group-title="美国影视",Pluto TV Anime Movies (SD)
+https://jmp2.uk/plu-67ed8f7e443f0671bc2b2368.m3u8
+#EXTINF:-1 tvg-id="PlutoTVCars.us@SD" tvg-logo="https://images.pluto.tv/channels/69c592dff0f1a7d732dc6e36/colorLogoPNG_1774557827331.png" group-title="美国影视",Pluto TV Cars (SD)
+https://jmp2.uk/plu-5812b3a4249444e05d09cc46.m3u8
+#EXTINF:-1 tvg-id="PlutoTVCineComedia.us@US" tvg-logo="https://images.pluto.tv/channels/5f12101f0b12f00007844c7c/colorLogoPNG_1732662798298.png" group-title="美国影视",Pluto TV Cine Comedia (United States)
+https://jmp2.uk/plu-5f513564e4622a0007c578c0.m3u8
+#EXTINF:-1 tvg-id="PlutoTVComedy.us@US" tvg-logo="https://images.pluto.tv/channels/62e92178946c8000079a3160/colorLogoPNG.png" group-title="美国影视",Pluto TV Comedy
+https://jmp2.uk/plu-5a4d3a00ad95e4718ae8d8db.m3u8
+#EXTINF:-1 tvg-id="PlutoTVCompetition.us@SD" tvg-logo="https://images.pluto.tv/channels/603fde9026ecbf0007752c2c/colorLogoPNG.png" group-title="美国影视",Pluto TV Competition (SD)
+https://jmp2.uk/plu-603fde9026ecbf0007752c2c.m3u8
+#EXTINF:-1 tvg-id="PlutoTVCrimeDrama.us@SD" tvg-logo="https://images.pluto.tv/channels/62e92708a7ce600007b2676a/colorLogoPNG.png" group-title="美国影视",Pluto TV Crime Drama (SD)
+https://jmp2.uk/plu-5f31fd1b4c510e00071c3103.m3u8
+#EXTINF:-1 tvg-id="PlutoTVCrimeMovies.us@SD" tvg-logo="https://i.imgur.com/SJcqknt.png" group-title="美国影视",Pluto TV Crime Movies (SD)
+https://jmp2.uk/plu-5f4d8594eb979c0007706de7.m3u8
+#EXTINF:-1 tvg-id="PlutoTVCultFilms.us@US" tvg-logo="https://i.imgur.com/xoaIAus.png" group-title="美国影视",Pluto TV Cult Films (United States)
+https://jmp2.uk/plu-5c665db3e6c01b72c4977bc2.m3u8
+#EXTINF:-1 tvg-id="PlutoTVDogelcazarrecompensas.us@SD" tvg-logo="https://i.imgur.com/h3kSZLc.png" group-title="美国影视",Pluto TV Dog el cazarrecompensas (SD)
+https://jmp2.uk/plu-5f9992c685a2a80007fa414a.m3u8
+#EXTINF:-1 tvg-id="PlutoTVDrama.us@US" tvg-logo="https://i.imgur.com/PvhbHTZ.png" group-title="美国影视",Pluto TV Drama
+https://jmp2.uk/plu-5b4e92e4694c027be6ecece1.m3u8
+#EXTINF:-1 tvg-id="PlutoTVEstrellasdeAccion.us@SD" tvg-logo="https://i.imgur.com/GVOYX4L.png" group-title="美国影视",Pluto TV Estrellas de Accion (SD)
+https://jmp2.uk/plu-5e972a21ad709d00074195ba.m3u8
+#EXTINF:-1 tvg-id="PlutoTVFantastic.us@SD" tvg-logo="https://i.imgur.com/MCu7YTA.png" group-title="美国影视",Pluto TV Fantastic (SD)
+https://jmp2.uk/plu-5b64a245a202b3337f09e51d.m3u8
+#EXTINF:-1 tvg-id="PlutoTVFranchiseFavorites.us@SD" tvg-logo="https://images.pluto.tv/channels/68fbf8101d26140175db8b58/colorLogoPNG_1762383685562.png" group-title="美国影视",Pluto TV Franchise Favorites (SD)
+https://jmp2.uk/plu-68fbf8101d26140175db8b58.m3u8
+#EXTINF:-1 tvg-id="PlutoTVGameShows.us@SD" tvg-logo="https://i.imgur.com/JXZEg2e.png" group-title="美国影视",Pluto TV Game Shows (SD)
+https://jmp2.uk/plu-6036e7c385749f00075dbd3b.m3u8
+#EXTINF:-1 tvg-id="PlutoTVHometownDrama.us@SD" tvg-logo="https://images.pluto.tv/channels/69d6c7befde57cd5ba0160c3/colorLogoPNG_1777488284970.png" group-title="美国影视",Pluto TV Hometown Drama (SD)
+https://jmp2.uk/plu-69d6c7befde57cd5ba0160c3.m3u8
+#EXTINF:-1 tvg-id="PlutoTVHorror.us@US" tvg-logo="https://images.pluto.tv/channels/569546031a619b8f07ce6e25/colorLogoPNG.png" group-title="美国影视",Pluto TV Horror
+https://jmp2.uk/plu-569546031a619b8f07ce6e25.m3u8
+#EXTINF:-1 tvg-id="PlutoTVIcons.us@SD" tvg-logo="https://images.pluto.tv/channels/64b585f84ea480000838e446/colorLogoPNG.png" group-title="美国影视",Pluto TV Icons (SD)
+https://jmp2.uk/plu-64b585f84ea480000838e446.m3u8
+#EXTINF:-1 tvg-id="PlutoTVLosnuevosdetectives.us@SD" tvg-logo="https://i.imgur.com/Iru8tqj.png" group-title="美国影视",Pluto TV Los nuevos detectives (SD)
+https://jmp2.uk/plu-5f1acba0d1f6340007db8843.m3u8
+#EXTINF:-1 tvg-id="PlutoTVMinutoParaGanar.us@SD" tvg-logo="https://i.imgur.com/go5o1gB.png" group-title="美国影视",Pluto TV Minuto Para Ganar (SD)
+https://jmp2.uk/plu-5e46e64dc73db400094b5f0b.m3u8
+#EXTINF:-1 tvg-id="PlutoTVNovelas.us@US" tvg-logo="https://images.pluto.tv/channels/5f512365abe1f50007d3ff56/colorLogoPNG.png" group-title="美国影视",Pluto TV Novelas
+https://jmp2.uk/plu-5cf96c0222df39f1a338d163.m3u8
+#EXTINF:-1 tvg-id="PlutoTVParanormal.us@US" tvg-logo="https://images.pluto.tv/channels/62e92a58f3e4290007290c96/colorLogoPNG.png" group-title="美国影视",Pluto TV Paranormal
+https://jmp2.uk/plu-5adf96e3e738977e2c31cb04.m3u8
+#EXTINF:-1 tvg-id="PlutoTVReaction.us@SD" tvg-logo="https://i.imgur.com/H9k3OXN.png" group-title="美国影视",Pluto TV Reaction (SD)
+https://jmp2.uk/plu-617b37b361e0fd0008cfd8c5.m3u8
+#EXTINF:-1 tvg-id="PlutoTVReality.us@US" tvg-logo="https://images.pluto.tv/channels/67922858b83355184c699699/colorLogoPNG.png" group-title="美国影视",Pluto TV Reality
+https://jmp2.uk/plu-69fa3faab9c0f0d444e64de3.m3u8
+#EXTINF:-1 tvg-id="PlutoTVRomance.us@US" tvg-logo="https://i.imgur.com/GJBxfyf.png" group-title="美国影视",Pluto TV Romance
+https://jmp2.uk/plu-5a66795ef91fef2c7031c599.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSciFi.us@US" tvg-logo="https://images.pluto.tv/channels/66166cb1307fa30008f275e7/colorLogoPNG.png" group-title="美国影视",Pluto TV Sci-Fi
+https://jmp2.uk/plu-5b4fc274694c027be6ed3eea.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSpotlight.us@SD" tvg-logo="https://i.imgur.com/UmuJkVB.png" group-title="美国影视",Pluto TV Spotlight (SD)
+https://jmp2.uk/plu-5ba3fb9c4b078e0f37ad34e8.m3u8
+#EXTINF:-1 tvg-id="PlutoTVStaffPicks.us@SD" tvg-logo="https://i.imgur.com/JzwO8IO.png" group-title="美国影视",Pluto TV Staff Picks (SD)
+https://jmp2.uk/plu-5f4d863b98b41000076cd061.m3u8
+#EXTINF:-1 tvg-id="PlutoTVStorageWars.us@SD" tvg-logo="https://i.imgur.com/mnHRLlg.png" group-title="美国影视",Pluto TV Storage Wars (720P)
+https://jmp2.uk/plu-6887aaf4e3703b7d42b71a1e.m3u8
+#EXTINF:-1 tvg-id="PlutoTVTerror.us@SD" tvg-logo="https://i.imgur.com/eWtoHDM.png" group-title="美国影视",Pluto TV Terror (SD)
+https://jmp2.uk/plu-5c6dc88fcd232425a6e0f06e.m3u8
+#EXTINF:-1 tvg-id="PlutoTVTheTwilightZone.us@SD" tvg-logo="https://i.imgur.com/FiIRQAR.png" group-title="美国影视",Pluto TV The Twilight Zone (SD)
+https://jmp2.uk/plu-67352ed93a61d4000881f9fa.m3u8
+#EXTINF:-1 tvg-id="PlutoTVThrillers.us@US" tvg-logo="https://i.imgur.com/ULKvDN7.png" group-title="美国影视",Pluto TV Thrillers
+https://jmp2.uk/plu-5b4e69e08291147bd04a9fd7.m3u8
+#EXTINF:-1 tvg-id="PlutoTVTrendingNow.us@SD" tvg-logo="https://images.pluto.tv/channels/673247127d5da5000817b4d6/colorLogoPNG_1732662634386.png" group-title="美国影视",Pluto TV Trending Now (SD)
+https://jmp2.uk/plu-673247127d5da5000817b4d6.m3u8
+#EXTINF:-1 tvg-id="PlutoTVTrueCrime.us@US" tvg-logo="https://images.pluto.tv/channels/62e9289f8d467f0007fbc701/colorLogoPNG.png" group-title="美国影视",Pluto TV True Crime
+https://jmp2.uk/plu-5812be1c249444e05d09cc50.m3u8
+#EXTINF:-1 tvg-id="PlutoTVWesterns.us@US" tvg-logo="https://images.pluto.tv/channels/62bdacc96a3751000811842d/colorLogoPNG.png" group-title="美国影视",Pluto TV Westerns
+https://jmp2.uk/plu-5b4e94282d4ec87bdcbb87cd.m3u8
+#EXTINF:-1 tvg-id="PlutoTVWipeout.us@SD" tvg-logo="https://i.imgur.com/KVTNBFr.png" group-title="美国影视",Pluto TV Wipeout (SD)
+https://jmp2.uk/plu-6909e5c3a3a4b49706b8373b.m3u8
+#EXTINF:-1 tvg-id="RCTV3.us@SD" tvg-logo="https://i.imgur.com/TvFKG35.png" group-title="美国影视",RCTV3 (SD)
+https://vod.cityofrc.us/live-6/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-id="RCTV.us@SD" tvg-logo="https://i.imgur.com/DWwequ0.png" group-title="美国影视",RCTV (United States) (720P)
+https://livestream.telvue.com/riflecmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="SpikePlutoTV.us@SD" tvg-logo="https://i.imgur.com/woY8Ecb.png" group-title="美国影视",Spike Pluto TV (SD)
+https://jmp2.uk/plu-5812bcc8237a6ff45d16c407.m3u8
+#EXTINF:-1 tvg-id="Starz.us@West" tvg-logo="https://i.imgur.com/N7oSm4d.png" group-title="美国影视",Starz West (720P)
+http://23.237.104.106:8080/USA_STARZ_WEST/index.m3u8
+#EXTINF:-1 tvg-id="StarzComedy.us@East" tvg-logo="https://i.imgur.com/JpKvjZe.png" group-title="美国影视",Starz Comedy (1080P)
+http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
+#EXTINF:-1 tvg-id="StarzEncoreSpanish.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Starz_Encore_Espa%C3%B1ol_Logo_2022.svg/960px-Starz_Encore_Espa%C3%B1ol_Logo_2022.svg.png" group-title="美国影视",Starz Encore Spanish (720P)
+http://168.228.44.241:9998/play/a0e1/index.m3u8
+#EXTINF:-1 tvg-id="StoriesbyAMC.us@SD" tvg-logo="https://i.imgur.com/QJtwJoS.png" group-title="美国影视",Stories by AMC (1080P)
+https://amc-amcpresents-1-us.xumo.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SYFY.us@East" tvg-logo="https://i.imgur.com/4fMWhUE.png" group-title="美国影视",SYFY (720P)
+http://23.237.104.106:8080/USA_SYFY/index.m3u8
+#EXTINF:-1 tvg-id="TBS.us@East" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/TBS_2020.svg/960px-TBS_2020.svg.png" group-title="美国影视",TBS (720p) [Geo-blocked] (720P)
+https://turnerlive.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TBS.us@West" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/TBS_2020.svg/960px-TBS_2020.svg.png" group-title="美国影视",TBS West (720p) [Geo-blocked] (720P)
+https://turnerlive.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="TNT.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" group-title="美国影视",TNT (United States) (720p) [Geo-blocked] (720P)
+http://212.5.144.156/tnt/index.m3u8
+#EXTINF:-1 tvg-id="TNT.us@West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" group-title="美国影视",TNT (United States) West (720p) [Geo-blocked] (720P)
+https://turnerlive.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="USANetwork.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/960px-USA_Network_logo_%282016%29.svg.png" group-title="美国影视",USA Network (720P)
+http://200.32.231.178/USA_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="VH1.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/960px-VH1_logonew.svg.png" group-title="美国影视",VH1 (1080P)
+http://23.237.104.106:8080/USA_VH1/index.m3u8
+#EXTINF:-1 tvg-id="VH1QueensofReality.us@SD" tvg-logo="https://images.pluto.tv/channels/66abefe5d2d50d00082c7d12/colorLogoPNG.png" group-title="美国影视",VH1 Queens of Reality (SD)
+https://jmp2.uk/plu-66abefe5d2d50d00082c7d12.m3u8
+#EXTINF:-1 tvg-id="YoMTV.us@SD" tvg-logo="https://images.pluto.tv/channels/654102ed770cf1000866c307/colorLogoPNG.png" group-title="美国影视",Yo! MTV (1080P)
+https://jmp2.uk/plu-5d14fc31252d35decbc4080b.m3u8
+#EXTINF:-1 tvg-id="MorePlutoTVComedy.us@CA" tvg-logo="https://images.pluto.tv/channels/62e91c3add66e00007eeb24c/colorLogoPNG_1759310317971.png" group-title="美国影视",More Pluto TV Comedy
+https://jmp2.uk/plu-62e91c3add66e00007eeb24c.m3u8
+#EXTINF:-1 tvg-id="MTVCatfish.us@CA" tvg-logo="https://images.pluto.tv/channels/626c2a3502d84a0007cec817/colorLogoPNG.png" group-title="美国影视",MTV Catfish
+https://jmp2.uk/plu-64f8a2a23a0d700008a6ed7b.m3u8
+#EXTINF:-1 tvg-id="MTVJerseyShore.us@CA" tvg-logo="https://images.pluto.tv/channels/68b9b0dbf9cf3d7cb9f56d88/colorLogoPNG_1757455543454.png" group-title="美国影视",MTV Jersey Shore
+https://jmp2.uk/plu-68b9b0dbf9cf3d7cb9f56d88.m3u8
+#EXTINF:-1 tvg-id="PlutoClassicMovieWesterns.us@CA" tvg-logo="https://images.pluto.tv/channels/66dad50215d2c60008d7afbd/colorLogoPNG.png" group-title="美国影视",Pluto Classic Movie Westerns
+https://jmp2.uk/plu-66dad50215d2c60008d7afbd.m3u8
+#EXTINF:-1 tvg-id="PlutoTVActionMovies.us@CA" tvg-logo="https://images.pluto.tv/channels/62ea3c2e4823db00072788ed/colorLogoPNG.png" group-title="美国影视",Pluto TV Action Movies
+https://jmp2.uk/plu-62ea3c2e4823db00072788ed.m3u8
+#EXTINF:-1 tvg-id="PlutoTVClassicTVVariety.us@CA" tvg-logo="https://images.pluto.tv/channels/68d25c623175a2780d051d3a/colorLogoPNG_1758809678864.png" group-title="美国影视",Pluto TV Classic TV Variety
+https://jmp2.uk/plu-68d25c623175a2780d051d3a.m3u8
+#EXTINF:-1 tvg-id="PlutoTVComedyMovies.us@CA" tvg-logo="https://images.pluto.tv/channels/62ea3d24b8e02600071fa296/colorLogoPNG.png" group-title="美国影视",Pluto TV Comedy Movies
+https://jmp2.uk/plu-62ea3d24b8e02600071fa296.m3u8
+#EXTINF:-1 tvg-id="PlutoTVDramaMovies.us@CA" tvg-logo="https://images.pluto.tv/channels/62bdb0bcd707b9000739d2e5/colorLogoPNG.png" group-title="美国影视",Pluto TV Drama Movies
+https://jmp2.uk/plu-62bdb0bcd707b9000739d2e5.m3u8
+#EXTINF:-1 tvg-id="PlutoTVFBI.us@CA" tvg-logo="https://images.pluto.tv/channels/693adae77f21340ef9746f56/colorLogoPNG_1767879898099.png" group-title="美国影视",Pluto TV FBI
+https://jmp2.uk/plu-693adae77f21340ef9746f56.m3u8
+#EXTINF:-1 tvg-id="PlutoTVRetroActionMovies.us@CA" tvg-logo="https://images.pluto.tv/channels/69a9ae4d3bd16a4ed04240d7/colorLogoPNG_1774879695281.png" group-title="美国影视",Pluto TV Retro Action Movies
+https://jmp2.uk/plu-69a9ae4d3bd16a4ed04240d7.m3u8
+#EXTINF:-1 tvg-id="PlutoTVRetroCrimeAction.us@CA" tvg-logo="https://images.pluto.tv/channels/69aee8a1acb7eb0bb68df641/colorLogoPNG_1774899454178.png" group-title="美国影视",Pluto TV Retro Crime Action
+https://jmp2.uk/plu-69aee8a1acb7eb0bb68df641.m3u8
+#EXTINF:-1 tvg-id="PlutoTVRetroCrimeDrama.us@CA" tvg-logo="https://images.pluto.tv/channels/630f1e6073bd1800082107f0/colorLogoPNG.png" group-title="美国影视",Pluto TV Retro Crime Drama
+https://jmp2.uk/plu-630f1e6073bd1800082107f0.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-logo="https://i.imgur.com/E84jnP8.png" http-referrer="https://tvnow.st/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" group-title="美国少儿",Nickelodeon (United States)
+https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="美国少儿",Cartoon Network (United States) [Not 24/7;Geo-blocked]
+https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.us@West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="美国少儿",Cartoon Network (United States) West (1080p) [Geo-blocked] (1080P)
+http://212.5.144.156:8080/cartoon/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/960px-2024_Disney_Channel_text_logo.svg.png" group-title="美国少儿",Disney Channel (United States) (720P)
+http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
+#EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png" group-title="美国少儿",Disney Junior (United States) (SD)
+http://tvsen5.aynascope.net/disney/index.m3u8
+#EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/960px-2015_Disney_XD_logo.svg.png" group-title="美国少儿",Disney XD (United States) (720P)
+http://89.187.179.148:826/1368/gXwiagaXda/1672
+#EXTINF:-1 tvg-id="MeTVToons.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/MeTV_Toons.png/250px-MeTV_Toons.png" group-title="美国少儿",MeTV Toons (SD)
+https://sr-live-weigel1.akamaized.net/out/v1/0d1dbf29e64e47bc991796cc24fbeb97/index_2.m3u8
+#EXTINF:-1 tvg-id="NickJr.us@East" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="美国少儿",Nick Jr. (United States) (720P)
+http://212.5.144.156:8080/nickjr/index.m3u8
+#EXTINF:-1 tvg-id="NickJrPlutoTV.us@US" tvg-logo="https://images.pluto.tv/channels/62bdb75c3afd1200079146a6/colorLogoPNG.png" group-title="美国少儿",Nick Jr. Pluto TV (720P)
+https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8
+#EXTINF:-1 tvg-id="Nickelodeonenespanol.us@SD" tvg-logo="https://images.pluto.tv/channels/5d8d08395f39465da6fb3ec4/colorLogoPNG.png" group-title="美国少儿",Nickelodeon en espanol (SD)
+https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
+#EXTINF:-1 tvg-id="NickelodeonPlutoTV.us@SD" tvg-logo="https://images.pluto.tv/channels/5ca673e0d0bd6c2689c94ce3/colorLogoPNG.png" group-title="美国少儿",Nickelodeon Pluto TV (720P)
+https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
+#EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-logo="https://i.imgur.com/fg8c9WK.png" group-title="美国少儿",PBS Kids (720P)
+https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+#EXTINF:-1 tvg-id="PBSKidsAlaska.us@SD" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="美国少儿",PBS Kids Alaska (1080P)
+https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8
+#EXTINF:-1 tvg-id="PBSKidsEasternCentral.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg" group-title="美国少儿",PBS Kids Eastern/Central (720P)
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSKidsHawaii.us@SD" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="美国少儿",PBS Kids Hawaii (720P)
+https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
+#EXTINF:-1 tvg-id="PBSKidsMountain.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg" group-title="美国少儿",PBS Kids Mountain (1080P)
+https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
+#EXTINF:-1 tvg-id="PBSKidsPacific.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg" group-title="美国少儿",PBS Kids Pacific (1080P)
+https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
+#EXTINF:-1 tvg-id="PlutoTVElReinoInfantil.us@SD" tvg-logo="https://i.imgur.com/u7DOoBK.png" group-title="美国少儿",Pluto TV El Reino Infantil (SD)
+https://jmp2.uk/plu-6523f672a6c38300088cb807.m3u8
+#EXTINF:-1 tvg-id="ShowtimeFamilyZone.us@East" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Showtime_Family_Zone.svg/960px-Showtime_Family_Zone.svg.png" group-title="美国少儿",Showtime Family Zone (720P)
+http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
+#EXTINF:-1 tvg-id="StarzKidsFamily.us@East" tvg-logo="https://i.imgur.com/eE9FzEP.png" group-title="美国少儿",Starz Kids & Family (1080P)
+http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
+#EXTINF:-1 tvg-id="PlutoTVRetroKid.us@CA" tvg-logo="https://images.pluto.tv/channels/6408b41b83f58900081d91ad/colorLogoPNG.png" group-title="美国少儿",Pluto TV Retro Kid
+https://jmp2.uk/plu-6408b41b83f58900081d91ad.m3u8
+#EXTINF:-1 tvg-id="MilitaryHistory.us@SD" tvg-logo="https://i.imgur.com/S1SnpoA.png" http-referrer="https://bhoomtv.org/" http-user-agent="Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36" group-title="美国综合",Military History (720P)
+https://frndly.keralive.workers.dev/v1/master/840a24ccd7c75076211d060179b3ad0c64fdc6ca/militaryhistory_live_nr/ab44a8245afe413db1169317ee5cda08/index.m3u8?type=ae2
+#EXTINF:-1 tvg-id="ACTV.us@SD" tvg-logo="https://i.imgur.com/Z6lB0Ww.png" group-title="美国综合",ACTV (United States) (720P)
+https://castus-vod-dev.s3.amazonaws.com/vod_clients/athens/live/ch2/video.m3u8
+#EXTINF:-1 tvg-id="AnimalPlanet.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" group-title="美国综合",Animal Planet (United States) (720P)
+http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
+#EXTINF:-1 tvg-id="BetterHealthTV.us@SD" tvg-logo="https://i.imgur.com/qnwJiji.png" group-title="美国综合",Better Health TV (SD)
+https://tgn.bozztv.com/betterlife/betterhealth/betterhealth/index.m3u8
+#EXTINF:-1 tvg-id="BetterLifeNatureChannel.us@SD" tvg-logo="https://i.imgur.com/D8Vuw6I.png" group-title="美国综合",Better Life Nature Channel (SD)
+https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
+#EXTINF:-1 tvg-id="BetterLifeTV.us@SD" tvg-logo="https://i.imgur.com/OWI7Y0l.png" group-title="美国综合",Better Life TV (720P)
+https://tgn.bozztv.com/betterlife/betterlife/betterlife/index.m3u8
+#EXTINF:-1 tvg-id="CBS.us@KMTVTV" tvg-logo="https://i.imgur.com/E4PkyqN.png" group-title="美国综合",CBS KMTV-TV (1080P)
+https://amg01438-amg01438c9-vizio-us-10858.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CityTV20SantaMonica.us@SD" tvg-logo="https://i.imgur.com/NY4fOLy.png" group-title="美国综合",CityTV 20 Santa Monica (360p) [Not 24/7] (SD)
+https://cdn3.wowza.com/5/bGZUOHp2TnhudnM2/santamonica/G0039_002/playlist.m3u8
+#EXTINF:-1 tvg-id="CityTVLakewood.us@SD" tvg-logo="https://i.imgur.com/e1shzv9.png" group-title="美国综合",CityTV Lakewood (720P)
+https://dlttx48mxf9m3.cloudfront.net/vod_clients/lakewood/live/ch1/video.m3u8
+#EXTINF:-1 tvg-id="CityTVSanDiego.us@SD" tvg-logo="https://i.imgur.com/OfNV6I7.png" group-title="美国综合",CityTV San Diego (360p) (SD)
+https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/sandiego/G1826_005/playlist.m3u8
+#EXTINF:-1 tvg-id="CityTVWhittier.us@SD" tvg-logo="https://i.imgur.com/68n7ifH.png" group-title="美国综合",CityTV Whittier (720P)
+https://whittier.cablecast.tv/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-id="CMTV.us@SD" tvg-logo="https://i.imgur.com/73LKwAK.png" group-title="美国综合",CMTV (720P)
+https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/costamesa/G0075_002/playlist.m3u8
+#EXTINF:-1 tvg-id="CourtTV.us@SD" tvg-logo="https://i.imgur.com/jOKA735.png" group-title="美国综合",Court TV (1080P)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="CTV.us@SD" tvg-logo="https://i.imgur.com/N5uiIJo.png" group-title="美国综合",CTV (United States) (SD)
+https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/calabasas/G0009_003/playlist.m3u8
+#EXTINF:-1 tvg-id="DiscoveryChannel.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="美国综合",Discovery Channel (United States) (1080p) [Geo-blocked] (1080P)
+http://212.5.144.156:8080/discovery/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryTurbo.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Discovery_Turbo_2025.svg/1920px-Discovery_Turbo_2025.svg.png" group-title="美国综合",Discovery Turbo (United States) (720P)
+http://41.205.93.154/ESPNNEWS/index.m3u8
+#EXTINF:-1 tvg-id="FCTV.us@SD" tvg-logo="https://i.imgur.com/N5Canf3.png" group-title="美国综合",FCTV (1080P)
+https://reflect-vod-fcgov.cablecast.tv/live-9/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-id="FilAmTVNetwork.us@HD" tvg-logo="https://i.imgur.com/nRiApdI.png" group-title="美国综合",FilAmTV Network (1080P)
+https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
+#EXTINF:-1 tvg-id="FoodNetwork.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" group-title="美国综合",Food Network (United States) (720P)
+http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="GMTV.us@SD" tvg-logo="https://i.imgur.com/GJYb8c8.png" group-title="美国综合",GMTV (1080P)
+https://livechannel.mdc.akamaized.net/stitch/livechannel/1341/master1400000.m3u8;session=live_stream_1341
+#EXTINF:-1 tvg-id="HCTVEducationalAccessChannel.us@SD" tvg-logo="https://i.imgur.com/bVbpgiD.png" group-title="美国综合",HCTV Educational Access Channel (SD)
+https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-id="HCTVGovernmentChannel.us@SD" tvg-logo="https://i.imgur.com/bVbpgiD.png" group-title="美国综合",HCTV Government Channel (SD)
+https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-2/live.m3u8
+#EXTINF:-1 tvg-id="HCTVPublicAccessChannel.us@SD" tvg-logo="https://i.imgur.com/bVbpgiD.png" group-title="美国综合",HCTV Public Access Channel (SD)
+https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-5/live.m3u8
+#EXTINF:-1 tvg-id="HGTV.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png" group-title="美国综合",HGTV (United States) (720P)
+http://tvsen7.aynascope.net/hgtv/index.m3u8
+#EXTINF:-1 tvg-id="History.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="美国综合",History (United States) (720P)
+http://212.5.144.156:8080/history/index.m3u8
+#EXTINF:-1 tvg-id="HistoryHit.uk@SD" tvg-logo="https://i.imgur.com/ulHoqlP.png" group-title="美国综合",History Hit (1080P)
+https://lds-timeline-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="InvestigationDiscovery.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" group-title="美国综合",Investigation Discovery (United States) (1080p) [Geo-blocked] (1080P)
+http://212.5.144.156:8080/id/index.m3u8
+#EXTINF:-1 tvg-id="MNT.us@KCTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/MyNetworkTV_2D_Logo.svg/960px-MyNetworkTV_2D_Logo.svg.png" group-title="美国综合",MNT KCTV (1080p) [Geo-blocked] (1080P)
+https://amg00312-amg00312c41-amgplt0022.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00312-amg00312c41-amgplt0022/playlist.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="美国综合",National Geographic (United States) (720P)
+http://212.5.144.156:8080/natgeo/index.m3u8
+#EXTINF:-1 tvg-id="NCTV79.us@SD" tvg-logo="https://i.imgur.com/64sZVF9.jpg" group-title="美国综合",NCTV79 (1080P)
+https://livestream.telvue.com/nctv791/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="PBS.us@East" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美国综合",PBS (1080p) [Geo-blocked] (1080P)
+https://pbs.lls.cdn.pbs.org/est/index.m3u8
+#EXTINF:-1 tvg-id="PBS.us@KETS" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美国综合",PBS KETS [Geo-blocked]
+https://ketsdt.lls.pbs.org/out/v1/03c094dbd7874a4a8c3fe9fb10081bdb/index.m3u8
+#EXTINF:-1 tvg-id="PBS.us@KHET" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美国综合",PBS KHET (1080p) [Not 24/7] (1080P)
+https://khetdt.lls.pbs.org/out/v1/7ec7903413294b72bb64f83963d8ea9b/index.m3u8
+#EXTINF:-1 tvg-id="PBS.us@KMOSTV" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美国综合",PBS KMOS-TV (1080p) [Geo-blocked] (1080P)
+https://hls-kmosdt.lls.cdn.pbs.org/hls/live/index.m3u8
+#EXTINF:-1 tvg-id="PBS.us@KQED" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美国综合",PBS KQED (1080P)
+https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8
+#EXTINF:-1 tvg-id="PBS.us@KUONTV" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美国综合",PBS KUON-TV (1080p) [Geo-blocked] (1080P)
+https://kuondt.lls.pbs.org/out/v1/91d8b5ffc5c1453c8a621508a07749a6/index.m3u8
+#EXTINF:-1 tvg-id="PBS.us@KVIE" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美国综合",PBS KVIE (1080P)
+https://kviedt2.lls.pbs.org/kviedt2-hls.m3u8
+#EXTINF:-1 tvg-id="PBS.us@WEDQ" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美国综合",PBS WEDQ (1080P)
+https://wedqdt4.lls.pbs.org/wedqdt4-hls.m3u8
+#EXTINF:-1 tvg-id="PBS.us@WJXT" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美国综合",PBS WJXT (720P)
+https://dai.google.com/linear/hls/event/RDmbn03GRCOLNG1eetEKhg/master.m3u8
+#EXTINF:-1 tvg-id="PBS.us@WNJT" tvg-logo="https://i.imgur.com/8c8isLj.png" group-title="美国综合",PBS WNJT (1080p) [Not 24/7] (1080P)
+https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8
+#EXTINF:-1 tvg-id="PBSAntiquesRoadshow.us@SD" tvg-logo="https://i.imgur.com/U9CYaok.png" group-title="美国综合",PBS Antiques Roadshow (1080P)
+https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSNature.us@SD" tvg-logo="https://i.imgur.com/Brry7cZ.png" group-title="美国综合",PBS Nature (1080P)
+https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8
+#EXTINF:-1 tvg-id="PBSRetro.us@SD" tvg-logo="https://i.imgur.com/3iWzQqw.png" group-title="美国综合",PBS Retro (1080p) [Geo-blocked] (1080P)
+https://amg02333-pbs-amg02333c6-vizio-us-4416.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSTravel.us@SD" tvg-logo="https://i.imgur.com/A6GXhta.png" group-title="美国综合",PBS Travel (1080P)
+https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
+#EXTINF:-1 tvg-id="PCTV26.us@SD" tvg-logo="https://i.imgur.com/3tMAQU7.png" group-title="美国综合",PCTV 26 (SD)
+https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/pinole/G0032_004/playlist.m3u8
+#EXTINF:-1 tvg-id="PCTV28.us@SD" tvg-logo="https://i.imgur.com/WahZg3L.png" group-title="美国综合",PCTV 28 (SD)
+https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/pinole/G0032_002/playlist.m3u8
+#EXTINF:-1 tvg-id="PlutoTVHistory.us@US" tvg-logo="https://i.imgur.com/XkQD5kM.png" group-title="美国综合",Pluto TV History
+https://jmp2.uk/plu-5a4d35dfa5c02e717a234f86.m3u8
+#EXTINF:-1 tvg-id="PlutoTVLives.us@US" tvg-logo="https://i.imgur.com/laupYwG.png" group-title="美国综合",Pluto TV Lives
+https://jmp2.uk/plu-5d8beeb39b5d5d5f8c672530.m3u8
+#EXTINF:-1 tvg-id="PlutoTVMilitary.us@SD" tvg-logo="https://i.imgur.com/O8VXZB4.png" group-title="美国综合",Pluto TV Military (SD)
+https://jmp2.uk/plu-5bb3fea0f711fd76340eebff.m3u8
+#EXTINF:-1 tvg-id="PlutoTVMisteriosMedicos.us@SD" tvg-logo="https://i.imgur.com/1WDFKF0.png" group-title="美国综合",Pluto TV Misterios Medicos (SD)
+https://jmp2.uk/plu-5f230e416b68ff00075b0139.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSanctuary.us@SD" tvg-logo="https://i.imgur.com/Fu2jn2t.png" group-title="美国综合",Pluto TV Sanctuary (SD)
+https://jmp2.uk/plu-63eb57d6c111bc0008fe2658.m3u8
+#EXTINF:-1 tvg-id="PlutoTVScience.us@US" tvg-logo="https://i.imgur.com/uhunRoU.png" group-title="美国综合",Pluto TV Science
+https://jmp2.uk/plu-563a970aa1a1f7fe7c9daad7.m3u8
+#EXTINF:-1 tvg-id="SMCTVChannel23.us@SD" tvg-logo="https://i.imgur.com/J2SKPoY.png" group-title="美国综合",SMCTV Channel 23 (720P)
+https://livestream.telvue.com/santamariactv1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="SMCTVChannel24.us@SD" tvg-logo="https://i.imgur.com/4Autljp.png" group-title="美国综合",SMCTV Channel 24 (720P)
+https://livestream.telvue.com/santamariactv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="SMCTVChannel25.us@SD" tvg-logo="https://i.imgur.com/5jBOsTc.png" group-title="美国综合",SMCTV Channel 25 (720P)
+https://livestream.telvue.com/santamariactv3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="SUMtvEnglish.us@SD" tvg-logo="https://i.imgur.com/hp1rJjX.png" group-title="美国综合",SUMtv English (1080P)
+https://bozztv.com/uni10rtmp/ssstv1-cdn/smil:ssstv1web.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SUMtvLatino.us@SD" tvg-logo="https://i.imgur.com/ZObFN8Z.png" group-title="美国综合",SUMtv Latino (1080P)
+https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TheCW.us@KTNVTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/960px-The_CW_2024.svg.png" group-title="美国综合",The CW KTNV-TV (1080P)
+https://amg01438-amg01438c18-vizio-us-10901.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheCW.us@KWCHDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/960px-The_CW_2024.svg.png" group-title="美国综合",The CW KWCH-DT (1080p) [Geo-blocked] (1080P)
+https://amg00312-amg00312c39-amgplt0022.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00312-amg00312c39-amgplt0022/playlist.m3u8
+#EXTINF:-1 tvg-id="TheCW.us@WAVE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/960px-The_CW_2024.svg.png" group-title="美国综合",The CW WAVE (1080p) [Geo-blocked] (1080P)
+https://amg00312-amg00312c33-amgplt0022.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00312-amg00312c33-amgplt0022/playlist.m3u8
+#EXTINF:-1 tvg-id="TheCW.us@WWBT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/960px-The_CW_2024.svg.png" group-title="美国综合",The CW WWBT (1080p) [Geo-blocked] (1080P)
+https://amg00312-amg00312c35-amgplt0022.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg00312-amg00312c35-amgplt0022/playlist.m3u8
+#EXTINF:-1 tvg-id="TNTSports4.uk@SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-4-uk.png?raw=true" group-title="美国综合",TNT Sports 4 (SD)
+http://37.49.224.5/stream/4/index.m3u8
+#EXTINF:-1 tvg-id="TrueHistory.us@SD" tvg-logo="https://i.imgur.com/1BHDGXx.png" group-title="美国综合",True History (720P)
+https://linear-188.frequency.stream/dist/glewedtv/188/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="TVSHollywoodHistory.us@SD" tvg-logo="https://i.imgur.com/QtQGyMS.png" group-title="美国综合",TVS Hollywood History (582p) (SD)
+https://rpn.bozztv.com/gusa/gusa-tvshollywoohistory/index.m3u8
+#EXTINF:-1 tvg-id="UCTV.us@SD" tvg-logo="https://i.imgur.com/ehMz9T5.png" group-title="美国综合",UCTV (720p) [Not 24/7] (720P)
+https://59e8e1c60a2b2.streamlock.net/509/509.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="VSCTV.us@SD" tvg-logo="https://i.imgur.com/cn6pAEZ.png" group-title="美国综合",VSCTV (1080P)
+https://reflect-vsctv.cablecast.tv/live-3/live/live.m3u8
+#EXTINF:-1 tvg-id="NACTV.ca@SD" tvg-logo="https://i.imgur.com/FzM95rH.png" group-title="美国综合",NACTV (SD)
+https://stream2.pivotalelements.com/memfs/2d2e1038-9eb2-44df-a9b9-109de5752f3b_output_0.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南卫视.png" group-title="点播轮播",湖南卫视
 https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8
 #EXTINF:-1 tvg-id="鹿鼎记" tvg-name="鹿鼎记" tvg-logo="https://www.xn--rgv465a.top/tvlogo/鹿鼎记.png" group-title="点播轮播",鹿鼎记
