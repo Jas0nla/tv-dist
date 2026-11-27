@@ -280,7 +280,7 @@ if '台湾' in groups:
 # these hosts as well. The cnlive key (?q=...) is a static relay key from
 # the source lists; if it rotates, re-hunt and update here.
 EXTRA_TW = [
-    # 2026-11-26 audit: all five ChiSheng9 TVxx lines removed - nested lists contain YouTube watch-page URLs, not streams (dead). 三立/中视/华视/民视 are covered by EXTRA_YT relay slugs (setn/ctv/cts/ftv); 东森财经新闻 has no verified replacement yet. ChiSheng9 URLs are blacklisted below.
+    # 2026-11-26 audit: all five ChiSheng9 TVxx lines removed - nested lists contain YouTube watch-page URLs, not streams (dead). 三立/中视/华视/民视 are covered by EXTRA_YT relay slugs (setn/ctv/cts/ftv); 东森财经新闻 replaced 2026-11-27 by YouTube @57ETFN 24h live via relay slug ebcfn. ChiSheng9 URLs are blacklisted below.
     # All 11 4gtv.cnlive.club lines were REMOVED 2026-11-24: verified the
     # same evening that every one of them now serves a two-segment static
     # app-download ad loop (t2.live2.dpdns.org/static/sailei.*.ts) instead of
@@ -299,6 +299,7 @@ EXTRA_TW = [
 _YT_BASE = 'http://192.168.216.88:8899/yt/' + RELAY_BASE.split('/tw/')[1]
 EXTRA_YT = [
     ('东森新闻', 'ebc'),
+    ('东森财经新闻', 'ebcfn'),
     ('中天新闻', 'cti'),
     ('公视新闻', 'pts'),
     ('镜新闻', 'mnews'),
