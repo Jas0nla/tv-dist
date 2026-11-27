@@ -73,6 +73,38 @@ http://192.168.216.88:8899/yt/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/live/mnews
 http://192.168.216.88:8899/yt/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/live/cts
 #EXTINF:-1 tvg-id="TTVNews.tw@SD" tvg-logo="https://i.imgur.com/AfkK0gv.png" group-title="台湾",TTV News (SD)
 https://live.wcetv.com/hls/master-ttvnews.m3u8
+#EXTINF:-1 group-title="台湾",TVBS新聞 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/tvbsn
+#EXTINF:-1 group-title="台湾",東森新聞台 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/ebcn
+#EXTINF:-1 group-title="台湾",民視新聞台 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/ftvn
+#EXTINF:-1 group-title="台湾",三立新聞iNEWS (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/setinews
+#EXTINF:-1 group-title="台湾",華視新聞 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/ctsn
+#EXTINF:-1 group-title="台湾",鏡電視新聞台 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/mnews
+#EXTINF:-1 group-title="台湾",中視新聞 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/ctvn
+#EXTINF:-1 group-title="台湾",寰宇新聞台 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/gnn
+#EXTINF:-1 group-title="台湾",民視 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/ftv
+#EXTINF:-1 group-title="台湾",華視 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/cts
+#EXTINF:-1 group-title="台湾",中視 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/ctv
+#EXTINF:-1 group-title="台湾",TVBS (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/tvbs
+#EXTINF:-1 group-title="台湾",客家電視台 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/hakka
+#EXTINF:-1 group-title="台湾",大愛電視 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/tzu
+#EXTINF:-1 group-title="台湾",三立綜合台 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/set
+#EXTINF:-1 group-title="台湾",公視戲劇 (4GTV 720P)
+http://192.168.216.88:8899/4g/UnyixzLPyFFocqnxQgzL9-65PrGaHSDR/ptsdrama
 #EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" group-title="央视",CGTN西语 (1080P)
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" group-title="央视",CGTN阿语 (1080P)
